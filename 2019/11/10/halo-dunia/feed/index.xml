@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Komentar di: Halo dunia!	</title>
+	<atom:link href="/https://copas-seo.github.io/2019/11/10/halo-dunia/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://copas-seo.github.io/2019/11/10/halo-dunia/</link>
+	<description>Moto situs Anda bisa diletakkan di sini</description>
+	<lastBuildDate>Wed, 13 Nov 2019 13:15:57 +0700</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3</generator>
+			<item>
+				<title>
+				Oleh: Seorang Komentator WordPress				</title>
+				<link>/https://copas-seo.github.io/2019/11/10/halo-dunia/#comment-1</link>
+		<dc:creator><![CDATA[Seorang Komentator WordPress]]></dc:creator>
+		<pubDate>Sun, 10 Nov 2019 16:48:31 +0000</pubDate>
+		<guid isPermaLink="false">/https://copas-seo.github.io/?p=1#comment-1</guid>
+					<description><![CDATA[Hai, ini sebuah komentar.
+Untuk mulai memoderasi, mengedit, dan menghapus komentar, silakan kunjungi laman Komentar di dasbor.
+Avatar komentator diambil dari &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
+		<content:encoded><![CDATA[<p>Hai, ini sebuah komentar.<br />
+Untuk mulai memoderasi, mengedit, dan menghapus komentar, silakan kunjungi laman Komentar di dasbor.<br />
+Avatar komentator diambil dari <a href="https://gravatar.com/">Gravatar</a>.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

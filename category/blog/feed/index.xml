@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog &#8211; Copas-Seo</title>
+	<atom:link href="/https://copas-seo.github.io/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://copas-seo.github.io</link>
+	<description>Moto situs Anda bisa diletakkan di sini</description>
+	<lastBuildDate>Wed, 13 Nov 2019 13:10:55 +0700</lastBuildDate>
+	<language>id-ID</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3</generator>
+	<item>
+		<title>Cara Mudah Menghilangkan Nomor di Sidebar Postingan Populer VioMagz</title>
+		<link>/https://copas-seo.github.io/2019/11/13/menghilangkan-nomor-di-sidebar-postingan-populer-viomagz/</link>
+				<comments>/https://copas-seo.github.io/2019/11/13/menghilangkan-nomor-di-sidebar-postingan-populer-viomagz/#respond</comments>
+				<pubDate>Wed, 13 Nov 2019 05:51:17 +0000</pubDate>
+		<dc:creator><![CDATA[Acha81]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">/https://copas-seo.github.io/?p=46</guid>
+				<description><![CDATA[<p>Araz Seo&#160;: Di kesempatan ini saya ingin share bagaimana Cara ter-mudah menghilangkan nomor yang ada di sidebar postingan populer pada template Viomagz terbaru&#8230; Perlu di ingat sebelum Anda ingin merubah atau mengedit template melalui HTML biasakan back-up terlebih dahulu templatenya, jadi saat terjadi kesalahan edit Anda masih memiliki file HTML aslimya yang bisa kita restore. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/https://copas-seo.github.io/2019/11/13/menghilangkan-nomor-di-sidebar-postingan-populer-viomagz/">Cara Mudah Menghilangkan Nomor di Sidebar Postingan Populer VioMagz</a> appeared first on <a rel="nofollow" href="/https://copas-seo.github.io">Copas-Seo</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="/https://copas-seo.github.io/wp-content/uploads/2019/11/3.png" alt="" data-id="108" data-link="/https://copas-seo.github.io/?attachment_id=108" class="wp-image-108" srcset="/https://copas-seo.github.io/wp-content/uploads/2019/11/3.png 900w, /https://copas-seo.github.io/wp-content/uploads/2019/11/3-300x217.png 300w, /https://copas-seo.github.io/wp-content/uploads/2019/11/3-768x555.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure></li></ul></figure>
+
+
+
+<p><a href="/https://copas-seo.github.io/?p=46">Araz Seo</a>&nbsp;: Di kesempatan ini saya ingin share bagaimana Cara ter-mudah menghilangkan nomor yang ada di sidebar postingan populer pada <a href="https://arazseo.blogspot.com/2019/11/menghilangkan-nomor-di-sidebar-postingan-polpuler-viomagz.html">template Viomagz</a> terbaru&#8230;</p>
+
+
+
+<p>Perlu di ingat sebelum Anda ingin merubah atau mengedit template melalui HTML biasakan back-up terlebih dahulu templatenya, jadi saat terjadi kesalahan edit Anda masih memiliki file HTML aslimya yang bisa kita restore.</p>
+
+
+
+<ol><li>Masuk ke akun Blogger anda.</li><li>Pilih Menu Tema yang ada di kiri.</li><li>Lalu klik Edit HTML</li></ol>
+
+
+
+<p>Kemudia Anda Cari kode seperti di bawah ini, agar tidak kesulitan gunakan combinasi keyboard dengan cara menekan CTRL + F</p>
+
+
+
+<p>&lt;b:include name=&#8217;numberedpopularposts&#8217;/&gt;</p>
+
+
+
+<p>Jika
+sudah ketemu silahkan di hapus tersebut dan klik simpan Tema, lalu lihat
+hasilnya, Doneee Anda sudah berhasil menghilangkan nomor yang ada di postingan
+populer di widget template Viomagz.</p>
+
+
+
+<p>Memang ada
+banyak tutorial Cara Menghlangkan Nomor yang ada di sidebar postingan populer
+Viomagz ini,&nbsp; namun agak sulit untuk menerapkannya, apalagi untuk pemula
+blogger yang baru memakai template Viomagz dan&nbsp; belum banyak tau mengenai
+HTML pasti sangat membingungkan.</p>
+<p>The post <a rel="nofollow" href="/https://copas-seo.github.io/2019/11/13/menghilangkan-nomor-di-sidebar-postingan-populer-viomagz/">Cara Mudah Menghilangkan Nomor di Sidebar Postingan Populer VioMagz</a> appeared first on <a rel="nofollow" href="/https://copas-seo.github.io">Copas-Seo</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/https://copas-seo.github.io/2019/11/13/menghilangkan-nomor-di-sidebar-postingan-populer-viomagz/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -18,7 +18,7 @@
 
 <body>
 
-    <nav class='navbar navbar-expand-lg navbar-light'>
+    <nav class='navbar navbar-expand-lg navbar-dark' style="background: #1a202c;">
         <!--Navbar-->
         <div class='container'>
             <a class='navbar-brand' href='/'>COPAS-SEO</a>
@@ -40,68 +40,85 @@
     </nav>
     <!--End Navbar-->
 
-
-    <div class='jumbotron jumbotron-fluid'>
-        <!--Jumbotron-->
-        <div class='container'>
-            <h1 class='display-4'>Berbagi Informasi <span>Adsense</span> <br /> <span>Blogging</span> dan
-                <span>Template</span>
-            </h1>
-            <a class='btn btn-primary tombol' href='/'>ACHA81</a>
-        </div>
-    </div>
-    <!--End Jumbotron-->
-
-
-    <div class='container'>
-        <!-- Container panel Menu -->
-        <div class='row justify-content-center'>
-            <!-- panel Menu -->
-            <div class='col-10 panel-menu'>
-                <div class='row'>
-                    <div class='col-lg'>
-                        <img alt='Adsense' class='float-left'
-                            src='https://1.bp.blogspot.com/-NvJX2J9uCVY/XdZwINg_JYI/AAAAAAAAAMw/s81VSbC5X5ksIYuQLzxPG92wt5xsLV65gCLcBGAsYHQ/s1600/adsense.png' />
-                        <h4>Adsense</h4>
-                        <a class='btn btn-primary tombol' href='adsense.html'>Go To Menu</a>
-                    </div>
-                    <div class='col-lg'>
-                        <img alt='Blogging' class='float-left'
-                            src='https://1.bp.blogspot.com/-MYb8twMW69U/XdZwH0KERSI/AAAAAAAAAMs/js-rUnwMR8wgRo_ef4Zn-TWx4ZnObuydgCLcBGAsYHQ/s1600/blog.jpg' />
-                        <h4>Blogging</h4>
-                        <a class='btn btn-primary tombol' href='blog.html'>Go To Menu</a>
-                    </div>
-                    <div class='col-lg'>
-                        <img alt='Template' class='float-left'
-                            src='https://1.bp.blogspot.com/-uShwOCZ3hys/XdZwJKfdk-I/AAAAAAAAAM4/EJxmZm6ma1Ixcxu4hWDCcvLo7VrEd0--QCLcBGAsYHQ/s1600/template.png' />
-                        <h4>Template</h4>
-                        <a class='btn btn-primary tombol' href='template.html'>Go To Menu</a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End panel Menu -->
-    </div><!-- End Container panel Menu -->
-
-    <div class="container">
+    <div class="container" style="padding-top: 20px;">
         <div class="row">
             <div class="col-sm-8">
                 <p>Silahkan kirim email ke achajie.81@gmail.com jika memang penting.....</p>
-            </div>
-            <div class="col-sm-4">col-sm-4</div>
-        </div>
-    </div>
 
-    <div class="footer">
-        <div class="container">
-            <p>Copyright © 2019-2020 Copas-Seo</p>
-        </div>
-    </div>
+                <div id="content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="page-header-title">
+                                    <h2 class="heading-title text-center">Contact Sections</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub-title">
+                            <span>Contact Section 1</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h3 class="title-head text-center">Get in touch</h3>
+                                <form class="contact-form" data-toggle="validator">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <i class="contact-icon fa fa-user"></i>
+                                                <input type="text" class="form-control" id="name"
+                                                    placeholder="Full Name" required
+                                                    data-error="Please enter your name">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <i class="contact-icon fa fa-envelope-o"></i>
+                                                <input type="email" class="form-control" id="email" placeholder="Email"
+                                                    required data-error="Please enter your email">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <i class="contact-icon fa fa-pencil-square-o"></i>
+                                                <input type="text" class="form-control" id="subject"
+                                                    placeholder="Subject" required
+                                                    data-error="Please enter your Subject">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <textarea id="message" rows="8" placeholder="Message" required
+                                                    data-error="Please enter your message"></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                            <button type="submit" id="form-submit"
+                                                class="btn btn-common btn-form-submit">Send
+                                                Message</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">col-sm-4</div>
+                    </div>
+                </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+                <div class="footer">
+                    <div class="container">
+                        <p>Copyright © 2019-2020 Copas-Seo</p>
+                    </div>
+                </div>
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

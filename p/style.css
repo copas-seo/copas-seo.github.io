@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #fff !important;
 }
 
 * Navbar */
@@ -28,7 +29,7 @@ body {
 
 /* JUMBOTRON */
 .jumbotron {
-  background-image: url(https://1.bp.blogspot.com/-EyLcDkdXMG8/Xd0QfI6kJ5I/AAAAAAAAAPY/x5jok8RBA5Au-d6tWc_12HxdVAWEl_soQCLcBGAsYHQ/s1600/acha81.jpg);
+  background-image: url(img/Copas_Seo.jpg);
   background-size: cover;
   height: 440px;
   text-align: center;
@@ -115,7 +116,7 @@ body {
 
 .card .news-content {
     position: absolute;
-    bottom: -80px;
+    bottom: -100px;
     padding: 20px;
     background: #fff;
     transition: .5s;
@@ -143,29 +144,35 @@ body {
 .card .news-content .post-meta a {
     text-decoration: none;
     padding-right: 5px;
-    color: #262626;
+    color: #4c4c4c;
     font-weight: bold;
     transition: .5s;
     font-size: 12px;
 }
 
-.card .news-content .post-meta a:hover {
-    color: #df084a;
-}
-
-
 .card .news-content .post-header {
     margin: 0;
     padding: 10px 0;
     color: #007da6;
-    height: 75px;
-    font-size: 24px;
+    height: 80px;
+    font-size: 20px;
     font-weight: bold;
     overflow: hidden;
 }
 
+.post-header a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.post-header a:hover {
+  text-decoration: none;
+  color: #007da6;
+  background: #fff;
+}
+
 .card .news-content p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 10px 0 0;
     padding: 0;
     color: #262626;
@@ -185,14 +192,14 @@ body {
 }
 
 @media (min-width: 576px) {
-.col-sm-4 {
+.col-lg-4 {
     max-width: 50%;
     padding: 10px;
   }
 }
 
 @media (max-width: 480px) {
-.col-sm-4 {
+.col-lg-4 {
     max-width: 100%;
     padding: 10px;
   }
@@ -229,7 +236,7 @@ body {
   .jumbotron .display-4 {
     font-size: 60px;
   }
-  .col-sm-4 {
+  .col-lg-4 {
     position: relative;
     width: 30%;
     float: left;

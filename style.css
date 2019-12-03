@@ -1,8 +1,25 @@
+/**
+* Eric Meyer&#39;s Reset CSS v2.0 http://meyerweb.com/eric/tools/css/reset/
+* http://cssreset.com
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;/*font-size:100%;*/font:inherit;vertical-align:baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}blockquote,q{quotes:none;}blockquote::before,blockquote::after,q::before,q::after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+/* Blogger CSS Reset */
+.section,.widget{margin:0 0 0 0;padding:0 0 0 0;}
+.blog-feeds,.feed-links,#backlinks-container,a.home-link,.blog-mobile-link{display:none;}
+.quickedit,.edit-post,.item-control{display:none;}
+.post-body .separator > a, .post-body .separator > span {margin-left: 0 !important;}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #fff !important;
+    color: #4a4848;
+    font-size: 16px;
+    background: #ffffff;
 }
 
 img {
@@ -63,7 +80,7 @@ color: #4c4c4c;
 }
 
 .jumbotron::after {
-  content: &#39;&#39;;
+  content: "";
   display: block;
   width: 100%;
   height: 80%;
@@ -205,6 +222,13 @@ color: #4c4c4c;
     opacity: 1;
 }
 
+/** Sidebar **/
+dl, ol, ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .footer {
   background: #1a202c;
     color: #fff;
@@ -255,6 +279,15 @@ color: #4c4c4c;
   }
 }
 
+@media (min-width: 768px) {
+  .col-md-8 {
+    width: 70%;
+  }
+  .col-md-4 {
+    width: 30%;
+  }
+}
+
 @media (min-width: 576px) {
 .col-lg-4 {
     max-width: 50%;
@@ -262,7 +295,7 @@ color: #4c4c4c;
   }
 }
 
-@media (max-width: 480px), @media (max-width: 768px) {
+@media (max-width: 480px) {
 .col-lg-4 {
     max-width: 100%;
     padding: 10px;

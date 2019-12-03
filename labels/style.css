@@ -96,7 +96,7 @@ body {
 .card {
     position: relative;
     background-color: #fff;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.9)!important;
 }

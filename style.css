@@ -51,65 +51,6 @@ b {
   color: #000;
 }
 
-figure {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-
-figure.highlight {
-    background: #111;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 4px 30px rgba(0,0,0,.5);
-    padding: 1.5rem 1rem;
-    position: relative;
-}
-
-article figure {
-    margin: 3rem 0;
-}
-
-figcaption, figure, main {
-    display: block;
-}
-
-.fa-code:before {
-    content: "\f121";
-}
-
-figure.highlight .code-pil {
-    position: absolute;
-    top: -.7rem;
-    background: #111;
-    padding: 0 10px;
-    color: #66bb6a;
-    border-radius: 10px;
-}
-
-.highlight .nt {
-    color: #00bcd4;
-}
-
-figure.highlight pre {
-    overflow: visible;
-    margin-bottom: 0;
-    margin-top: .5rem;
-}
-
-pre {
-    display: block;
-    font-size: 87.5%;
-    color: #212529;
-}
-
-pre code {
-    border: none;
-    color: #ddd;
-}
-
 * Navbar */
 .navbar-brand {
   font-family: "prompt";
@@ -364,3 +305,104 @@ dl, ol, ul {
     padding: 10px;
   }
 }
+
+figure.highlight {
+    background: #111;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0,0,0,.5);
+    padding: 1.5rem 1rem;
+    position: relative;
+}
+
+figcaption, figure, main {
+    display: block;
+}
+
+figure {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    margin: 0 0 1rem;
+    display: block;
+}
+
+figure.highlight pre {
+    overflow: visible;
+    margin-bottom: 0;
+    margin-top: .5rem;
+}
+
+.highlight .nt {
+    color: #00bcd4;
+}
+
+figure.highlight .code-pil {
+    position: absolute;
+    top: -.7rem;
+    background: #111;
+    padding: 0 10px;
+    color: #66bb6a;
+    border-radius: 10px;
+}
+
+span.cp {
+    color: #ff9a02;
+}
+
+.highlight .na {
+    color: #de6a00;
+}
+
+.highlight .s {
+    color: #06902c;
+}
+
+figure.highlight code {
+    border: none;
+    word-break: break-all;
+}
+
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+    border: none;
+    color: #ddd;
+}
+
+code {
+    color: #525f7f;
+    border: 1px solid #e9ecef;
+    padding: 4px 5px;
+    border-radius: 4px;
+}
+
+pre, code, kbd, samp {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
+    font-size: 1em;
+}
+
+article figure {
+    margin: 3rem 0;
+}
+
+pre {
+    white-space: pre-wrap;
+    display: block;
+    font-size: 87.5%;
+    color: #212529;
+}
+
+::selection {
+    color: #fff;
+    background: #60c17d;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+

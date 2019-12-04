@@ -126,7 +126,7 @@
                                 aria-hidden="true"></i>
                             CSS</span>
                         <pre><code class="language-css" data-lang="css"><span class="nt">plugins</span><span class="o">:</span>
-                          <span class="nt">-</span> <span class="nt">jekyll-sitemap</span></code></pre>
+        <span class="nt">-</span> <span class="nt">jekyll-sitemap</span></code></pre>
                     </figure><br>
                     <p>Anda tidak akan dapat melihat file XML yang dibuat untuk sitemap di dalam direktori Anda.
                         Sekarang, komit perubahan dan
@@ -142,26 +142,27 @@
                                 aria-hidden="true"></i>
                             HTML</span>
                         <pre><code class="language-html" data-lang="html">---
-                        ---
-                        <span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
-                        <span class="nt">&lt;urlset</span> <span class="na">xmlns=</span><span class="s">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="nt">&gt;</span>
-                            {% for post in site.posts %}
-                            <span class="nt">&lt;url&gt;</span>
-                                <span class="nt">&lt;loc&gt;</span>{{site.url}}{{ post.url | remove: 'index.html' }}<span class="nt">&lt;/loc&gt;</span>
-                            <span class="nt">&lt;/url&gt;</span>
-                            {% endfor %}
-                        
-                            {% for page in site.pages %}
-                            {% if page.layout != nil %}
-                            {% if page.layout != 'feed' %}
-                            <span class="nt">&lt;url&gt;</span>
-                                <span class="nt">&lt;loc&gt;</span>{{site.url}}{{ page.url | remove: 'index.html' }}<span class="nt">&lt;/loc&gt;</span>
-                            <span class="nt">&lt;/url&gt;</span>
-                            {% endif %}
-                            {% endif %}
-                            {% endfor %}
-                        <span class="nt">&lt;/urlset&gt;</span></code></pre>
-                    </figure><br>
+---
+<span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;urlset</span> <span class="na">xmlns=</span><span class="s">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="nt">&gt;</span>
+    {% for post in site.posts %}
+    <span class="nt">&lt;url&gt;</span>
+        <span class="nt">&lt;loc&gt;</span>{{site.url}}{{ post.url | remove: 'index.html' }}<span class="nt">&lt;/loc&gt;</span>
+    <span class="nt">&lt;/url&gt;</span>
+    {% endfor %}
+
+    {% for page in site.pages %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'feed' %}
+    <span class="nt">&lt;url&gt;</span>
+        <span class="nt">&lt;loc&gt;</span>{{site.url}}{{ page.url | remove: 'index.html' }}<span class="nt">&lt;/loc&gt;</span>
+    <span class="nt">&lt;/url&gt;</span>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+<span class="nt">&lt;/urlset&gt;</span></code></pre>
+                    </figure>
+                    <br>
                     <p>Ini adalah file umpan yang ditulis dalam tag cair. yang akan merujuk di blog Anda dan akan
                         mencari semua posting yang telah Anda buat, dan halaman
                         yang Anda miliki dan

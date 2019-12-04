@@ -1,2 +1,4 @@
 gems:
     - jekyll-sitemap
+
+theme: jekyll-theme-dinky

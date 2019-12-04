@@ -15,6 +15,45 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
+<form action="https://docs.google.com/forms/d/e/1FAIpQLScKZNdZOyByMf06vfLZqsG__-J-Ne33d5Od3_G2_fbGV4bt-g/viewform?usp=sf_link" id="wj-form" method="post" onsubmit="submitted=true;" target="hidden_iframe">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group"> 
+<input class="form-control" name="entry.1916444399" placeholder="Name" type="text">
+</div>
+</div>
+<div class="col-md-6"><div class="form-group"> 
+<input class="form-control" name="entry.1454621435" placeholder="Email" type="email">
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group stumble"> 
+<input class="form-control" id="nomail" name="email" placeholder="Email" type="email">
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group"> 
+<textarea class="form-control" cols="30" id="texta" name="entry.827655478" placeholder="I want a website..." rows="4">
+</textarea>
+</div>
+</div>
+<div class="col-md-12">
+<div class="row form-group">
+<div class="col-md-12"> 
+<label for="subject">Solve this</label> 
+<span id="rnuma">8</span> + <span id="rnumb">1</span> =
+<div class="input-group"> 
+<input class="form-control" id="testInput" placeholder="Your answer" type="text" value=""> 
+<span class="input-group-btn"> 
+<button class="btn btn-default" id="mathTest" type="button">Go!</button> 
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+
 - Bulleted
 - List
 

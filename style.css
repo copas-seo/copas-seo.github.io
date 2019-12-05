@@ -61,6 +61,7 @@ b {
   width: 100%;
   position: relative;
   z-index: 1;
+  padding: 0 1rem .01rem;
 }
 
 .navbar-light .navbar-toggler {
@@ -99,7 +100,7 @@ b {
 
 .jumbotron .display-4 {
   color: #fff;
-  margin-top: 140px;
+  margin-top: 100px;
   font-weight: 200;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
   font-size: 30px;
@@ -112,8 +113,9 @@ b {
 
 /* TOMBOL */
 .tombol {
-  text-transform: uppercase;
-  border-radius: 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-top: 22px;
 }
 
 /* Panel-Menu */

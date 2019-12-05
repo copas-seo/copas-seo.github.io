@@ -304,6 +304,13 @@ dl, ol, ul {
     max-width: 100%;
     padding: 10px;
   }
+  .card .news-content {
+    position: absolute;
+    bottom: -80px;
+    padding: 20px;
+    background: #fff;
+    transition: .5s;
+}
 }
 
 figure.highlight {

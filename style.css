@@ -1,0 +1,633 @@
+/**
+* Eric Meyer&#39;s Reset CSS v2.0 http://meyerweb.com/eric/tools/css/reset/
+* http://cssreset.com
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*font-size:100%;*/
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Blogger CSS Reset */
+.section,
+.widget {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.blog-feeds,
+.feed-links,
+#backlinks-container,
+a.home-link,
+.blog-mobile-link {
+  display: none;
+}
+
+.quickedit,
+.edit-post,
+.item-control {
+  display: none;
+}
+
+.post-body .separator>a,
+.post-body .separator>span {
+  margin-left: 0 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "prompt";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #525f7f;
+  text-align: left;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 1.6rem
+}
+
+h2 {
+  font-size: 1.4rem
+}
+
+h3 {
+  font-size: 1.2rem
+}
+
+h4 {
+  font-size: 1rem
+}
+
+h5 {
+  font-size: 0.9rem
+}
+
+h6 {
+  font-size: 0.9rem
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.6em;
+  font-weight: bold;
+  font-family: "prompt";
+  color: #4c4c4c;
+}
+
+b {
+  font-weight: bold;
+  color: #000;
+}
+
+* Navbar */ .navbar-brand {
+  font-family: "prompt";
+  font-size: 36px;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 0 1rem .01rem;
+}
+
+.navbar-light .navbar-toggler {
+  margin-left: auto;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "prompt";
+  font-size: 36px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url(img/Copas_Seo.jpg);
+  background-size: cover;
+  height: 440px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  color: #fff;
+  margin-top: 100px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+/* TOMBOL */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  margin-top: 22px;
+}
+
+/* Panel-Menu */
+.panel-menu {
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.panel-menu img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.panel-menu h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
+}
+
+.card .post-image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.card .post-image img {
+  transition: .5s;
+}
+
+.card:hover .post-image img {
+  transform: scale(1.2) translateY(-50px);
+}
+
+.card .news-content {
+  position: absolute;
+  bottom: -110px;
+  padding: 20px;
+  background: #fff;
+  transition: .5s;
+}
+
+.card:hover .news-content {
+  bottom: 0px;
+}
+
+.card .category {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  height: 30px;
+  background: #00b8f4;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.card .news-content .post-meta a {
+  text-decoration: none;
+  padding-right: 5px;
+  color: #4c4c4c;
+  font-weight: bold;
+  transition: .5s;
+  font-size: 12px;
+}
+
+.card .news-content .post-header {
+  margin: 0;
+  padding: 10px 0;
+  color: #007da6;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.post-header a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.post-header a:hover {
+  text-decoration: none;
+  color: #007da6;
+  background: #fff;
+}
+
+.card .news-content p {
+  font-size: 16px;
+  margin: 10px 0 0;
+  padding: 0;
+  color: #262626;
+  transition: .5s;
+  opacity: 0;
+}
+
+.card:hover .news-content p {
+  opacity: 1;
+}
+
+/** Sidebar **/
+dl,
+ol,
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.sidebar .widget {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 16px;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  padding: 12px 16px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 2px 2px 0 0;
+}
+
+.list-labels {
+  padding-bottom: 10px;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 10px 0 0 10px;
+  color: #383737;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.footer {
+  background: #1a202c;
+  color: #fff;
+  text-align: center;
+  line-height: 3;
+  margin-top: 30px;
+}
+
+/*MODE DEKSTOP RESPONSIVE */
+@media (min-width: 992px) {
+
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 540px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+  }
+
+  .col-lg-4 {
+    position: relative;
+    width: 30%;
+    float: left;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-8 {
+    width: 70%;
+  }
+
+  .col-md-4 {
+    width: 30%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-lg-4 {
+    max-width: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-lg-4 {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .card .news-content {
+    position: absolute;
+    bottom: -80px;
+    padding: 20px;
+    background: #fff;
+    transition: .5s;
+  }
+}
+
+figure.highlight {
+  background: #111;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  margin: 0 0 1rem;
+  display: block;
+}
+
+figure.highlight pre {
+  overflow: visible;
+  margin-bottom: 0;
+  margin-top: .5rem;
+}
+
+.highlight .nt {
+  color: #00bcd4;
+}
+
+figure.highlight .code-pil {
+  position: absolute;
+  top: -.7rem;
+  background: #111;
+  padding: 0 10px;
+  color: #66bb6a;
+  border-radius: 10px;
+}
+
+span.cp {
+  color: #ff9a02;
+}
+
+.highlight .na {
+  color: #de6a00;
+}
+
+.highlight .s {
+  color: #06902c;
+}
+
+figure.highlight code {
+  border: none;
+  word-break: break-all;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+  border: none;
+  color: #ddd;
+}
+
+code {
+  color: #525f7f;
+  border: 1px solid #e9ecef;
+  padding: 4px 5px;
+  border-radius: 4px;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, liberation mono, courier new, monospace;
+  font-size: 1em;
+}
+
+article figure {
+  margin: 3rem 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+}
+
+::selection {
+  color: #fff;
+  background: #60c17d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

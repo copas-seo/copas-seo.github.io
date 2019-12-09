@@ -192,11 +192,6 @@ img {
   display: inline-block;
 }
 
-b {
-  font-weight: bold;
-  color: #000;
-}
-
 * Navbar */ .navbar-brand {
   font-family: "prompt";
   font-size: 36px;

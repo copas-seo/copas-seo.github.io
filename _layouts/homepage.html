@@ -2,16 +2,15 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+  {% include meta.html %}
+
   
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
   <link href='https://copas-seo.github.io/' rel='canonical' />
   <link rel="me" href="https://copas-seo.github.io" />
-  
-  <meta content='COPAS SEO : Berbagi info Adsense Publisher . SEO Blog Dan SEO Template' name='description' />
-  <meta content='COPAS SEO : Berbagi info Adsense Publisher . SEO Blog Dan SEO Template' property='og:description' />
 
   <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

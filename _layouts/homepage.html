@@ -36,10 +36,9 @@
             <div class="row">
                 {{ content }}
             </div>
+            {% include paginator.html %}
         </div>
         
-        {% include paginator.html %}
-
         {% include footer.html %}
 
         {% include analytics.html %}

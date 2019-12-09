@@ -10,3 +10,7 @@ logo: /images/copas-seo-logo.jpg
 analytics: 'UA-151109891-3'
 disqus-shortname: Acha81
 copyrights-owner: copas seo # Copyright in the footer
+
+
+plugins:
+      - jekyll-sitemap

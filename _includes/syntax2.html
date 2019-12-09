@@ -1,0 +1,29 @@
+<br>
+<figure class="highlight"><span class="code-pil"><i class="fa fa-code font-weight-bold"
+    aria-hidden="true"></i>
+HTML</span>
+<pre><code class="language-html" data-lang="html"></code></pre>
+{% highlight html %}
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% raw %}{% for post in site.posts %}{% endraw %}
+    <url>
+        <loc>{% raw %}{{site.url}}{% endraw %}{% raw %}{{ post.url | remove: 'index.html' }}{% endraw %}</loc>
+    </url>
+    {% raw %}{% endfor %}{% endraw %}
+
+    {% raw %}{% for page in site.pages %}{% endraw %}
+    {% raw %}{% if page.layout != nil %}{% endraw %}
+    {% raw %}{% if page.layout != 'feed' %}{% endraw %}
+    <url>
+        <loc>{% raw %}{{site.url}}{% endraw %}{% raw %}{{ page.url | remove: 'index.html' }}{% endraw %}</loc>
+    </url>
+    {% raw %}{% endif %}{% endraw %}
+    {% raw %}{% endif %}{% endraw %}
+    {% raw %}{% endfor %}{% endraw %}
+</urlset>
+{% endhighlight %}
+</figure>
+<br

@@ -1,0 +1,21 @@
+---
+layout: homepage
+---
+
+<div class="container" style="padding-top: 20px;">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="news-content">
+                <h1 class="post-header">{{ page.title }}</h1>
+                <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
+                    <div class="clearfix"></div>
+                </div>
+                {{ content }}
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>

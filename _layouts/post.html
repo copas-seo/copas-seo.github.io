@@ -1,0 +1,31 @@
+---
+layout: homepage
+---
+
+<div class="container" style="padding-top: 20px;">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="news-content">
+                <h1 class="post-header">{{ page.title }}</h1>
+                <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
+                    <span class="author">
+                        <i class="fa fa-user" aria-hidden="true"></i> By {{ page.author }}
+                    </span>
+                    <span class="times pull-right">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.date | date: "%B %e, %Y" }}
+                    </span>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="post-image" style="margin-bottom: 10px;">
+                    <img src="{{ page.images }}" class="img-responsive" alt="{{ page.alt }}">
+                </div>
+                {{ content }}
+            </div>
+            {% include disqus.html %}
+        </div>
+
+        <div class="col-md-4">
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>

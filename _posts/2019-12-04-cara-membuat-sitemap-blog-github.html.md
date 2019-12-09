@@ -23,7 +23,7 @@ Dalam salah satu artikelnya yang telah membahas tentang Cara membuat Blog Jekyll
 
 Peta situs atau sitemap adalah susunan daftar tautan ke semua halaman posting web Anda. yang akan menjadi format .xml. Ini akan membantu robot mesin pencari google mendeteksi dan menjelajah ke situs web Anda. Itu juga akan memiliki metadata seperti tanggal posting, halaman, tanggal modifikasi terakhir dan seberapa sering diperbarui dll. Ini terlihat seperti file feed.xml Anda tetapi dengan tag yang berbeda.
 
-### Apakah Peta Situs sitemap penting digunakan
+## Apakah Peta Situs sitemap.xml sangat penting digunakan di blog  
 
 Jika Anda memiliki situs web dan Anda tidak memiliki posting atau halaman apa pun, Anda mungkin tidak akan memerlukan peta situs atau sitemap. Tetapi untuk blog yang memiliki beberapa postingan artikel, peta situs ini sangatlah diperlukan (jika Anda ingin peringkat yang lebih baik di mesin pencari google search enggine).
 
@@ -35,7 +35,7 @@ Kirim peta situs sitemap Anda ke Google console jika Anda telah membuat blog ata
 
 Saya akan menulis posting rinci tentang beberapa alat on-line yang berguna untuk mengoptimalkan situs web Anda agar berkinerja baik dan ramah mesin pencari.
 
-#### Bagaimana cara membuat sitemap untuk blog Jekyll
+### Bagaimana cara membuat sitemap untuk blog Jekyll
 
 Di blog WordPress, membuat peta situs menggunakan plugin sangatlah mudah! Namun Bagaimana jika saya memberi tahu Anda bahwa membuat peta situs di Jekyll jauh lebih mudah! Blog Jekyll tidak akan memiliki sitemap secara default. Anda selalu dapat membuatnya menggunakan potongan kecil kode. Tambahkan kode di bawah ini ke file _config.yml Ini akan membuat peta situs untuk Anda dengan tautan /sitemap.xml.
 
@@ -43,7 +43,7 @@ Di blog WordPress, membuat peta situs menggunakan plugin sangatlah mudah! Namun 
 
 Anda tidak akan dapat melihat file XML yang dibuat untuk sitemap di dalam direktori Anda. Sekarang, komit perubahan dan tekan URL yourwebsite.com/sitemap.xml. Anda akan melihat semua tautan Anda tercantum di sana
 
-## Cara sulit untuk memasukkan sitemap di blog Jekyll
+### Cara sulit untuk memasukkan sitemap di blog Jekyll
 
 Anda juga dapat membuat daftar semua tautan sendiri. Jangan khawatir, kami akan menggunakan ul sehingga mendapat dan mengatur tautan satu per satu. Buat file di root repositori dan beri nama whatever.xml. Salin kode ini di dalamnya
 

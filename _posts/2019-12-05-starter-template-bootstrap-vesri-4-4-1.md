@@ -2,7 +2,7 @@
 layout: post
 title: Kerangka Starter Template Bootstrap Version 4.4.1
 permalink: /starter-template-bootstrap-vesri-4-4-1
-description: Kini Bootstrap hadir dengan versi terbaru yang lebih simple yang bisa kita gunakan di saat kita ingin membuat website dengan cepat dan sangat mudah
+description: Kini Bootstrap hadir dengan versi terbaru yang lebih simple yang bisa kita gunakan di saat kita ingin membuat website dengan cepat sangat mudah dan lebih simple
 date: 2019-12-05 23:21
 category: Template
 author: Acha81
@@ -13,7 +13,7 @@ summary:
 ---
 [SUMBER INFORMASI](https://getbootstrap.com/docs/4.4/about/overview/)
 
-Kini Bootstrap hadir dengan versi terbaru yang lebih simple yang bisa kita gunakan di saat kita ingin membuat website dengan cepat dan sangat mudah
+Kini Bootstrap hadir dengan versi terbaru yang lebih simple yang bisa kita gunakan di saat kita ingin membuat website dengan cepat sangat mudah dan lebih simple
 
 Perjalanan awal bootstrap diciptakan oleh seorang desainer dan pengembang di Twitter, dan kini Bootstrap telah menjadi salah satu kerangka kerja template front-end dan proyek sumber terbuka paling populer di dunia.
 

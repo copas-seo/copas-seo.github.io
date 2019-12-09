@@ -1,9 +1,13 @@
 # Site settings
 title: Copas Seo
+permalink: /:title
 description: "Berbagi Informasi Adsense Blogging dan Template"
+baseurl: /bare-minimum
 url: https://copas-seo.github.io/
 author: Acha81
 
+paginate: 6
+paginate_path: /page:num/
 
 logo: /images/copas-seo-logo.jpg
 #image: {{page.image}}
@@ -11,6 +15,7 @@ analytics: 'UA-151109891-3'
 disqus-shortname: Acha81
 copyrights-owner: copas seo # Copyright in the footer
 
+plugins: [jekyll-paginate]
 
 plugins:
       - jekyll-sitemap

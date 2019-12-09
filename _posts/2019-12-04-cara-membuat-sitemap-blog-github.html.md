@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Membuat Sitemap untuk Blog Github Page
-permalink: cara-membuat-sitemap-blog-github.
+permalink: cara-membuat-sitemap-blog-github
 description: Disini kita akan sama-sama belajar bagaiamana cara membuat Sitemap untuk blog github page agar dapat terindex oleh google webmaster tools GWS....
 date: 2019-12-04 00:38
 category: Blog

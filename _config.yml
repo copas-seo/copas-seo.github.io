@@ -5,5 +5,7 @@ description: "Berbagi Informasi Adsense Blogging dan Template"
 url: https://copas-seo.github.io/
 author: Acha81
 
+
 plugins:
       - jekyll-sitemap
+      - jekyll-seo-tag

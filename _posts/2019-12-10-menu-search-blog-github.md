@@ -41,7 +41,7 @@ Ok kita lansung saja.
 
 7.copy kode berikut cx=xxxxxxxxxxxxx:8mhlv7zvsh9 yang telah Anda buat untuk kita custom.
 
-## Cara membuat search box penelusuran di github custom jekyll theme
+## Cara membuat box penelusuran di blog github
 
 1.Copy file di bawah ini di html theme atau template Anda tepatnya di bawah header atau di sidebar
 

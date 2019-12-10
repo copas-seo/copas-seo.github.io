@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: post-content
 ---
 
 <div class="container" style="padding-top: 20px;">
@@ -9,10 +9,13 @@ layout: homepage
                 <h1 class="post-header">{{ page.title }}</h1>
                 <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
                     <span class="author">
-                        <i class="fa fa-user" aria-hidden="true"></i> By {{ page.author }}
+                        <i aria-hidden="true" class="fa fa-user"></i>
+                        By
+                        {{ page.author }}
                     </span>
                     <span class="times pull-right">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.date | date: "%B %e, %Y" }}
+                        <i aria-hidden="true" class="fa fa-clock-o"></i>
+                        {{ page.date | date: "%B %e, %Y" }}
                     </span>
                     <div class="clearfix"></div>
                 </div>

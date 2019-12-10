@@ -4,13 +4,5 @@ description: "Berbagi Informasi Adsense Blogging dan Template"
 url: https://copas-seo.github.io/
 author: Acha81
 
-
-logo: /images/copas-seo-logo.jpg
-#image: {{page.image}}
-analytics: 'UA-151109891-3'
-disqus-shortname: Acha81
-copyrights-owner: copas seo # Copyright in the footer
-
-
 plugins:
       - jekyll-sitemap

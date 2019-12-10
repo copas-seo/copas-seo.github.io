@@ -17,10 +17,13 @@ Kenapa blog setelah mengganti domain menjadi domain.com iklan Adsense tidak taya
 
 Sebenarnya Ada banyak sebab akibat kenapa iklan tidak tayang atau tampil dan menjadi blank di web / blog di antaranya
 
-1. Sering gonta-ganti template.
-2. Konten Artikel yang melanggar kebijakan Adsense.
-3. Cara pemasangan dan penerapan script kurang lengkap.
-4. Menganti subdomain blogspot menjadi domain .org .com .id dll.
+**1. Sering gonta-ganti template.**
+
+**2. Konten Artikel yang melanggar kebijakan Adsense.**
+
+**3. Cara pemasangan dan penerapan script kurang lengkap.**
+
+**4. Menganti subdomain blogspot menjadi domain .org .com .id dll.**
 
 [Iklan Adsense yang tidak tampil,](mengganti-domain-com-Iklan-adsense-tidak-tampil.html) ini banyak di alami bagi pemula blogger yang belum mempunyai banyak pengetahuan mengenai google adsense, tanpa mempertimbangkan akibatnya, pemula blogger lansung saja meng-custom subdomain blog milik mereka, sehingga iklan yang awal mulanya tampil kini menjadi blank, setelah custom domain baru.
 

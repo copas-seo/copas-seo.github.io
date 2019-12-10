@@ -2,10 +2,22 @@
 title: Copas Seo
 permalink: /:title
 description: "Berbagi Informasi Adsense Blogging dan Template"
-url: https://copas-seo.github.io/
 author: Acha81
+  url: https://copas-seo.github.io/
 
-
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+  
+#collection
 plugins:
       - jekyll-sitemap
       - jekyll-seo-tag

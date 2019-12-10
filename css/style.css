@@ -168,7 +168,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.3rem;
+  font-size: 1.05rem;
   font-weight: 400;
   line-height: 1.5;
   color: #24292e;
@@ -183,27 +183,27 @@ img {
 }
 
 h1 {
-  font-size: 1.6rem
+  font-size: 1.8rem
 }
 
 h2 {
-  font-size: 1.4rem
+  font-size: 1.6rem
 }
 
 h3 {
-  font-size: 1.2rem
+  font-size: 1.4rem
 }
 
 h4 {
-  font-size: 1rem
+  font-size: 1.2rem
 }
 
 h5 {
-  font-size: 0.9rem
+  font-size: 1.2rem
 }
 
 h6 {
-  font-size: 0.9rem
+  font-size: 1.2rem
 }
 
 /* heading */
@@ -387,10 +387,6 @@ a:visited {
   color: #fff;
   text-align: center;
   margin: 10px;
-}
-
-strong {
-  font-weight: bold;
 }
 
 /*MODE DEKSTOP RESPONSIVE */

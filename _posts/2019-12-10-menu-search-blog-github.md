@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara Membuat menu search di blog github
+title: Cara Membuat Kotak search Box di blog github
 permalink: menu-search-blog-github
 description: saat kita membuat blog di github dan menggunakan custom theme jekyll, tidak menyediakan fasilitas menu search Engine untuk mencari sebuah artikel untuk pengunjung...
 date: 2019-12-10 14:54
@@ -41,7 +41,7 @@ Ok kita lansung saja.
 
 7.copy kode berikut cx=xxxxxxxxxxxxx:8mhlv7zvsh9 yang telah Anda buat untuk kita custom.
 
-## Cara custom menu search di blog github
+## Cara membuat search box penelusuran di github custom jekyll theme
 
 1.Copy file di bawah ini di html theme atau template Anda tepatnya di bawah header atau di sidebar
 

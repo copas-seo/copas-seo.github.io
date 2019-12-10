@@ -15,7 +15,7 @@ Berikut ini artikel membuat menu custom search di blog github, kenapa ini di bah
 
 Namun kita dapat membuatnya dengan manual dan otomatis melalui Online dengan sangat mudah dengan Google custom search Engine.
 
-Google custom search ini saya sangat merecomendasikan yang blog / web nya sudah di monetisasi Adsense sebab akan meningkatkan penghasilan dari search Engine ini, Namun saya tidak akan membahas cara monetisasi.
+[Google custom search](menu-search-blog-github) ini saya sangat merecomendasikan yang blog / web nya sudah di monetisasi Adsense sebab akan meningkatkan penghasilan dari search Engine ini, Namun saya tidak akan membahas cara monetisasi.
 
 Ok kita lansung saja.
 
@@ -55,7 +55,7 @@ hasilnya akan seperti di bawah ini
 
 {% include search.html %}
 
-Kini Anda telah berhasil membuat menu search Engine.
+Kini Anda telah berhasil membuat [box search Engine](menu-search-blog-github).
 
 Semoga Artikel ini dapat membantu, jika Anda masih kebingungan silahkan tinggalkan komentar.
 

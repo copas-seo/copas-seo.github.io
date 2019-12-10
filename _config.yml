@@ -10,6 +10,6 @@ url: https://copas-seo.github.io/
 
 
 
-plugins:
+plugins: 
       - jekyll-sitemap
       - jekyll-seo-tag

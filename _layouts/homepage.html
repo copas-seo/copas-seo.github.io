@@ -2,6 +2,7 @@
 <html>
 
     <head>
+        {% include analytics.html %}
         <title>
             {% if page.title %}
                 {{ page.title }}
@@ -10,8 +11,6 @@
             {{ site.description }}</title>
 
         {% include meta.html %}
-
-        {% include analytics.html %}
 
         <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
         <link href="https://copas-seo.github.io/" rel="canonical"/>

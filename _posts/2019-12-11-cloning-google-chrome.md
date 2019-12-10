@@ -23,7 +23,7 @@ Kita dapat menggandakan aplikasi crome ini di komputer, Kita juga dapat mengguna
 
 Sebenarnya banyak aplikasi browsing lainnya meggunakan fungsi dan fitur ini, Tapi saya lebih memilih untuk menggunakan chrome sebagai perambah utama saya, sebab google chrome sangatlah mudah.
 
-## Cara Duplikat Multi User Akun dengan Google Chrome
+## Cara Duplikat Multi User Akun dengan perambah Google Chrome
 
 Saat ini saya hanya duplikat chrome hanya dua user saja karena saya hanya memiliki dua akun gmail, Namun jika Anda memiliki tiga atau lebih Anda dapat menggandakan lebih banyak lagi jika.
 

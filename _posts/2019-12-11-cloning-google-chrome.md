@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara Cloning Google Chrome di komputer atau Laptop
+title: Cara Cloning Perambah Google Chrome di komputer atau Laptop
 permalink: cloning-google-chrome
 description: Dapatkah kita cloning app google chrome agar dapat login multi account yang berbeda di komputer atau laptop di satu aplikasi browser yang sama tanpa harus mengunduh perambah lainnya.
 date: 2019-12-11 0:12

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Membuat Halaman Blog Github Pages Kurang dari 5 Menit
-permalink: membuat-halaman-blog-github-kurang-dari-5-menit
+title: Membuat Blog Github Pages Kurang dari 5 Menit
+permalink: membuat-blog-github-kurang-dari-5-menit
 description: Jika Anda berminat ingin membuat blog github, Disini Kami akan memberikan sedikit gambaran bagaimana cara Membuat sebuah Halaman Blog di Github pages hanya membutuhkan...
 date: 2019-12-12 18:42
 category: Blog

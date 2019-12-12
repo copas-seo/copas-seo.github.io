@@ -1,0 +1,34 @@
+I"(<p>Jika Anda berminat ingin membuat blog github, Disini Kami akan memberikan sedikit gambaran bagaimana cara Membuat sebuah Halaman Blog di Github pages hanya membutuhkan waktu Kurang dari 5 Menit untuk penggunaan pribadi.</p>
+
+<p>Selain itu juga, Github memberikan fasilitas kepada setiap komunitas yang telah terdaftar untuk membuat halaman web / blog seperti portfolio, Introduction, landing pages yang dapat diedit melalui repositori git.</p>
+
+<p>GitHub adalah layanan hosting berbasis web yang di dirikan pada tahun 2007 yang bermarkas di San Francisco dan telah memiliki 100 juta* Repositori hingga saat ini, yang saling terhubung dari seluruh dunia, untuk membangun proyek pengembangan perangkat lunak yang menggunakan sistem kontrol Git.</p>
+
+<p>Ikuti langkah berikut ini untuk membuat halaman github pertama Anda:</p>
+
+<p><strong>1.</strong> Buka halaman <a href="github.com">Github</a> dan Buatlah repositori baru dengan nama format username.github.io</p>
+
+<p><img src="/images/copas-seo-Blog-Github.png" alt="Membuat repositori" /></p>
+
+<p><strong>2.</strong> cloning repositori yang telah Anda buat ke direktori lokal pc Anda</p>
+
+<figure class="highlight">
+    <span class="nt">git clone https://github.com/username/username.github.io</span>
+</figure>
+
+<p><strong>3.</strong> Masukkan direktori repositori lokal</p>
+
+<figure class="highlight">
+    <span class="nt">cd username.github.io</span>
+</figure>
+
+<p><strong>4.</strong> Buat file index.html Anda, Anda dapat menulis apa pun yang Anda ingin membuat halaman Anda indah. Sederhananya di sini adalah contoh saya</p>
+
+<figure class="highlight">
+    <span class="nt">echo "Hello from Github pages -COPAS SEO- " &gt; index.html</span>
+</figure>
+
+<figure class="highlight">
+    <span class="nt">git clone https://github.com/username/username.github.io</span>
+</figure>
+:ET

@@ -230,6 +230,7 @@ h6 {
   position: relative;
   z-index: 1;
   padding: 0 1rem .01rem;
+  margin-bottom: 20px;
 }
 
 .navbar-light .navbar-toggler {
@@ -381,6 +382,7 @@ a:visited {
 .footer {
   background: #1a202c;
   color: #fff;
+  margin-top: 20px;
 }
 
 .footer ul {

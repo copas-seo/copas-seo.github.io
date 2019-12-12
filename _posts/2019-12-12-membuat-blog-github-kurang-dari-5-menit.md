@@ -12,7 +12,7 @@ summary:
 ---
 Jika Anda berminat ingin membuat blog github, Disini Kami akan memberikan sedikit gambaran bagaimana cara Membuat sebuah Halaman Blog di Github pages hanya membutuhkan waktu Kurang dari 5 Menit untuk penggunaan pribadi.
 
-Selain itu juga, Github memberikan fasilitas kepada setiap komunitas yang telah terdaftar untuk membuat halaman web / blog seperti portfolio, Introduction, landing pages yang dapat diedit melalui repositori git.
+Selain itu juga, Github memberikan fasilitas kepada setiap komunitas yang telah terdaftar untuk [membuat halaman web / blog](membuat-blog-github-kurang-dari-5-menit) seperti portfolio, Introduction, landing pages yang dapat diedit melalui repositori git.
 
 GitHub adalah layanan hosting berbasis web yang di dirikan pada tahun 2007 yang bermarkas di San Francisco dan telah memiliki 100 juta* Repositori hingga saat ini, yang saling terhubung dari seluruh dunia, untuk membangun proyek pengembangan perangkat lunak yang menggunakan sistem kontrol Git.
 
@@ -62,7 +62,7 @@ Anda akan di minta untuk login masukkan dengan benar nama pengguna dan kata sand
 
 __8.__ Tunggu hingga beberapa menit untuk menampilkan halaman web yang baru Anda buat. Setelah itu kembali ke [github](github.com) dan masuk ke repositori http://username.github.io
 
-Nah itulah cara membuat blog / web github kurang dari Kurang dari 5 menit,
+Nah itulah cara [membuat blog / web github kurang dari Kurang dari 5 menit](membuat-blog-github-kurang-dari-5-menit),
 
 Kami berharap Anda paham dengan tutorial ini, jika ada yang ingin di pertanyakan silahkan isi kolom comentar di bawah,
 

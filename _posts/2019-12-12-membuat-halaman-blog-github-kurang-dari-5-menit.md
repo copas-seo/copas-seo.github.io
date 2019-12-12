@@ -25,7 +25,7 @@ __1.__ Buka halaman [Github](github.com) dan Buatlah repositori baru dengan nama
 __2.__ cloning repositori yang telah Anda buat ke direktori lokal pc Anda ↓
 
 <figure class="highlight">
-    <span class="nt">git clone https://github.com/username/username.github.io.git</span>
+    <span class="nt">git clone https://github.com/username/ username.github.io.git</span>
 </figure>
 
 __3.__ Masuk ke direktori repositori lokal ↓

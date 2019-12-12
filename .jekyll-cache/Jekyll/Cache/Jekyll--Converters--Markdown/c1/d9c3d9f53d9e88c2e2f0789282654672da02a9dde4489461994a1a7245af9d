@@ -1,0 +1,79 @@
+I"r<p>Github pages salah satu layanan hosting berbasis blog maupun web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan System git.</p>
+
+<p>Github pages juga memberikan fasilitas bagi repositori untuk membuat web page static untuk di miliki, yang di hosting oleh <a href="github.com">github.com</a> sendiri, Anda dapat membuat repositori dengan format username.github.io untuk membuat halaman static, portfolio dll.</p>
+
+<p>Ada Begitu Banyak komunitas repositori yang menggunakan github pages, di antaranya, saya pribadi menggunakan hosting github pages dengan theme atau template platform jekyll dan gabungan platform bootstrap 4 design sendiri.</p>
+
+<p>Jika Anda ingin menggunakan Platform Github pages, sebagai web blog pribadi, dan belum memilikinya, Anda dapat membaca halaman Article <a href="membuat-blog-github-kurang-dari-5-menit">Membuat Blog Github Pages Kurang dari 5 Menit</a>.</p>
+
+<p>Dan bila Anda telah memiliki halaman github pages yang sudah di siapkan untuk di custom domain silahkan ikuti tutorial di bawah ini.</p>
+
+<p>Ikuti langkah berikut ini untuk custom domain github pages Anda:</p>
+
+<ol>
+  <li>Buka
+<code>github.com</code>
+dan login.</li>
+  <li>Buka
+<code>repository</code>
+Github Pages milik Anda.</li>
+  <li>Pilih
+<code>Settings</code></li>
+  <li>kemudian scrol sampai pada bagian <strong>Github Pages</strong>, dan masukan nama domain yang telah Anda siapkan pada kolom
+<code>Custom Domain</code>
+lalu pilih save.
+<img src="/images/custom-domain-github-pages.png" alt="custom-domain-github-pages" /></li>
+</ol>
+
+<h2 id="setting-dns-domain-github-pages">Setting DNS Domain Github Pages</h2>
+<p>Kini Anda telah menambahkan custom domain di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di <a href="rumahweb.com">rumahweb</a> yang harganya 12.000 ribu /tahun.</p>
+
+<ol>
+  <li>Login terlebih dahulu kemudian pilih Domain.</li>
+  <li>Klik tanda panah yang ada di sebelah kanan.</li>
+  <li>Pilih kelola Domain jika sudah terbuka.</li>
+  <li>Silahkan pilih DNS Management di sebelah kiri.</li>
+  <li>Tambahkan beberapa Add Record <strong>A</strong> TTL 3600 dari IP github,
+<br /><br /></li>
+</ol>
+<figure class="highlight">
+    <pre>
+    <span class="nt">1. 185.199.108.153</span>
+    <span class="nt">2. 185.199.109.153</span>
+    <span class="nt">3. 185.199.110.153</span>
+    <span class="nt">4. 185.199.111.153</span>
+</pre>
+</figure>
+<p><a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">SUMBER RECORD IP GITHUB</a></p>
+<h3 id="setting-cname-domain-github-pages">Setting CNAME Domain Github Pages</h3>
+<p><em>1.</em> Tambahkan Record CNAME.
+<br /></p>
+<figure class="highlight">
+    <pre>
+    <span class="cp">Domain</span> <span class="s">      username github</span> -<span class="nt">domain.com</span>
+    <span class="cp">TTL</span> <span class="s">         3600</span>
+    <span class="cp">Class</span> <span class="s">       IN</span>
+    <span class="cp">Destination</span> <span class="s"> github.com</span>
+</pre>
+</figure>
+<p><em>2.</em> Tambahkan Lagi Record CNAME.
+<br /></p>
+<figure class="highlight">
+    <pre>
+    <span class="cp">Domain</span> <span class="s">      www</span> -<span class="nt">domain.com</span>
+    <span class="cp">TTL</span> <span class="s">         3600</span>
+    <span class="cp">Class</span> <span class="s">       IN</span>
+    <span class="cp">Destination</span> <span class="s"> repositor.github.io</span>
+</pre>
+</figure>
+<p>Kemudian Save</p>
+
+<p>Hasil semua Record akan tampak seperti di bawah ini.</p>
+
+<p><img src="/images/Setting-CNAME-Domain-Github-Pages.png" alt="Setting-CNAME-Domain-Github-Pages" /></p>
+
+<ul>
+  <li>Untuk  perubahan DNS di perlukan waktu 15 menit, terantung penyedia domain.</li>
+  <li>Untuk  perubahan https di github di butuhkan waktu 1x24 jam.</li>
+</ul>
+:ET

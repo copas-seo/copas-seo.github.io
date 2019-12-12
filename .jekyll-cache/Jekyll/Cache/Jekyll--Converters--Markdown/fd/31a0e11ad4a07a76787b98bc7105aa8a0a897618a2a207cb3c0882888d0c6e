@@ -1,0 +1,19 @@
+I"'<p>Github pages salah satu layanan hosting berbasis blog maupun web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan System git.</p>
+
+<p>Github pages juga memberikan fasilitas bagi repositori untuk membuat web page static untuk di miliki, yang di hosting oleh <a href="github.com">github.com</a> sendiri, Anda dapat membuat repositori dengan format username.github.io untuk membuat halaman static, portfolio dll.</p>
+
+<p>Ada Begitu Banyak komunitas repositori yang menggunakan github pages, di antaranya, saya pribadi menggunakan hosting github pages dengan theme atau template platform jekyll dan gabungan platform bootstrap 4 design sendiri.</p>
+
+<p>Jika Anda ingin menggunakan Platform Github pages, sebagai web blog pribadi, dan belum memilikinya, Anda dapat membaca halaman Article <a href="membuat-blog-github-kurang-dari-5-menit">Membuat Blog Github Pages Kurang dari 5 Menit</a>.</p>
+
+<p>Dan bila Anda telah memiliki halaman github pages yang sudah di siapkan untuk di custom domain silahkan ikuti tutorial di bawah ini, Namun sebelum kita memulai di sini saya membeli domain di <a href="https://www.rumahweb.com/">rumahweb</a>.</p>
+
+<p>Ikuti langkah berikut ini untuk custom domain github pages Anda:</p>
+
+<p><strong>1.</strong> Buka Github.com
+<strong>2.</strong> Buka repository Github Pages kamu.
+Klik Settings
+Nah, pada bagian Github Pages, masukan nama domain kamu pada Custom Domain kemudian klik save.</p>
+
+<p><img src="/images/custom-domain-github-pages.png" alt="custom-domain-github-pages" /></p>
+:ET

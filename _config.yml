@@ -1,10 +1,13 @@
-# Site settings
 title: Copas Seo
 permalink: /:title
 description: "Berbagi Informasi Adsense Blogging dan Template"
 author: Acha81
-url: https://copas-seo.github.io/
+url: https://copas-seo.my.id
 
-plugins: 
-      - jekyll-sitemap
-      - jekyll-seo-tag
+
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-seo-tag
+
+    

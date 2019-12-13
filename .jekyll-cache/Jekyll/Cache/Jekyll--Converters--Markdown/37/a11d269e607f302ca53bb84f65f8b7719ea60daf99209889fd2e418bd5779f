@@ -1,6 +1,6 @@
-I"‰<p>Github pages salah satu layanan hosting berbasis maupun web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan System git.</p>
+I"p<p>Github pages salah satu layanan hosting berbasis web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan System git.</p>
 
-<p>Github pages juga memberikan fasilitas bagi repositori untuk membuat web page static untuk di miliki, yang di hosting oleh <a href="github.com">github.com</a> sendiri, Anda dapat membuat repositori dengan format username.github.io untuk membuat halaman static, portfolio dll.</p>
+<p>Github pages juga memberikan fasilitas bagi repositori untuk membuat web page static untuk di miliki, yang di hosting oleh github sendiri, Anda dapat membuat repositori dengan format username.github.io untuk membuat halaman static, portfolio dll.</p>
 
 <p>Ada Begitu Banyak komunitas repositori yang menggunakan github pages, di antaranya, saya pribadi menggunakan hosting github pages dengan theme atau template platform jekyll dan gabungan platform bootstrap 4 design sendiri.</p>
 
@@ -8,7 +8,7 @@
 
 <p>Dan bila Anda telah memiliki halaman github pages yang sudah di siapkan untuk di custom domain silahkan ikuti tutorial di bawah ini.</p>
 
-<p>Ikuti langkah berikut ini untuk custom domain github pages Anda:</p>
+<p>Ikuti langkah ini untuk custom domain github pages Anda:</p>
 
 <ol>
   <li>Buka
@@ -25,8 +25,8 @@ lalu pilih save.
 <img src="/images/custom-domain-github-pages.png" alt="custom-domain-github-pages" /></li>
 </ol>
 
-<h2 id="setting-dns-domain-github-pages">Setting DNS Domain Github Pages</h2>
-<p>Kini Anda telah <a href="custom-domain-github-pages">menambahkan custom domain</a> di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di <a href="rumahweb.com">rumahweb</a> yang harganya 12.000 ribu /tahun.</p>
+<h2 id="setting-dns-repository-github-pages">Setting DNS Repository Github Pages</h2>
+<p>Kini Anda telah <a href="custom-domain-github-pages">menambahkan custom domain</a> di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di <a href="rumahweb.com">rumahweb</a> harganya hanya 12.000 ribu pertahun.</p>
 
 <ol>
   <li>Login terlebih dahulu kemudian pilih Domain.</li>
@@ -45,7 +45,7 @@ lalu pilih save.
 </pre>
 </figure>
 <p><a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">SUMBER RECORD IP GITHUB</a></p>
-<h3 id="setting-cname-domain-github-pages">Setting CNAME Domain Github Pages</h3>
+<h3 id="setting-cname-repository-github-pages">Setting CNAME Repository Github Pages</h3>
 <p><em>1.</em> Tambahkan Record CNAME.
 <br /></p>
 <figure class="highlight">

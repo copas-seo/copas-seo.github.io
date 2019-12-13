@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara Setting Custom Domain Blog di Github Repository Pages
+title: Cara Setting Custom Domain Repository Blog di Github Pages
 permalink: custom-domain-github-pages
 description: Github pages salah satu layanan hosting berbasis web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan...
 date: 2019-12-13 08:00
@@ -36,7 +36,7 @@ Github Pages milik Anda.
 lalu pilih save.
 ![custom-domain-github-pages](/images/custom-domain-github-pages.png)
 
-## Setting DNS Domain Github Pages
+## Setting DNS Domain Repository Github Pages
 Kini Anda telah [menambahkan custom domain](custom-domain-github-pages) di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di [rumahweb](rumahweb.com) harganya hanya 12.000 ribu pertahun.
 
 1. Login terlebih dahulu kemudian pilih Domain.
@@ -54,7 +54,7 @@ Kini Anda telah [menambahkan custom domain](custom-domain-github-pages) di penga
 </pre>
 </figure>
 [SUMBER RECORD IP GITHUB](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
-### Setting CNAME Domain Github Pages
+### Setting CNAME Domain Repository Github Pages
 _1._ Tambahkan Record CNAME.
 <br>
 <figure class="highlight">

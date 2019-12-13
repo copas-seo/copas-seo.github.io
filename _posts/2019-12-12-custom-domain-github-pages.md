@@ -21,7 +21,7 @@ Jika Anda ingin menggunakan Platform Github pages, sebagai web blog pribadi, dan
 
 Dan bila Anda telah memiliki halaman github pages yang sudah di siapkan untuk di custom domain silahkan ikuti tutorial di bawah ini.
 
-Ikuti langkah berikut ini untuk custom domain github pages Anda:
+Ikuti langkah ini untuk custom domain github pages Anda:
 
 1. Buka
 <code>github.com</code>

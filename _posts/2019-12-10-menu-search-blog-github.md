@@ -45,7 +45,26 @@ Ok kita lansung saja.
 
 1.Copy file di bawah ini di html theme atau template Anda tepatnya di bawah header atau di sidebar
 
-{% include figure-search.html %}
+<br>
+<figure class="highlight">
+    <span class="code-pil">
+        <i aria-hidden="true" class="fa fa-code font-weight-bold"></i>HTML</span>
+    <pre><code class="language-html" data-lang="html">
+<span class="nt">&lt;script&gt;</span>
+  <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">cx</span> <span class="o">=</span> <span class="s1" style="
+    color: red;
+">'000124122121016203706:yoijr22b2m8'</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">gcse</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">'script'</span><span class="p">);</span>
+    <span class="nx">gcse</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="s1">'text/javascript'</span><span class="p">;</span>
+    <span class="nx">gcse</span><span class="p">.</span><span class="k">async</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    <span class="nx">gcse</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s1">'https://cse.google.com/cse.js?cx='</span> <span class="o">+</span> <span class="nx">cx</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">'script'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+    <span class="nx">s</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">gcse</span><span class="p">,</span> <span class="nx">s</span><span class="p">);</span>
+  <span class="p">})();</span>
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;gcse:search&gt;&lt;/gcse:search&gt;</span></code></pre>
+</figure>
 
 2.Kemudian ganti kode yang warna merah dengan kode Anda dapatkan tadi
 

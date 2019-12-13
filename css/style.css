@@ -342,7 +342,17 @@ dl,
 ol,
 ul {
   margin-top: 0;
+  margin-left: 0;
+}
+
+.news-content li {
   margin-left: 30px;
+}
+
+#breadcrumbs {
+  font-size: 14px;
+  border-bottom: 1px solid #e8eaeb;
+  display: inline-block;
 }
 
 strong {
@@ -391,6 +401,10 @@ a:visited {
 
 .footer ul {
   display: flex;
+}
+
+.footer li {
+  list-style: none;
 }
 
 .footer a {
@@ -468,6 +482,9 @@ a:visited {
     color: #24292e;
     padding-bottom: .3em;
     font-size: 1.3em;
+}
+#breadcrumbs {
+  font-size: 12px;
 }
 }
 

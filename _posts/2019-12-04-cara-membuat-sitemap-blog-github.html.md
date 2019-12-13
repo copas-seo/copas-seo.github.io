@@ -39,7 +39,14 @@ Saya akan menulis posting rinci tentang beberapa alat on-line yang berguna untuk
 
 Di blog WordPress, membuat peta situs menggunakan plugin sangatlah mudah! Namun Bagaimana jika saya memberi tahu Anda bahwa membuat peta situs di Jekyll jauh lebih mudah! Blog Jekyll tidak akan memiliki sitemap secara default. Anda selalu dapat membuatnya menggunakan potongan kecil kode. Tambahkan kode di bawah ini ke file _config.yml Ini akan membuat peta situs untuk Anda dengan tautan /sitemap.xml.
 
-{% include syntax1.html %}
+<br>
+<figure class="highlight">
+    <span class="code-pil">
+        <i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
+        CSS</span>
+    <pre><code class="language-css" data-lang="css"><span class="nt">plugins</span><span class="o">:</span>
+        <span class="nt">-</span> <span class="nt">jekyll-sitemap</span></code></pre>
+</figure><br>
 
 Anda tidak akan dapat melihat file XML yang dibuat untuk sitemap di dalam direktori Anda. Sekarang, komit perubahan dan tekan URL yourwebsite.com/sitemap.xml. Anda akan melihat semua tautan Anda tercantum di sana
 
@@ -47,7 +54,35 @@ Anda tidak akan dapat melihat file XML yang dibuat untuk sitemap di dalam direkt
 
 Anda juga dapat membuat daftar semua tautan sendiri. Jangan khawatir, kami akan menggunakan ul sehingga mendapat dan mengatur tautan satu per satu. Buat file di root repositori dan beri nama whatever.xml. Salin kode ini di dalamnya
 
-{% include syntax2.html %}>
+<br>
+<figure class="highlight"><span class="code-pil"><i class="fa fa-code font-weight-bold"
+    aria-hidden="true"></i>
+HTML</span>
+<pre><code class="language-html" data-lang="html"></code></pre>
+{% highlight html %}
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% raw %}{% for post in site.posts %}{% endraw %}
+    <url>
+        <loc>{% raw %}{{site.url}}{% endraw %}{% raw %}{{ post.url | remove: 'index.html' }}{% endraw %}</loc>
+    </url>
+    {% raw %}{% endfor %}{% endraw %}
+
+    {% raw %}{% for page in site.pages %}{% endraw %}
+    {% raw %}{% if page.layout != nil %}{% endraw %}
+    {% raw %}{% if page.layout != 'feed' %}{% endraw %}
+    <url>
+        <loc>{% raw %}{{site.url}}{% endraw %}{% raw %}{{ page.url | remove: 'index.html' }}{% endraw %}</loc>
+    </url>
+    {% raw %}{% endif %}{% endraw %}
+    {% raw %}{% endif %}{% endraw %}
+    {% raw %}{% endfor %}{% endraw %}
+</urlset>
+{% endhighlight %}
+</figure>
+<br>
 
 Ini adalah file umpan yang ditulis dalam tag cair. yang akan merujuk di blog Anda dan akan mencari semua posting yang telah Anda buat, dan halaman yang Anda miliki dan daftar mereka di dalam file sitemap.xml. Itu juga akan diperbarui dengan menambahkan posting dan halaman baru. Dalam metode ini, Anda akan memiliki kontrol penuh atas peta situs Anda.
 

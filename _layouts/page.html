@@ -11,6 +11,10 @@ layout: homepage
                     <div class="clearfix"></div>
                 </div>
                 {{ content }}
+
+                {% if page.forms[0] %}
+                    {% include form.html form="1" %}
+                {% endif %}
             </div>
         </div>
 

@@ -4,10 +4,24 @@ description: "Berbagi Informasi Adsense Blogging dan Template"
 author: Acha81
 url: https://copas-seo.my.id
 
+input_types:
+  - text
+  - textarea
+  - email
+  - date
+  - checkbox
+  - radio
+  - number
+  - submit
+  - recaptcha
+
+form_engines:
+  - cloudcannon
+  - formspree
+  - formbucket
+  - netlify
 
 plugins:
     - jekyll-feed
     - jekyll-sitemap
     - jekyll-seo-tag
-
-    

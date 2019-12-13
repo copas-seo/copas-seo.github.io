@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Cara Custom Domain Blog Github Pages
+title: Cara Setting Custom Domain Blog di Github Repository Pages
 permalink: custom-domain-github-pages
-description: Github pages salah satu layanan hosting berbasis blog maupun web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan...
+description: Github pages salah satu layanan hosting berbasis web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan...
 date: 2019-12-13 08:00
 category: Blog
 author: Acha81
 images: /images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
-alt: Cara Custom Domain Blog Github Pages
+alt: Cara Setting Custom Domain Blog Github Pages
 tags: []
 summary: 
 ---
-Github pages salah satu layanan hosting berbasis blog maupun web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan System git.
+Github pages salah satu layanan hosting berbasis web yang terbesar dan populer di kalangan komunitas repositori yang mengembangkan proyek perangkat lunak dengan System git.
 
-Github pages juga memberikan fasilitas bagi repositori untuk membuat web page static untuk di miliki, yang di hosting oleh [github.com](github.com) sendiri, Anda dapat membuat repositori dengan format username.github.io untuk membuat halaman static, portfolio dll.
+Github pages juga memberikan fasilitas bagi repositori untuk membuat web page static untuk di miliki, yang di hosting oleh github sendiri, Anda dapat membuat repositori dengan format username.github.io untuk membuat halaman static, portfolio dll.
 
 Ada Begitu Banyak komunitas repositori yang menggunakan github pages, di antaranya, saya pribadi menggunakan hosting github pages dengan theme atau template platform jekyll dan gabungan platform bootstrap 4 design sendiri.
 
@@ -37,7 +37,7 @@ lalu pilih save.
 ![custom-domain-github-pages](/images/custom-domain-github-pages.png)
 
 ## Setting DNS Domain Github Pages
-Kini Anda telah [menambahkan custom domain](custom-domain-github-pages) di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di [rumahweb](rumahweb.com) yang harganya 12.000 ribu /tahun.
+Kini Anda telah [menambahkan custom domain](custom-domain-github-pages) di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di [rumahweb](rumahweb.com) harganya hanya 12.000 ribu pertahun.
 
 1. Login terlebih dahulu kemudian pilih Domain.
 2. Klik tanda panah yang ada di sebelah kanan. 

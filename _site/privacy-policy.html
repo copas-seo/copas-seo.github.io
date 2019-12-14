@@ -31,10 +31,10 @@
 
         <title>  Privacy-Policy – Copas Seo – Berbagi Informasi Adsense Blogging dan Template</title>
 
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta name="description" content=""/>
 <meta property="og:description" content=""/>
@@ -47,6 +47,8 @@
 
 <meta property="og:title" content="Privacy-Policy"/>
 <meta property="twitter:title" content="Privacy-Policy"/>
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
 
         <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -304,6 +306,30 @@
     </div>
 </div>
 
+
+        <script>
+  window.onscroll = function(ev) {
+    lazyload();
+  }
+  function lazyload(){
+    var lazyimage = document.getElementsByClassName("lazy");
+    for(var i=0;i<lazyimage.length;i++){
+      if(ElementInViewport(lazyimage[i])){
+        lazyimage[i].setAttribute("src",lazyimage[i].getAttribute("data-src"));
+      }
+    }
+  }
+
+  function ElementInViewport(el){
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >=0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+</script>
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

@@ -23,7 +23,7 @@ Ok kita lansung saja.
 
 1.Klik tautan ini [Goggle Cse](https://cse.google.com) Anda akan di arahkan ke google seperti gambar di bawah ini.
 
-![Alternate text](/images/search-copas-seo.png)
+![search Box di blog github](/images/search-copas-seo.png)
 
 2.Isi kolom situs yang akan di telusuri dengan nama blog atau website Anda
 

@@ -318,6 +318,7 @@ a:link,
 a:visited {
   text-decoration: none;
   transition: all .3s;
+  color: #f09;
 }
 
 .footer {

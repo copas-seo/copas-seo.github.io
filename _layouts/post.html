@@ -20,7 +20,7 @@ layout: homepage
             <div class="clearfix"></div>
         </div>
         <div class="post-image" style="margin-bottom: 10px;">
-            <img src="{{ page.images }}" class="img-responsive" alt="{{ page.alt }}">
+            <img class="lazy" src="/images/lazy.gif" class="img-responsive" alt="{{ page.alt }}" data-src="{{ page.images }}">
         </div>
         {{ content }}
         {% include share-buttons.html %}

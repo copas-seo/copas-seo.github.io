@@ -29,7 +29,7 @@ Github Pages milik Anda.
 5. Tambahkan baris berikut ini ke tata letak Anda dengan format.
 {% raw %}
     **{% include breadcrumbs.html %}**
-            di tempat Anda ingin menampilkan Breadcumbs:
+                di tempat Anda ingin menampilkan Breadcumbs:
 {% endraw %}
 6. Save, dan lihat hasilnya
 

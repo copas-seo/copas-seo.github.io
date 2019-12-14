@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
 /**
 * Eric Meyer&#39;s Reset CSS v2.0 http://meyerweb.com/eric/tools/css/reset/
 * http://cssreset.com
@@ -339,6 +339,50 @@ a:visited {
   color: #fff;
   text-align: center;
   margin: 10px;
+}
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+.pagination:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.pagination .page_number {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.pagination .previous {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
+}
+
+.pagination .button {
+    margin: 0;
+    display: inline-block;
+}
+
+.button {
+    border-radius: 0.3em;
+    border: 1px solid;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.5em 0.75em;
+}
+
+.previous p, .next p {
+  margin: 0;
 }
 
 /*MODE DEKSTOP RESPONSIVE */

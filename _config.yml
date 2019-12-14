@@ -4,6 +4,10 @@ description: "Berbagi Informasi Adsense Blogging dan Template"
 author: Acha81
 url: https://copas-seo.my.id
 
+# PAGINATION
+paginate: 6
+paginate_path: /page:num/
+
 input_types:
   - text
   - textarea
@@ -24,3 +28,4 @@ form_engines:
 plugins:
     - jekyll-feed
     - jekyll-seo-tag
+    - jekyll-paginate

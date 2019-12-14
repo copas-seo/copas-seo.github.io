@@ -16,16 +16,22 @@ Breadcrumbs juga begitu penting untuk mendukung SEO blog atau website, sebab bil
 
 di kesempatan kali ini saya akan memberikan sedikit tutorial bagaiaman cara [membuat breadcumbs SEO](breadcumbs-github-pages) dan cara memasang di sebuah blog github pages, Walapun di sini saya juga seorang pemula di github pages.
 
-## Cara Memasang Breadcumbs SEO di Github Pages
+Ikuti langkah ini untuk Memasang Breadcumbs SEO di Github Pages
 
-1. Download file berikit ini [breadcrumbs.html](https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/breadcrumbs.html)
-2. Simpan file di direktori **"_includes"** di blog github pages Anda
-3. Tambahkan baris berikut ini ke tata letak Anda dengan format.
+1. Buka
+<code>github.com</code>
+dan login.
+2. Buka
+<code>repository</code>
+Github Pages milik Anda.
+3. Download file berikut ini [breadcrumbs.html](https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/breadcrumbs.html)
+4. Simpan file di direktori github **"_includes"** di blog github pages Anda
+5. Tambahkan baris berikut ini ke tata letak Anda dengan format.
 {% raw %}
     **{% include breadcrumbs.html %}**
-                                                    di tempat Anda ingin menampilkan Breadcumbs:
+            di tempat Anda ingin menampilkan Breadcumbs:
 {% endraw %}
-4. Save, dan lihat hasilnya
+6. Save, dan lihat hasilnya
 
 [SUMBER](https://jekyllcodex.org/without-plugin/breadcrumbs/)
 

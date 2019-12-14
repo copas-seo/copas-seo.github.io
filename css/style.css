@@ -171,7 +171,7 @@ body {
   font-size: 1.05rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #24292e;
+  color: #525f7f;
   text-align: left;
   background-color: #fff;
 }
@@ -183,15 +183,15 @@ img {
 }
 
 h1 {
-  font-size: 1.8rem
-}
-
-h2 {
   font-size: 1.6rem
 }
 
-h3 {
+h2 {
   font-size: 1.4rem
+}
+
+h3 {
+  font-size: 1.2rem
 }
 
 h4 {
@@ -215,13 +215,13 @@ h5,
 h6 {
   margin: 0 0 0.6em;
   font-weight: bold;
-  font-family: "prompt";
-  color: #24292e;
+  font-family: 'Roboto Slab', serif;
+  color: #32325d;
   padding-bottom: .3em;
 }
 
 * Navbar */ .navbar-brand {
-  font-family: "prompt";
+  font-family: 'Roboto Slab', serif;
   font-size: 36px;
 }
 
@@ -244,97 +244,24 @@ h6 {
 }
 
 .card {
-  position: relative;
-  background-color: #fff;
-  height: 350px;
-  overflow: hidden;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
 }
 
-.post-image {
-  text-align: center;
+.card-body {
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
 }
 
-.card .post-image {
-  height: 250px;
-  overflow: hidden;
+.card-body span {
+    color: #333;
 }
 
-.card .post-image img {
-  transition: .5s;
+.card-body h1{
+  color: #555;
+  padding-top: 5px;
 }
 
-.card:hover .post-image img {
-  transform: scale(1.2) translateY(-50px);
-}
-
-.card .news-content {
-  position: absolute;
-  bottom: -130px;
-  padding: 20px;
-  background: #fff;
-  transition: .5s;
-}
-
-.card:hover .news-content {
-  bottom: 0px;
-}
-
-.card .category {
-  position: absolute;
-  top: -30px;
-  left: 0;
-  height: 30px;
-  background: #00b8f4;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 5px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  transition: .5s;
-}
-
-.card .news-content .post-meta a {
-  text-decoration: none;
-  padding-right: 5px;
-  color: #4c4c4c;
-  font-weight: bold;
-  transition: .5s;
-  font-size: 12px;
-}
-
-.card .news-content .post-header {
-  margin: 0;
-  padding: 10px 0;
-  color: #007da6;
-  font-size: 20px;
-  font-weight: bold;
-  overflow: hidden;
-}
-
-.post-header a {
-  text-decoration: none;
-  color: #4c4c4c;
-}
-
-.post-header a:hover {
-  text-decoration: none;
-  color: #007da6;
-  background: #fff;
-}
-
-.card .news-content p {
-  font-size: 16px;
-  margin: 10px 0 0;
-  padding: 0;
-  color: #262626;
-  transition: .5s;
-  opacity: 0;
-}
-
-.card:hover .news-content p {
-  opacity: 1;
+.post-header-index {
+  font-size: 1rem;
 }
 
 /** Sidebar **/
@@ -347,6 +274,7 @@ ul {
 
 .news-content li {
   margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 #breadcrumbs {
@@ -384,7 +312,7 @@ strong {
 .sidebar ul li {
   list-style: none;
   padding: 10px 0 0 10px;
-  color: #383737;
+  color: #525f7f;
 }
 
 a:link,
@@ -415,7 +343,6 @@ a:visited {
 
 /*MODE DEKSTOP RESPONSIVE */
 @media (min-width: 992px) {
-
   .navbar-brand,
   .nav-link {
     color: #fff !important;
@@ -437,55 +364,12 @@ a:visited {
     padding-bottom: 5px;
     margin-bottom: -8px;
   }
-
-  .col-lg-4 {
-    position: relative;
-    width: 30%;
-    float: left;
-    padding: 10px;
-  }
-}
-
-@media (min-width: 768px) {
-  .col-md-8 {
-    width: 70%;
-  }
-
-  .col-md-4 {
-    width: 30%;
-  }
-}
-
-@media (min-width: 576px) {
-  .col-lg-4 {
-    max-width: 50%;
-    padding: 10px;
-  }
 }
 
 @media (max-width: 767px) {
-  .col-lg-4 {
-    max-width: 100%;
-    padding: 10px;
+  #breadcrumbs {
+    font-size: 12px;
   }
-  .card .news-content {
-    position: absolute;
-    bottom: -110px;
-    padding: 20px;
-    background: #fff;
-    transition: .5s;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 0.6em;
-    font-weight: bold;
-    font-family: "prompt";
-    color: #24292e;
-    padding-bottom: .3em;
-    font-size: 1.3em;
-}
-#breadcrumbs {
-  font-size: 12px;
-}
 }
 
 figure.highlight {

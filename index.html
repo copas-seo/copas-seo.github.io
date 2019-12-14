@@ -3,31 +3,24 @@ layout: homepage
 ---
 
 {% for post in site.posts %}
-    <div class="col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
         <div class="card">
-            <div class="post-image">
+            <a href="{{ site.baseurl }}{{ post.url }}">
                 <img src="{{ post.images }}" class="img-responsive" alt="{{ post.alt }}">
-            </div>
-            <div class="news-content">
-                <span class="category">
-                    {{ post.category }}
-                </span>
-                <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209);">
-                    <span class="author">
-                        <i aria-hidden="true" class="fa fa-user"></i>
-                        {{ post.author }}
+                <div class="card-body">
+                    <span class="category" style="padding-right: 15px;">
+                        <i class="fa fa-tags"></i>
+                        {{ post.category }}
                     </span>
-                    <span class="times pull-right">
+                    <span class="times">
                         <i aria-hidden="true" class="fa fa-clock-o"></i>
                         {{ post.date | date: "%B %e, %Y" }}
                     </span>
-                    <div class="clearfix"></div>
+                    <h1 class="post-header-index">
+                        {{ post.title }}
+                    </h1>
                 </div>
-                <h1 class="post-header">
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                </h1>
-                <p>{{ post.description }}</p>
-            </div>
+            </a>
         </div>
     </div>
 {% endfor %}

@@ -27,6 +27,8 @@ Awalnya dirilis pada hari Jumat, 19 Agustus 2011, dan telah memiliki lebih dari 
 
 Berdasarkan hal itu dengan Bootstrap 3, telah menulis ulang perpustakaan sekali lagi untuk membuatnya responsif secara default dengan pendekatan pertama yang mobile. Dengan Bootstrap 4, sekali lagi menulis ulang proyek untuk memperhitungkan dua perubahan arsitektur utama: migrasi ke Sass dan pindah ke flexbox CSS.
 
+{% include baca.html %}
+
 Tujuannya adalah membantu dengan cara kecil untuk memajukan komunitas pengembangan web dengan mendorong properti CSS yang lebih baru, lebih sedikit ketergantungan, dan teknologi baru di seluruh browser yang lebih modern.
 
 ## Kerangka Dasar Starter Template Bootstrap Version 4.4.1 untuk Sebuah Blog dan Website
@@ -91,8 +93,6 @@ Di bawah ini kode HTML dan CSS bootstrap-versi-4
         </div>
     </nav>
 
-
-
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Fluid jumbotron</h1>
@@ -100,7 +100,6 @@ Di bawah ini kode HTML dan CSS bootstrap-versi-4
             </p>
         </div>
     </div>
-
 
     <h1>Hello, world!</h1>
 

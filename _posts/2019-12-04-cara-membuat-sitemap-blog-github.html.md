@@ -33,6 +33,8 @@ Mengirim tautan peta situs Anda di dalam situs web Anda juga merupakan ide yang 
 
 Kirim peta situs sitemap Anda ke Google console jika Anda telah membuat blog atau artikel. Saya biasanya mengirimkan peta situs saya ke alat Webmaster Google, Bing, dan Yahoo. Saya menggunakan pemeriksaan SEO untuk memeriksa apakah situs web saya mematuhi parameter SEO umum. Saya mengetahui bahwa saya tidak memiliki peta situs dengan menggunakan aplikasi ini.
 
+{% include baca.html %}
+
 Saya akan menulis posting rinci tentang beberapa alat on-line yang berguna untuk mengoptimalkan situs web Anda agar berkinerja baik dan ramah mesin pencari.
 
 ### Bagaimana cara membuat sitemap untuk blog Jekyll

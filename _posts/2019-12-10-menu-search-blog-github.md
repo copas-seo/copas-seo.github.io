@@ -31,6 +31,8 @@ Ok kita lansung saja.
 
 4.isi kolom nama mesin telusur, Anda bebas memberi nama
 
+{% include baca.html %}
+
 5.klik created atau buat, Anda akan mendapatkan tautan seperti gambar ini
 
 ![Alternate text](/images/custom-search-copas-seo.png)

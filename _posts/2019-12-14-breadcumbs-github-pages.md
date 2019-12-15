@@ -18,6 +18,8 @@ di kesempatan kali ini saya akan memberikan sedikit tutorial bagaiaman cara [mem
 
 Ikuti langkah ini untuk Memasang Breadcumbs SEO di Github Pages
 
+{% include baca.html %}
+
 1. Buka
 <code>github.com</code>
 dan login.

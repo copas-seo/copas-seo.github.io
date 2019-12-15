@@ -80,6 +80,8 @@ email</i>
 {% endhighlight %}
 </figure>
 
+{% include baca.html %}
+
 4.Copy lagi file CSS di bawah ini ke directory style.css dan save
 <br><br>
 

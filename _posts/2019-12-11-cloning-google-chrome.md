@@ -25,6 +25,8 @@ Sebenarnya banyak aplikasi browsing lainnya meggunakan fungsi dan fitur ini, Tap
 
 ## Cara Duplikat Multi User Akun dengan perambah Google Chrome
 
+{% include baca.html %}
+
 Saat ini saya hanya duplikat chrome hanya dua user saja karena saya hanya memiliki dua akun gmail, Namun jika Anda memiliki tiga atau lebih Anda dapat menggandakan lebih banyak lagi jika.
 
 ***Ikuti panduan sebagai berikut :***

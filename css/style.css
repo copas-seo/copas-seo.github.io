@@ -245,6 +245,7 @@ h6 {
 /* posts */
 .post-outer {
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -272,14 +273,6 @@ h6 {
   font-size: 1rem;
 }
 
-/** Sidebar **/
-dl,
-ol,
-ul {
-  margin-top: 0;
-  margin-left: 0;
-}
-
 .news-content li {
   margin-left: 30px;
   margin-bottom: 10px;
@@ -294,6 +287,13 @@ ul {
 
 strong {
   font-weight: bold;
+}
+/** Sidebar **/
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .sidebar .widget {

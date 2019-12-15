@@ -25,6 +25,8 @@ Ikuti langkah berikut ini untuk membuat halaman github pertama Anda:
 
 2. cloning repositori yang telah Anda buat ke direktori lokal pc Anda ↓
 
+{% include baca.html %}
+
 <figure class="highlight">
     <span class="nt">git clone https://github.com/username/ username.github.io.git</span>
 </figure>

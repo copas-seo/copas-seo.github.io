@@ -25,6 +25,8 @@ Program AdSense sangatlah berbeda di banding penyedia jaringan iklan lainnya seb
 
 Pasti semua tahu ke utamaan menambahkan Sudomain di Google Adsense itu cukuplah simple, dan tanpa harus melewati peninjauan, iklan Adsense dapat lansung tayang di Subdomain yang Anda kelola.
 
+{% include baca.html %}
+
 Berikut gambaran Domain Utama dan Subdomain yang akan di tambahkan ke Adsense :
 
 **1. Domain Utama** [https://copas-seo.github.io](https://copas-seo.github.io)

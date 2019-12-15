@@ -1,35 +1,38 @@
 ---
 layout: homepage
 ---
-
-
-<div class="col-md-8">
+<div class="col-sm-12 col-lg-8 post-outer">
     {% include breadcrumbs.html %}
     <div class="news-content">
-        <h1 class="post-header">{{ page.title }}</h1>
-        <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
-            <span class="author">
-                <i aria-hidden="true" class="fa fa-user"></i>
-                By
-                {{ page.author }}
-            </span>
-            <span class="times pull-right">
-                <i aria-hidden="true" class="fa fa-clock-o"></i>
-                {{ page.date | date: "%B %e, %Y" }}
-            </span>
-            <div class="clearfix"></div>
+        <div class="post-header">
+            <h1 class="post-header">{{ page.title }}</h1>
+            <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
+                <span class="author">
+                    <i aria-hidden="true" class="fa fa-user"></i>
+                    By
+                    {{ page.author }}
+                </span>
+                <span class="times pull-right">
+                    <i aria-hidden="true" class="fa fa-clock-o"></i>
+                    {{ page.date | date: "%B %e, %Y" }}
+                </span>
+                <div class="clearfix"></div>
+            </div>
         </div>
         <div class="post-image" style="margin-bottom: 10px;">
             <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{ page.alt }}" data-src="{{ page.images }}">
         </div>
-        {{ content }}
-        {% include share-buttons.html %}
+        <div class="post-content my-5">
+            {{ content }}
+        </div>
     </div>
-    {% include disqus.html %}
-    {% include paginator-post.html %}
+        {% include share-buttons.html %}
+        {% include disqus.html %}
+        {% include paginator-post.html %}
 </div>
 
-<div class="col-md-4">
-    {% include sidebar.html %}
+<div class="col-sm-12 col-lg-4" style="height: auto !important;">
+    <aside style="height: auto !important;">
+        {% include sidebar.html %}
+    </aside>
 </div>
-

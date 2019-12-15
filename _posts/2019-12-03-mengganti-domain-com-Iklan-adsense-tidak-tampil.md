@@ -27,6 +27,8 @@ Sebenarnya Ada banyak sebab akibat kenapa iklan tidak tayang atau tampil dan men
 
 [Iklan Adsense yang tidak tampil,](mengganti-domain-com-Iklan-adsense-tidak-tampil.html) ini banyak di alami bagi pemula blogger yang belum mempunyai banyak pengetahuan mengenai google adsense, tanpa mempertimbangkan akibatnya, pemula blogger lansung saja meng-custom subdomain blog milik mereka, sehingga iklan yang awal mulanya tampil kini menjadi blank, setelah custom domain baru.
 
+{% include baca.html %}
+
 Anda bisa saja melakukan custom domain menjadi domain pribadi, namun harus di perhatikan sebelum Anda men-custom domain, lihat terlebih dahulu akun adsense milik Anda.
 
 Bila Anda memiliki akun adsense hosted, sebaiknya di pertimbangkan lebih dulu sebelum Anda meng-custom domain, Sebab iklan Adsense hosted tidak akan tampil dan menjadi blank setelah Anda mengganti dengan alamat domain Anda.

@@ -6,7 +6,10 @@ url: https://copas-seo.my.id
 
 # PAGINATION
 paginate: 6
-paginate_path: /page:num/
+paginate_path: "/blog/page:num/"
+
+# Build setting
+markdown: kramdown
 
 input_types:
   - text
@@ -25,7 +28,9 @@ form_engines:
   - formbucket
   - netlify
 
+# This will require each of these plugins automatically.
 plugins:
-    - jekyll-feed
-    - jekyll-seo-tag
-    - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate

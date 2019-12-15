@@ -242,6 +242,11 @@ h6 {
   font-size: 36px;
 }
 
+/* posts */
+.post-outer {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
+}
+
 .card {
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
 }
@@ -257,6 +262,10 @@ h6 {
 .card-body h1{
   color: #555;
   padding-top: 5px;
+}
+
+.card-body h1:hover {
+  color: #f09;
 }
 
 .post-header-index {
@@ -280,6 +289,7 @@ ul {
   font-size: 16px;
   border-bottom: 2px solid #e7e9ee;
   display: inline-block;
+  padding-top: 10px;
 }
 
 strong {
@@ -321,31 +331,13 @@ a:visited {
   color: #f09;
 }
 
-.footer {
-  background: #1a202c;
-  color: #fff;
-  margin-top: 20px;
-}
-
-.footer ul {
-  display: flex;
-}
-
-.footer li {
-  list-style: none;
-}
-
-.footer a {
-  color: #fff;
-  text-align: center;
-  margin: 10px;
-}
-
+/** pagination **/
 .pagination {
     display: inline-block;
     text-align: center;
     width: 100%;
     clear: both;
+    padding-bottom: 20px;
 }
 
 .pagination:before {
@@ -385,6 +377,102 @@ a:visited {
   margin: 0;
 }
 
+/** Share **/
+#share-box-container {
+    margin: 20px auto 30px;
+    overflow: hidden;
+}
+
+.label-line-c {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.share-this {
+    display: inline-block;
+    margin: 0;
+    color: #4e4a4a;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #fff;
+    z-index: 1;
+    position: relative;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.label-line::before, .label-line-c::before {
+    z-index: 1;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #313741;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -2px;
+}
+
+.label-line, .label-line-c {
+    position: relative;
+}
+
+#share-box {
+    width: 100%;
+    text-align: center;
+}
+
+#share-box a {
+    width: 20%;
+    display: block;
+    font-size: 24px;
+    color: #353131;
+    transition: opacity 0.15s linear;
+    float: left;
+}
+
+#share-box a:hover {
+  color: #f09
+}
+
+/* Related */
+.related {
+  border: 1px dashed;
+  padding: 10px;
+}
+
+.related-posts a {
+  color:#32325d;
+}
+
+.realted-li h3{
+  font-size: 16px;
+}
+.related-posts li:hover, .related-posts h3:hover {
+  color: #f09;
+}
+
+/* Footer */
+.footer {
+  background: #1a202c;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
 /*MODE DEKSTOP RESPONSIVE */
 @media (min-width: 992px) {
   .navbar-brand,
@@ -414,6 +502,14 @@ a:visited {
   #breadcrumbs {
     font-size: 12px;
   }
+  #share-box a {
+    width: 20%;
+    display: block;
+    font-size: 18px;
+    color: #353131;
+    transition: opacity 0.15s linear;
+    float: left;
+}
 }
 
 figure.highlight {

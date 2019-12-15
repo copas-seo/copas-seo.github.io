@@ -1,8 +1,7 @@
 ---
 layout: homepage
 ---
-
-{% for post in site.posts %}
+{% for post in paginator.posts %}
     <div class="col-md-6 col-lg-4 mb-4 d-flex">
         <div class="card">
             <a href="{{ site.baseurl }}{{ post.url }}">
@@ -25,3 +24,4 @@ layout: homepage
     </div>
 {% endfor %}
 
+{% include paginator.html %}

@@ -503,13 +503,8 @@ a:visited {
     font-size: 14px;
   }
   #share-box a {
-    width: 20%;
-    display: block;
-    font-size: 14px;
-    color: #353131;
-    transition: opacity 0.15s linear;
-    float: left;
-}
+    font-size: 18px;
+  }
 }
 
 figure.highlight {

@@ -328,7 +328,7 @@ a:link,
 a:visited {
   text-decoration: none;
   transition: all .3s;
-  color: #f09;
+  color: #00bcd4;
 }
 
 /** pagination **/
@@ -343,7 +343,6 @@ a:visited {
 .pagination:before {
     content: '';
     display: inline-block;
-    height: 100%;
     vertical-align: middle;
 }
 
@@ -360,21 +359,22 @@ a:visited {
     float: right;
 }
 
-.pagination .button {
-    margin: 0;
-    display: inline-block;
-}
-
-.button {
-    border-radius: 0.3em;
-    border: 1px solid;
-    display: inline-block;
-    margin: 1em 0;
-    padding: 0.5em 0.75em;
-}
-
 .previous p, .next p {
   margin: 0;
+}
+
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a:hover {
+  background-color: #f1f1f1;
+  color: #f09;
 }
 
 /** Share **/
@@ -446,7 +446,7 @@ a:visited {
 }
 
 .realted-li h3{
-  font-size: 16px;
+  font-size: 14px;
 }
 .related-posts li:hover, .related-posts h3:hover {
   color: #f09;
@@ -500,7 +500,7 @@ a:visited {
 
 @media (max-width: 767px) {
   #breadcrumbs {
-    font-size: 12px;
+    font-size: 14px;
   }
   #share-box a {
     width: 20%;

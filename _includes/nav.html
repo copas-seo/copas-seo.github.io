@@ -8,11 +8,9 @@
         </button>
         <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
             <div class='navbar-nav ml-auto'>
-                <a class='nav-item nav-link' href='/'>Home</a>
-                <a class='nav-item nav-link' href='about.html'>About</a>
-                <a class='nav-item nav-link' href='/adsense.html'>Adsense</a>
-                <a class='nav-item nav-link' href='/blog.html'>Blogging</a>
-                <a class='nav-item nav-link' href='/template.html'>Template</a>
+                {% for item in site.data.menus %}
+                <a class='nav-item nav-link' href='{{item.link}}'>{{item.title}}</a>
+                {% endfor %}
             </div>
         </div>
     </div>

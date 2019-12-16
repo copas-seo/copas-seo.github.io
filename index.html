@@ -11,9 +11,9 @@ layout: homepage
                         <i class="fa fa-tags"></i>
                         {{ post.category }}
                     </span>
-                    <span class="times">
+                    <span class="times pull-right">
                         <i aria-hidden="true" class="fa fa-clock-o"></i>
-                        {{ post.date | date: "%B %e, %Y" }}
+                        {{ post.date | date: "%b %e, %Y" }}
                     </span>
                     <h1 class="post-header-index">
                         {{ post.title }}
@@ -24,4 +24,3 @@ layout: homepage
     </div>
 {% endfor %}
 
-{% include paginator.html %}

@@ -28,8 +28,9 @@
             <div class="row" style="height: auto !important;">
                 {{ content }}
             </div>
+            {% include paginator.html %}
         </div>
-
+        
         {% include footer.html %}
 
         {% include lazyload.html %}

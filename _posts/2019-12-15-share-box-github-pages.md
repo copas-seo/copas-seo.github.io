@@ -13,7 +13,7 @@ summary:
 ---
 **Cara Memasang Menu Share Box pada Postingan Blog Github Pages -** Pasti kalian sering melihat menu share box media sosial yang terpasang di setiap blog atau website, dan biasanya terletak di samping dan di atas, namun yang paling sering kita lihat dan paling banyak di pasang tepat di akhir postingan sebuah artikel.
 
-menu share box ini bertujuan agar setiap postingan artikel kita bisa di share ke media sosial seperti Facebook, twitter, reddit, linkedin, pinterest, whatsapp, instagram, email dll.
+[menu share box](share-box-github-pages) ini bertujuan agar setiap postingan artikel kita bisa di share ke media sosial seperti Facebook, twitter, reddit, linkedin, pinterest, whatsapp, instagram, email dll.
 
 Share box juga salah satu solusi terbaik meningkatkan traffic blog / web, Apabila setiap artikel yang kita tulis bermanfaat kepada setiap pengunjung blog, dan bisa di katakan lebih SEO, sebab setiap pengunjung yang merasa puas dengan konten artikel yang dia baca dan berguna, saya yakin mereka akan men-share postingan kita dengan menu share box yang telah di sediakan di akhir postingan.
 
@@ -23,9 +23,7 @@ Di kesempatan kali ini saya ingin berbagi tutorial cara membuat menu share yang 
 <center>Contoh</center>
 ![share-box-github](/images/share-box-github.png)
 
-1. Buka<code>
-    github.com</code>
-dan login
+1. Buka [github.com](github.com) dan login
 2. Copy file di bawah ini ke directory **_config.yml** dan save
 <br><br>
 <figure class="highlight">
@@ -185,4 +183,6 @@ Kemudian save dan lihat hasilnya.
 
 Jika anda masih bingung silahkan tinggalkan komentar di bawah ini atau bisa melalui contact us, secepatnya saya akan merespon.
 
-Nah itulah sedikit tutorial dari saya mengenai cara membuat share box media soasial di github pages cukup sekian dan terima kasih sudah berkunjung, Wassalam. 
+Nah itulah sedikit tutorial dari saya mengenai [cara membuat share box media soasial di github pages](share-box-github-pages) cukup sekian dan terima kasih sudah berkunjung, Wassalam. 
+
+[SUMBER](https://jekyllcodex.org/without-plugin/share-buttons/)

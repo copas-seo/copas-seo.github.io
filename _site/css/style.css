@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 /**
 * Eric Meyer&#39;s Reset CSS v2.0 http://meyerweb.com/eric/tools/css/reset/
 * http://cssreset.com
@@ -219,7 +219,8 @@ h6 {
   padding-bottom: .3em;
 }
 
-* Navbar */ .navbar-brand {
+/* Navbar */
+.navbar-brand {
   font-family: 'Roboto Slab', serif;
   font-size: 36px;
 }
@@ -236,10 +237,8 @@ h6 {
   margin-left: auto;
 }
 
-/* Navbar */
-.navbar-brand {
-  font-family: "prompt";
-  font-size: 36px;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
 }
 
 /* posts */
@@ -257,7 +256,7 @@ h6 {
 }
 
 .card-body span {
-  color: #00bcd4;
+  color: #cf7c00;
 }
 
 .card-body h1{
@@ -266,7 +265,7 @@ h6 {
 }
 
 .card-body h1:hover {
-  color: #f09;
+  color: #cf7c00;
 }
 
 .post-header-index {
@@ -374,7 +373,7 @@ a:visited {
 
 .pagination a:hover {
   background-color: #f1f1f1;
-  color: #f09;
+  color: #cf7c00;
 }
 
 /** Share **/
@@ -432,13 +431,14 @@ a:visited {
 }
 
 #share-box a:hover {
-  color: #f09
+  color: #cf7c00;
 }
 
 /* Related */
 .related {
   border: 1px dashed;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .related-posts a {
@@ -449,7 +449,7 @@ a:visited {
   font-size: 14px;
 }
 .related-posts li:hover, .related-posts h3:hover {
-  color: #f09;
+  color: #cf7c00;
 }
 
 /* Footer */
@@ -490,7 +490,7 @@ a:visited {
   .nav-link:hover::after {
     content: '';
     display: block;
-    border-bottom: 3px solid #0B63DC;
+    border-bottom: 3px solid #cf7c00;
     width: 50%;
     margin: auto;
     padding-bottom: 5px;

@@ -56,8 +56,6 @@ Kini Anda telah [menambahkan custom domain](custom-domain-github-pages) di penga
 [SUMBER RECORD IP GITHUB](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 ### Setting CNAME Github di rumahweb
 
-{% include baca.html %}
-
 _1._ Tambahkan Record CNAME.
 <br>
 <figure class="highlight">

@@ -1,3 +1,61 @@
+adsense:
+  - title: Cara mengatur situs subdomain untuk di monetisasi google adsense
+    link: mengatur-situs-subdomain-di-google-adsense
+    images: /images/Google_AdSense.jpg
+    date: 2019-12-07 13:52
+    category: Adsense
+
+  - title: Resiko dan Akibat Mengganti domain.com Iklan adsense tidak tampil
+    link: mengganti-domain-com-Iklan-adsense-tidak-tampil
+    images: /images/Google_AdSense.jpg
+    date: 2019-12-03 23:19
+    category: Adsense
+
+
+blog:
+  - title: Cara Memasang Menu Share Box pada Postingan Blog Github Pages
+    link: /share-box-github-pages
+    images: /images/share-box-github-pages.png
+    date: 2019-12-15 17:24
+    category: Blog
+
+  - title: Cara Membuat Breadcrumbs Github Pages
+    link: /breadcumbs-github-pages
+    images: /images/Breadcrumbs-Github-Pages.png
+    date: 2019-12-14 19:20
+    category: Blog
+
+  - title: Cara Setting Custom Domain Github Pages di rumahweb
+    link: /custom-domain-github-pages
+    images: /images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
+    date: 2019-12-13 08:00
+    category: Blog
+
+  - title: Membuat Blog Github Pages Kurang dari 5 Menit
+    link: /membuat-blog-github-kurang-dari-5-menit
+    images: /images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
+    date: 2019-12-12 18:42
+    category: Blog
+
+  - title: Cara Cloning Perambah Google Chrome di komputer atau Laptop
+    link: /cloning-google-chrome
+    images: https://1.bp.blogspot.com/-soooFaVfbBM/Xe_IDJmgVAI/AAAAAAAAAQQ/DhrL_LZPeXIStKaW7pmT2EQXL0o3PMN4gCLcBGAsYHQ/s1600/Cara%2BCloning%2BBrowser%2BGoogle%2BChrome%2BPc%2B-%2BArazseo.png
+    date: 2019-12-11 0:12
+    category: Blog
+
+  - title: Cara Membuat Kotak search Box di blog github
+    link: /menu-search-blog-github
+    images: /images/search-copas-seo.svg
+    date: 2019-12-10 14:54
+    category: Blog
+
+  - title: Cara Membuat Sitemap untuk Blog Github Page
+    link: /cara-membuat-sitemap-blog-github
+    images: /images/sitemap_github_page.jpg
+    date: 2019-12-04 00:38
+    category: Blog
+
+
 
 
 template:

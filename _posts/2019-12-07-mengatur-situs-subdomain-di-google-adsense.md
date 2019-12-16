@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara mengatur situs subdomain untuk di monetisasi google adsense
-permalink: /mengatur-situs-subdomain-di-google-adsense
+permalink: mengatur-situs-subdomain-di-google-adsense
 description: Berikut ini adalah Tutorial menambahkan dan mengatur situs subdomain blog di google Adsense agar dapat di monetisasi cara-nya sangat mudah dan simple dan....
 date: 2019-12-07 13:52
 category: Adsense

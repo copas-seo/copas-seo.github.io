@@ -256,13 +256,13 @@ h6 {
     padding: 0.5rem 1.25rem 0.5rem 1.25rem;
 }
 
-.card span {
-    color: #333;
+.card-body span {
+  color: #00bcd4;
 }
 
 .card-body h1{
   color: #555;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .card-body h1:hover {

@@ -14,7 +14,7 @@ layout: homepage
                 </span>
                 <span class="times pull-right">
                     <i aria-hidden="true" class="fa fa-clock-o"></i>
-                    {{ page.date | date: "%B %e, %Y" }}
+                    {{ page.date | date: "%b %e, %Y" }}
                 </span>
                 <div class="clearfix"></div>
             </div>
@@ -22,7 +22,7 @@ layout: homepage
         <div class="post-image" style="margin-bottom: 10px;">
             <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{ page.alt }}" data-src="{{ page.images }}">
         </div>
-        <div class="post-content my-5">
+        <div class="post-content">
             {{ content }}
         </div>
     </div>

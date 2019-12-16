@@ -420,15 +420,15 @@ a:visited {
 #share-box {
     width: 100%;
     text-align: center;
+    display: flex;
 }
 
 #share-box a {
-    width: 20%;
+    width: 25%;
     display: block;
     font-size: 24px;
     color: #353131;
     transition: opacity 0.15s linear;
-    float: left;
 }
 
 #share-box a:hover {
@@ -503,13 +503,8 @@ a:visited {
     font-size: 14px;
   }
   #share-box a {
-    width: 20%;
-    display: block;
-    font-size: 18px;
-    color: #353131;
-    transition: opacity 0.15s linear;
-    float: left;
-}
+    font-size: 16px;
+  }
 }
 
 figure.highlight {

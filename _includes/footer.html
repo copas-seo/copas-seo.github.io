@@ -7,9 +7,9 @@
             <div class="col-lg-5">
                 <div class="p-3" style="float: right;">
                     <ul>
-                        <li><a href="/privacy-policy.html">Privacy</a></li>
-                        <li><a href="/disclaimer.html">Disclaimer</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
+                        {% for item in site.data.menus.menu-footer %}
+                        <li><a href="{{item.link}}">{{item.title}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

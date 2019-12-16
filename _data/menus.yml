@@ -1,15 +1,25 @@
-- title: Home
-  link: /
+menu:
+  - title: Home
+    link: /
 
-- title: About
-  link: /about
+  - title: About
+    link: /about
 
-- title: Adsense
-  link: /adsense
+  - title: Adsense
+    link: /adsense
 
-- title: Blog
-  link: /blog
+  - title: Blog
+    link: /blog
 
-- title: Template
-  link: /template
+  - title: Template
+    link: /template
 
+menu-footer:
+  - title: Privacy
+    link: /privacy-policy.html
+
+  - title: Disclaimer
+    link: /disclaimer.html
+
+  - title: Contact
+    link: /contact.html

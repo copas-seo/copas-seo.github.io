@@ -1,23 +1,25 @@
 ---
 layout: homepage
 ---
+{% for item in site.data.labels.template %}
 <div class="col-md-6 col-lg-4 mb-4 d-flex">
     <div class="card">
-        <a href="/starter-template-bootstrap-vesri-4-4-1">
-            <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="template-bootstrap-vesri-4-4-1" data-src="/images/bootstrap-versi-4.4.1.png">
+        <a href="{{item.link}}">
+            <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{item.title}}" data-src="{{item.images}}">
             <div class="card-body">
                 <span class="category" style="padding-right: 15px;">
                     <i class="fa fa-tags"></i>
-                    Template
+                    {{item.category}}
                 </span>
-                <span class="times">
+                <span class="times pull-right">
                     <i aria-hidden="true" class="fa fa-clock-o"></i>
-                    December  5, 2019
+                    {{item.date | date: "%b %e, %Y"}}
                 </span>
                 <h1 class="post-header-index">
-                    Kerangka Starter Template Bootstrap Version 4.4.1
+                    {{item.title}}
                 </h1>
             </div>
         </a>
     </div>
 </div>
+{% endfor %}

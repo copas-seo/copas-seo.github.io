@@ -1,24 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        {% include meta.html %}
-
-        {% feed_meta %}
-
-        {% seo %}
-
-        <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
-
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="/css/style.css" rel="stylesheet" type="text/css"/>
-        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"/>
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
-    </head>
+    {% include head.html %}
 
     <body>
 
@@ -33,13 +16,7 @@
         
         {% include footer.html %}
 
-        {% include lazyload.html %}
-
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-        {% include analytics.html %}
+        {% include script.html %}
 
     </body>
 

@@ -25,17 +25,20 @@ _1_. Buka [blogspot](https://www.blogger.com/) atau [github](https://www.github.
 _2_. Copy file Scroll Up dan Scroll Down di bawah ini dan simpan di bawah footer HTML lalu save.
 <br>
 <figure class="highlight">
-    <span class="code-pil">
-    <i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
-    HTML</span>
-    {% highlight html %}
-    <a class="scroll up" href="#">
-    <i aria-hidden="true" class="fa fa-arrow-up"></i>
-    </a>
-    <a class="scroll down" href="#finish">
-    <i aria-hidden="true" class="fa fa-arrow-down"></i>
-    </a>
-    {% endhighlight %}
+<span class="code-pil">
+<i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
+HTML</span>
+{% highlight html %}
+<a class="scroll up" href="#">
+<i aria-hidden="true" class="fa fa-arrow-up"></i>
+</a>
+<a class="scroll home" href="/">
+<i aria-hidden="true" class="fa fa-home"></i>
+</a>
+<a class="scroll down" href="#finish">
+<i aria-hidden="true" class="fa fa-arrow-down"></i>
+</a>
+{% endhighlight %}
 </figure>
 
 _3_. Copy file CSS di bawah ini dan simpan di dalam file css Anda Dan save.
@@ -43,8 +46,8 @@ _3_. Copy file CSS di bawah ini dan simpan di dalam file css Anda Dan save.
 
 <figure class="highlight">
 <span class="code-pil">
-    <i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
-    CSS</span>
+<i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
+CSS</span>
 {% highlight html %}
 /* Scroll */
 html {
@@ -75,8 +78,12 @@ a.scroll {
     background: #44e839;
 }
 
+.scroll.home {
+    background: #1a202c;
+}
+
 .scroll.down {
-    top: calc(50% - 0px);
+    top: calc(50% - -30px);
     background: #f53d68;
 }
 {% endhighlight %}
@@ -87,4 +94,3 @@ _4_. Setelah semua di lakukan dengan baik silahkan buka blog Anda dan lihat hasi
 Doneee kini Anda telah sukses menambahkan tombol to top dan to bottom di blog, jika Anda masih kurang paham silakan tinggalkan komentarnya, Saya akan secepatnya merespon.
 
 Nah itulah sedikit Tutorial dari Saya mengenai Cara membuat dan menambahkan [Scroll Up dan Scroll Down Blog](scroll-up-dan-scroll-down-blog) Terima Kasih sudah berkunjung dan Wassalam.
-

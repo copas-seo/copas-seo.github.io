@@ -260,7 +260,7 @@ h6 {
 }
 
 .card-body span {
-  color: #cf7c00;
+  color: #372be2;
 }
 
 .card-body h1{
@@ -269,7 +269,7 @@ h6 {
 }
 
 .card-body h1:hover {
-  color: #cf7c00;
+  color: #372be2;
 }
 
 .post-header-index {
@@ -331,7 +331,7 @@ a:link,
 a:visited {
   text-decoration: none;
   transition: all .3s;
-  color: #00bcd4;
+  color: #372be2;
 }
 
 /** pagination **/
@@ -377,7 +377,7 @@ a:visited {
 
 .pagination a:hover {
   background-color: #f1f1f1;
-  color: #cf7c00;
+  color: #372be2;
 }
 
 /** Share **/
@@ -435,7 +435,7 @@ a:visited {
 }
 
 #share-box a:hover {
-  color: #cf7c00;
+  color: #372be2;
 }
 
 /* Related */
@@ -453,7 +453,7 @@ a:visited {
   font-size: 14px;
 }
 .related-posts li:hover, .related-posts h3:hover {
-  color: #cf7c00;
+  color: #372be2;
 }
 
 /* Footer */
@@ -502,10 +502,15 @@ a.scroll {
   background: #44e839;
 }
 
+.scroll.home {
+  background: #1a202c;
+}
+
 .scroll.down {
-  top: calc(50% - 0px);
+  top: calc(50% - -30px);
   background: #f53d68;
 }
+
 
 /*MODE DEKSTOP RESPONSIVE */
 @media (min-width: 992px) {
@@ -524,7 +529,7 @@ a.scroll {
   .nav-link:hover::after {
     content: '';
     display: block;
-    border-bottom: 3px solid #cf7c00;
+    border-bottom: 3px solid #372be2;
     width: 50%;
     margin: auto;
     padding-bottom: 5px;

@@ -260,7 +260,7 @@ h6 {
 }
 
 .card-body span {
-  color: #372be2;
+  color: #32325d;
 }
 
 .card-body h1{
@@ -269,7 +269,7 @@ h6 {
 }
 
 .card-body h1:hover {
-  color: #372be2;
+  color: #007bfe;
 }
 
 .post-header-index {
@@ -331,7 +331,7 @@ a:link,
 a:visited {
   text-decoration: none;
   transition: all .3s;
-  color: #372be2;
+  color: #007bfe;
 }
 
 /** pagination **/
@@ -377,7 +377,7 @@ a:visited {
 
 .pagination a:hover {
   background-color: #f1f1f1;
-  color: #372be2;
+  color: #007bfe;
 }
 
 /** Share **/
@@ -435,7 +435,7 @@ a:visited {
 }
 
 #share-box a:hover {
-  color: #372be2;
+  color: #007bfe;
 }
 
 /* Related */
@@ -453,7 +453,7 @@ a:visited {
   font-size: 14px;
 }
 .related-posts li:hover, .related-posts h3:hover {
-  color: #372be2;
+  color: #007bfe;
 }
 
 /* Footer */
@@ -529,7 +529,7 @@ a.scroll {
   .nav-link:hover::after {
     content: '';
     display: block;
-    border-bottom: 3px solid #372be2;
+    border-bottom: 3px solid #007bfe;
     width: 50%;
     margin: auto;
     padding-bottom: 5px;

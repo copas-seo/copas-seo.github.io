@@ -29,49 +29,38 @@
                             </li>
                         </a>
                     </ul>
-                    <style type="text/css">
-                        .sidebar-wrapper .list-labels ul {
-                            margin: 0;
-                            padding: 0;
-                            list-style-type: none;
-                        }
-
-                        .sidebar-wrapper .list-labels ul li {
-                            padding: 8px;
-                            color: #333;
-                            font-weight: normal;
-                        }
-
-                        .sidebar-wrapper .list-labels ul li:hover {
-                            background-color: #f9f9f9;
-                        }
-                    </style>
                     <div class="clear"></div>
                 </div>
             </div>
 
             <div class="widget Labels2" data-version="1" id="categories2">
-                <h2><i class="fa fa-fire"></i>Adsense</h2>
+                <h2>
+                    <i class="fa fa-fire"></i>Adsense</h2>
                 <div class="widget-content">
                     <ul class="Adsense">
                         {% for item in site.data.labels.adsense %}
-                        <a href="{{item.link}}">
-                            <li><i class="fa fa-book"></i>{{item.title}}</li>
-                        </a>
+                            <a href="{{item.link}}">
+                                <li>
+                                    <i class="fa fa-book"></i>
+                                    {{item.title}}</li>
+                            </a>
                         {% endfor %}
                     </ul>
                 </div>
                 <div class="clear"></div>
             </div>
-            
+
             <div class="widget Labels2" data-version="1" id="categories2">
-                <h2><i class="fa fa-fire"></i>Blogging</h2>
+                <h2>
+                    <i class="fa fa-fire"></i>Blogging</h2>
                 <div class="widget-content">
                     <ul class="Blogging">
                         {% for item in site.data.labels.blog %}
-                        <a href="{{item.link}}">
-                            <li><i class="fa fa-book"></i>{{item.title}}</li>
-                        </a>
+                            <a href="{{item.link}}">
+                                <li>
+                                    <i class="fa fa-book"></i>
+                                    {{item.title}}</li>
+                            </a>
                         {% endfor %}
                     </ul>
                 </div>
@@ -79,13 +68,16 @@
             </div>
 
             <div class="widget Labels3" data-version="1" id="categories3">
-                <h2><i class="fa fa-fire"></i>Template</h2>
+                <h2>
+                    <i class="fa fa-fire"></i>Template</h2>
                 <div class="widget-content">
                     <ul class="Template">
                         {% for item in site.data.labels.template %}
-                        <a href="{{item.link}}">
-                            <li><i class="fa fa-book"></i>{{item.title}}</li>
-                        </a>
+                            <a href="{{item.link}}">
+                                <li>
+                                    <i class="fa fa-book"></i>
+                                    {{item.title}}</li>
+                            </a>
                         {% endfor %}
                     </ul>
                 </div>

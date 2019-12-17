@@ -18,7 +18,7 @@ Menu scroll up ini juga sangat di perlukan oleh setiap pengunjung, sebab di saat
 [Scroll Up dan Scroll Down](scroll-up-dan-scroll-down-blog) memang banyak sekali model yang kita temui di blog!!! namun di kesempatan ini saya memberikan tampilan yang berbeda dan pastinya responsive yang letaknya di sebalah kanan dengan posisi fixed, sangat berbeda dengan yang lainnya dan dan di sini saya tdaik menggunakan jquery atau javascript.
 
 Ikuti langkah ini untuk memasang di blog atau di github pages Anda:
-## Membuat HTML dan Css Tombol Scroll Up dan Tombol Scroll Down
+## HTML dan Css tombol scroll to top tanpa jquery
 
 _1_. Buka [blogspot](https://www.blogger.com/) atau [github](https://www.github.com/) pages dan login.
 
@@ -40,7 +40,7 @@ HTML</span>
 </a>
 {% endhighlight %}
 </figure>
-
+{% include baca.html %}
 _3_. Copy file CSS di bawah ini dan simpan di dalam file css Anda Dan save.
 <br><br>
 

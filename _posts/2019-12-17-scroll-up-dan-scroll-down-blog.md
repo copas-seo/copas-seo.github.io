@@ -11,7 +11,7 @@ alt: Scroll-up-Scroll-down
 tags: []
 summary: 
 ---
-Di Artikel kali ini saya akan berbagi cara membuat Tombol Scroll Up dan Tombol Scroll Down di Blog github pages namun ini bisa juga kita di pasang di blog lainnya' dan biasanya di blogspot biasa di namakan back to top.
+Di Artikel kali ini saya akan berbagi cara membuat HTML dan Css Tombol Scroll Up dan Tombol Scroll Down di Blog github pages namun ini bisa juga kita di pasang di blog lainnya' dan biasanya di blogspot biasa di namakan back to top.
 
 Menu scroll up ini juga sangat di perlukan oleh setiap pengunjung, sebab di saat mereka sedang membaca sebuah postingan yang kita tulis sampai pada akhir artikel, bila ingin kembali ke atas tidak perlu lagi menggunakan mouse untuk sroll up dan sroll down, mereka hanya tinggal klik Menu scroll yang telah kita buat.
 

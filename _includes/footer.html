@@ -1,3 +1,4 @@
+<div id="finish"></div>
 <div class="footer">
     <div class="container">
         <div class="row mx-md-n5 justify-content-center">
@@ -8,7 +9,9 @@
                 <div class="p-3" style="float: right;">
                     <ul>
                         {% for item in site.data.menus.menu-footer %}
-                        <li><a href="{{item.link}}">{{item.title}}</a></li>
+                            <li>
+                                <a href="{{item.link}}">{{item.title}}</a>
+                            </li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -16,3 +19,7 @@
         </div>
     </div>
 </div>
+
+
+<a class="scroll up" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+<a class="scroll down" href="#finish"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>

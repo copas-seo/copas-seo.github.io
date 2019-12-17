@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import "font.css";
 /**
 * Eric Meyer&#39;s Reset CSS v2.0 http://meyerweb.com/eric/tools/css/reset/
 * http://cssreset.com
@@ -162,6 +162,10 @@ a.home-link,
 .post-body .separator>a,
 .post-body .separator>span {
   margin-left: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -471,6 +475,36 @@ a:visited {
   color: #fff;
   text-align: center;
   margin: 10px;
+}
+
+/* Scroll */
+.scroll {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: #000;
+  text-align: center;
+  line-height: 30px;
+  z-index: 10000;
+}
+
+a.scroll {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.scroll.up {
+  top: calc(50% - 30px);
+  background: #44e839;
+}
+
+.scroll.down {
+  top: calc(50% - 0px);
+  background: #f53d68;
 }
 
 /*MODE DEKSTOP RESPONSIVE */

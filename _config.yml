@@ -7,8 +7,10 @@ url: https://copas-seo.my.id
 
 # Build setting
 markdown: kramdown
+destination: ./_site
+permalink: /:title
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: /page:num/
 
 input_types:
   - text

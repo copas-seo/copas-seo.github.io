@@ -545,7 +545,6 @@ figure.highlight {
   background: #111;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
   padding: 1.5rem 1rem;
   position: relative;
 }

@@ -47,54 +47,45 @@
             <div class="clear"></div>
         </div>
     </div>
-    <div class="widget PopularPosts" data-version="1" id="PopularPosts1">
-        <h2>
-            <i class="fa fa-fire"></i>
-            Popular Posts</h2>
+
+    <div class="widget Labels2" data-version="1" id="categories2">
+        <h2><i class="fa fa-fire"></i>Adsense</h2>
         <div class="widget-content">
-            <ul class="popular-posts">
-                <a href="/starter-template-bootstrap-vesri-4-4-1.html">
-                    <li>
-                        <i class="fa fa-book"></i>Kerangka Starter Template Bootstrap Version 4.4.1</li>
+            <ul class="Adsense">
+                {% for item in site.data.labels.adsense %}
+                <a href="{{item.link}}">
+                    <li><i class="fa fa-book"></i>{{item.title}}</li>
                 </a>
-                <a href="/mengganti-domain-com-Iklan-adsense-tidak-tampil.html">
-                    <li>
-                        <i class="fa fa-book"></i>Resiko dan Akibat Mengganti domain.com Iklan adsense tidak tampil</li>
-                </a>
-                <a href="/cara-membuat-sitemap-blog-github.html">
-                    <li>
-                        <i class="fa fa-book"></i>Cara Membuat Sitemap untuk Blog Github Page</li>
-                </a>
-                <a href="/mengatur-situs-subdomain-di-google-adsense.html">
-                    <li>
-                        <i class="fa fa-book"></i>Cara mengatur situs subdomain untuk di monetisasi google adsense</li>
-                </a>
-                <a href="/menu-search-blog-github.html">
-                    <li>
-                        <i class="fa fa-book"></i>Cara Membuat menu search di blog github</li>
-                </a>
-                <a href="/cloning-google-chrome.html">
-                    <li>
-                        <i class="fa fa-book"></i>Cara Cloning Perambah Google Chrome di komputer atau Laptop</li>
-                </a>
+                {% endfor %}
             </ul>
-            <style type="text/css">
-                .popular-posts {
-                    margin: 0;
-                    padding: 0;
-                    list-style-type: none;
-                }
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="widget Labels2" data-version="1" id="categories2">
+        <h2><i class="fa fa-fire"></i>Blogging</h2>
+        <div class="widget-content">
+            <ul class="Blogging">
+                {% for item in site.data.labels.blog %}
+                <a href="{{item.link}}">
+                    <li><i class="fa fa-book"></i>{{item.title}}</li>
+                </a>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
 
-                .popular-posts li {
-                    padding: 8px !important;
-                    color: #666;
-                    font-weight: normal;
-                }
-
-                .popular-posts li:hover {
-                    background-color: #f9f9f9;
-                }
-            </style>
+    <div class="widget Labels3" data-version="1" id="categories3">
+        <h2><i class="fa fa-fire"></i>Template</h2>
+        <div class="widget-content">
+            <ul class="Template">
+                {% for item in site.data.labels.template %}
+                <a href="{{item.link}}">
+                    <li><i class="fa fa-book"></i>{{item.title}}</li>
+                </a>
+                {% endfor %}
+            </ul>
         </div>
         <div class="clear"></div>
     </div>

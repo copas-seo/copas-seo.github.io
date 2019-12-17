@@ -13,6 +13,12 @@ adsense:
 
 
 blog:
+  - title: Scroll Up dan Scroll Down Blog
+    link: /scroll-up-dan-scroll-down-blog
+    images: /images/Scroll-up-Scroll-down.png
+    date: 2019-12-17 14:47
+    category: Blog
+
   - title: Cara Memasang Menu Share Box pada Postingan Blog Github Pages
     link: /share-box-github-pages
     images: /images/share-box-github-pages.png

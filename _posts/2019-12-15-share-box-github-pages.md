@@ -23,9 +23,10 @@ Di kesempatan kali ini saya ingin berbagi tutorial cara membuat menu share yang 
 <center>Contoh</center>
 ![share-box-github](/images/share-box-github.png)
 
+
 1. Buka [github.com](github.com) dan login
 
-2.Copy file HTML di bawah ini ke directory _includes dan save dengan format share-box.html
+2. Copy file HTML di bawah ini ke directory _includes dan save dengan format share-box.html
 <br><br>
 
 <figure class="highlight">

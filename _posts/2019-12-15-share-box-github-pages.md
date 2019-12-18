@@ -10,7 +10,6 @@ images: /images/share-box-github-pages.png
 alt: share-box-github-pages
 tags: []
 summary: 
-publish: false
 ---
 **Cara Memasang Menu Share Box pada Postingan Blog Github Pages -** Pasti kalian sering melihat menu share box media sosial yang terpasang di setiap blog atau website, dan biasanya terletak di samping dan di atas, namun yang paling sering kita lihat dan paling banyak di pasang tepat di akhir postingan sebuah artikel.
 
@@ -25,23 +24,8 @@ Di kesempatan kali ini saya ingin berbagi tutorial cara membuat menu share yang 
 ![share-box-github](/images/share-box-github.png)
 
 1. Buka [github.com](github.com) dan login
-2. Copy file di bawah ini ke directory **_config.yml** dan save
-<br><br>
-<figure class="highlight">
-<span class="code-pil">
-<i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
-YML</span>
-{% highlight html %}
-# PAGINATION
-paginate: 6
-paginate_path: "/blog/page:num/"
 
-plugins:
-- jekyll-paginate
-{% endhighlight %}
-</figure>
-
-3.Copy lagi file HTML di bawah ini ke directory _includes dan save dengan format share-box.html
+2.Copy file HTML di bawah ini ke directory _includes dan save dengan format share-box.html
 <br><br>
 
 <figure class="highlight">
@@ -81,7 +65,7 @@ email</i>
 
 {% include baca.html %}
 
-4.Copy lagi file CSS di bawah ini ke directory style.css dan save
+3.Copy lagi file CSS di bawah ini ke directory style.css dan save
 <br><br>
 
 <figure class="highlight">
@@ -170,7 +154,7 @@ CSS</span>
 </span></pre>
 </figure>
 
-5.Copy lagi file di bawah ini ke post.html untuk memanggil file html share box
+4.Copy lagi file di bawah ini ke post.html untuk memanggil file html share box
 <br><br>
 
 <figure class="highlight">

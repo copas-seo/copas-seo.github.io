@@ -10,6 +10,7 @@ images: /images/share-box-github-pages.png
 alt: share-box-github-pages
 tags: []
 summary: 
+publish: false
 ---
 **Cara Memasang Menu Share Box pada Postingan Blog Github Pages -** Pasti kalian sering melihat menu share box media sosial yang terpasang di setiap blog atau website, dan biasanya terletak di samping dan di atas, namun yang paling sering kita lihat dan paling banyak di pasang tepat di akhir postingan sebuah artikel.
 

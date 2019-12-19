@@ -29,29 +29,31 @@ Pasti semua tahu ke utamaan menambahkan Sudomain di Google Adsense itu cukuplah 
 
 Berikut gambaran Domain Utama dan Subdomain yang akan di tambahkan ke Adsense :
 
-**1. Domain Utama** [https://copas-seo.github.io](https://copas-seo.github.io)
+1. Domain Utama [https://copas-seo.github.io](https://copas-seo.github.io)
 
-**2. Subdomain** [https://seo.copas-seo.github.io](mengatur-situs-subdomain-di-google-adsense.html)
+2. Subdomain [https://seo.copas-seo.github.io](mengatur-situs-subdomain-di-google-adsense.html)
 
-**3. Subdomain** blog.copas-seo.github.io
+3. Subdomain blog.copas-seo.github.io
 
 ## Berikut Cara Pengaturan situs Subdomain Di Google Adsense
 
-**1. Buka browser mozilla atau lainnya.**
+#### Menambahkan situs subdomain
 
-**2. Login ke akun AdSense.**
+1. Buka browser mozilla atau lainnya.
 
-**3. Klik Situs.**
+2. Login ke akun AdSense.
 
-**4. Klik panah Bawah di samping situs yang ingin Anda tambahi subdomain.**
+3. Klik Situs.
 
-**5. Klik Tampilkan detail.**
+4. Klik panah Bawah di samping situs yang ingin Anda tambahi subdomain.
 
-**6. Klik Tambahkan subdomain.**
+5. Klik Tampilkan detail.
 
-**7. Masukkan URL subdomain tempat Anda ingin menampilkan iklan.**
+6. Klik Tambahkan subdomain.
 
-**8. Klik Tambahkan. Subdomain Anda ditambahkan.**
+7. Masukkan URL subdomain tempat Anda ingin menampilkan iklan.
+
+8. Klik Tambahkan. Subdomain Anda ditambahkan.
 
 Anda kini telah berhasil [menambahkan situs Subdomain.](mengatur-situs-subdomain-di-google-adsense.html) Anda tinggal mengambil script yang telah di sediakan dan Jangan lupa untuk mengaktifkan ads.txt bisa anda lihat di [sini.](https://arazseo.blogspot.com/2019/10/cara-mengaktifkan-ads-txt-google-adsense.html)
 

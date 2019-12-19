@@ -282,6 +282,39 @@ font-size: 4em;
 margin: 1rem;
 }
 
+.social a {
+font-size: 4.5em;
+padding: 3rem;
+}
+
+.fa-facebook {
+color: #3b5958;
+}
+
+.fa-twitter {
+color: #00aced;
+}
+
+.fa-youtube {
+color: #bb0000;
+}
+
+.fa-insragram {
+color: #517fa4;
+}
+
+.fa-telegram {
+color: #00aced;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-insragram:hover,
+.fa-telegram:hover {
+color: d5d5d5;
+}
+
 /* posts */
 .post-outer {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;

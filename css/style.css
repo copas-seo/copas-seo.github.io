@@ -265,8 +265,8 @@ margin-top: .3rem;
 margin-bottom: 1rem;
 }
 
-.fa-code {
-color: #e54d26;
+.fa-html5 {
+color: #54f224;
 }
 
 .fa-bold {
@@ -277,7 +277,7 @@ color: #563d7c;
 color: #2163af;
 }
 
-.fa-code, .fa-bold, .fa-css3 {
+.fa-html5, .fa-bold, .fa-css3 {
 font-size: 4em;
 margin: 1rem;
 }

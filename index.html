@@ -1,7 +1,8 @@
 ---
 layout: homepage
 ---
-{% for post in paginator.posts %}
+{% include jumbotron.html %}
+{% include welcome.html %}
 <div class="container-fluid padding">
 
 <div class="row welcome text-center">
@@ -17,6 +18,7 @@ layout: homepage
 </div>
 
 </div>
+{% for post in paginator.posts %}
     <div class="col-md-6 col-lg-4 mb-4 d-flex">
         <div class="card">
             <a href="{{ site.baseurl }}{{ post.url }}">

@@ -225,24 +225,20 @@ h6 {
 
 /* Navbar */
 .navbar-brand {
-  font-family: 'Roboto Slab', serif;
-  font-size: 36px;
+font-family: 'Roboto Slab', serif;
+font-size: 2rem;
 }
 
 .navbar {
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  padding: 0 1rem .01rem;
-  margin-bottom: 20px;
+padding: .8rem;
 }
 
-.navbar-light .navbar-toggler {
-  margin-left: auto;
+.navbar-nav li {
+padding-right: 20px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+.nav-link {
+font-size: 1.1em !important;
 }
 
 /* posts */

@@ -1,96 +1,4 @@
 @import url("font.css");
-/**
-* Eric Meyer&#39;s Reset CSS v2.0 http://meyerweb.com/eric/tools/css/reset/
-* http://cssreset.com
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  /*font-size:100%;*/
-  font: inherit;
-  vertical-align: baseline;
-}
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -138,32 +46,8 @@ table {
   border-spacing: 0;
 }
 
-/* Blogger CSS Reset */
-.section,
-.widget {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
 
-.blog-feeds,
-.feed-links,
-#backlinks-container,
-a.home-link,
-.blog-mobile-link {
-  display: none;
-}
-
-.quickedit,
-.edit-post,
-.item-control {
-  display: none;
-}
-
-.post-body .separator>a,
-.post-body .separator>span {
-  margin-left: 0 !important;
-}
-
+/** My CSS **/
 html {
   scroll-behavior: smooth;
 }
@@ -230,19 +114,31 @@ h6 {
 }
 
 .navbar {
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  padding: 0 1rem .01rem;
-  margin-bottom: 20px;
+  padding: .4rem;
 }
 
-.navbar-light .navbar-toggler {
-  margin-left: auto;
+.navbar-nav li {
+  padding-right: 20px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-color: #563d7c;
+  text-align: center;
+  border-radius: 0;
+  height: 260px;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+}
+.jumbotron h1,
+.jumbotron h2 {
+  color: #fff;
 }
 
 /* posts */
@@ -279,6 +175,28 @@ h6 {
 .news-content li {
   margin-left: 30px;
   margin-bottom: 10px;
+}
+
+/* fa fa */
+.fa-code {
+color: #e54d26;
+}
+
+.fa-bold {
+color: #563d7c;
+}
+
+.fa-css3 {
+color: #2163af;
+}
+
+.fa-github {
+color: #19212b;
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-github {
+font-size: 4em;
+margin: 1rem;
 }
 
 #breadcrumbs {
@@ -456,25 +374,97 @@ a:visited {
   color: #007bfe;
 }
 
+/* padding */
+.padding {
+padding-bottom: 1rem;
+}
+
+/* social */
+.social a {
+font-size: 3.5em;
+padding: 3rem;
+}
+
+.fa-facebook {
+color: #3b5958;
+}
+
+.fa-twitter {
+color: #00aced;
+}
+
+.fa-youtube {
+color: #bb0000;
+}
+
+.fa-insragram {
+color: #517fa4;
+}
+
+.fa-telegram {
+color: #00aced;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-insragram:hover,
+.fa-telegram:hover {
+color: d5d5d5;
+}
+
+footer {
+background-color: #3f3f3f;
+color: #d5d5d5;
+padding-top: 2rem;
+}
+
+hr.light {
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: .8rem;
+margin-bottom: 1rem;
+}
+
 /* Footer */
-.footer {
-  background: #1a202c;
-  color: #fff;
-  margin-top: 20px;
+footer {
+  background-color: #08102b;
+  color: #d5d5d5;
+  padding-top: 2rem;
 }
 
-.footer ul {
-  display: flex;
+footer h5 {
+  color: #d5d5d5;
 }
 
-.footer li {
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer li {
   list-style: none;
+  color: #d5d5d5;
 }
 
-.footer a {
-  color: #fff;
-  text-align: center;
-  margin: 10px;
+footer a{
+color: #d5d5d5 !important;
+}
+
+footer a:hover {
+  color: #75787c !important;
 }
 
 /* Scroll */
@@ -511,12 +501,40 @@ a.scroll {
   background: #f53d68;
 }
 
-
 /*MODE DEKSTOP RESPONSIVE */
+@media (max-width: 992px) {
+.social a {
+font-size: 4em;
+padding: 2rem;
+}
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-brand,
   .nav-link {
-    color: #fff !important;
+    color: #08102b !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
 
@@ -529,7 +547,7 @@ a.scroll {
   .nav-link:hover::after {
     content: '';
     display: block;
-    border-bottom: 3px solid #007bfe;
+    border-bottom: 3px solid #32325d;
     width: 50%;
     margin: auto;
     padding-bottom: 5px;

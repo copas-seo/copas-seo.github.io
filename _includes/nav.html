@@ -1,17 +1,16 @@
-<nav class='navbar navbar-expand-lg navbar-dark' style="background: #1a202c;">
-    <!--Navbar-->
-    <div class='container'>
-        <a class='navbar-brand' href='/'>COPAS-SEO</a>
-        <button aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation'
-            class='navbar-toggler' data-target='#navbarNavAltMarkup' data-toggle='collapse' type='button'>
-            <span class='navbar-toggler-icon'>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand">COPAS SEO</a>
+        <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
-            <div class='navbar-nav ml-auto'>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
                 {% for item in site.data.menus.menu %}
-                <a class='nav-item nav-link' href='{{item.link}}'>{{item.title}}</a>
+                    <a class="nav-item nav-link" href='{{item.link}}'>{{item.title}}</a>
                 {% endfor %}
-            </div>
+            </ul>
         </div>
     </div>
 </nav>

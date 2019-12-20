@@ -9,7 +9,7 @@ url: https://copas-seo.my.id
 markdown: kramdown
 destination: ./_site
 permalink: /:title
-paginate: 6
+paginate: 3
 paginate_path: /page:num/
 
 input_types:

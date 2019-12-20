@@ -180,6 +180,19 @@ h6 {
 .col-md-3:hover {
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
 }
+/*--------welcome--------*/
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  }
+  
+  .welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+  }
 
 /* fa fa */
 .fa-html5 {
@@ -430,12 +443,10 @@ footer h5 {
 
 hr.light {
   border-top: 1px solid #d5d5d5;
+  width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem;
-}
-
-footer a {
-  color: #d5d5d5;
+  display: inline-block;
 }
 
 hr.light-100 {

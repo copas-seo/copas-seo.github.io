@@ -127,7 +127,7 @@ h6 {
 
 /* jumbotron */
 .jumbotron {
-  background-color: #563d7c;
+  background-color: #0f1b3f;
   text-align: center;
   border-radius: 0;
   height: 260px;
@@ -411,19 +411,6 @@ color: #00aced;
 .fa-insragram:hover,
 .fa-telegram:hover {
 color: d5d5d5;
-}
-
-footer {
-background-color: #3f3f3f;
-color: #d5d5d5;
-padding-top: 2rem;
-}
-
-hr.light {
-border-top: 1px solid #d5d5d5;
-width: 75%;
-margin-top: .8rem;
-margin-bottom: 1rem;
 }
 
 /* Footer */

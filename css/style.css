@@ -178,8 +178,8 @@ h6 {
 }
 
 /* fa fa */
-.fa-code {
-color: #e54d26;
+.fa-html5 {
+color: #4c6ef5;
 }
 
 .fa-bold {
@@ -194,7 +194,7 @@ color: #2163af;
 color: #19212b;
 }
 
-.fa-code, .fa-bold, .fa-css3, .fa-github {
+.fa-html5, .fa-bold, .fa-css3, .fa-github {
 font-size: 4em;
 margin: 1rem;
 }

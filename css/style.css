@@ -177,6 +177,10 @@ h6 {
   margin-bottom: 10px;
 }
 
+.col-md-3:hover {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
+}
+
 /* fa fa */
 .fa-html5 {
 color: #4c6ef5;

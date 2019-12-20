@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML dan Css Scroll Up dan Scroll Down Blog
+title: HTML dan Css Scroll Up dan Down Blog
 permalink: scroll-up-dan-scroll-down-blog
 description: Di Artikel kali ini saya akan berbagi cara membuat Tombol Scroll Up dan Tombol Scroll Down di Blog github pages namun ini bisa juga kita di pasang di blog lainnya
 date: 2019-12-17 14:47
@@ -25,68 +25,68 @@ _1_. Buka [blogspot](https://www.blogger.com/) atau [github](https://www.github.
 _2_. Copy file Scroll Up dan Scroll Down di bawah ini dan simpan di bawah footer HTML lalu save.
 <br>
 <figure class="highlight">
-<span class="code-pil">
-<i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
-HTML</span>
-{% highlight html %}
-<a class="scroll up" href="#">
-<i aria-hidden="true" class="fa fa-arrow-up"></i>
-</a>
-<a class="scroll home" href="/">
-<i aria-hidden="true" class="fa fa-home"></i>
-</a>
-<a class="scroll down" href="#finish">
-<i aria-hidden="true" class="fa fa-arrow-down"></i>
-</a>
-{% endhighlight %}
+    <span class="code-pil">
+        <i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
+        HTML</span>
+    {% highlight html %}
+    <a class="scroll up" href="#">
+        <i aria-hidden="true" class="fa fa-arrow-up"></i>
+    </a>
+    <a class="scroll home" href="/">
+        <i aria-hidden="true" class="fa fa-home"></i>
+    </a>
+    <a class="scroll down" href="#finish">
+        <i aria-hidden="true" class="fa fa-arrow-down"></i>
+    </a>
+    {% endhighlight %}
 </figure>
 {% include baca.html %}
 _3_. Copy file CSS di bawah ini dan simpan di dalam file css Anda Dan save.
 <br><br>
 
 <figure class="highlight">
-<span class="code-pil">
-<i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
-CSS</span>
-{% highlight html %}
-/* Scroll */
-html {
-    scroll-behavior: smooth;
-}
-
-.scroll {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    width: 30px;
-    height: 30px;
-    display: block;
-    background: #000;
-    text-align: center;
-    line-height: 30px;
-    z-index: 10000;
-}
-
-a.scroll {
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.scroll.up {
-    top: calc(50% - 30px);
-    background: #44e839;
-}
-
-.scroll.home {
-    background: #1a202c;
-}
-
-.scroll.down {
-    top: calc(50% - -30px);
-    background: #f53d68;
-}
-{% endhighlight %}
+    <span class="code-pil">
+        <i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
+        CSS</span>
+    {% highlight html %}
+    /* Scroll */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .scroll {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: #000;
+        text-align: center;
+        line-height: 30px;
+        z-index: 10000;
+    }
+    
+    a.scroll {
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    
+    .scroll.up {
+        top: calc(50% - 30px);
+        background: #44e839;
+    }
+    
+    .scroll.home {
+        background: #1a202c;
+    }
+    
+    .scroll.down {
+        top: calc(50% - -30px);
+        background: #f53d68;
+    }
+    {% endhighlight %}
 </figure>
 
 _4_. Setelah semua di lakukan dengan baik silahkan buka blog Anda dan lihat hasilnya, letaknya berada di sebelah kanan.

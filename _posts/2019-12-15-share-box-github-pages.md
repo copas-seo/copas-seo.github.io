@@ -24,23 +24,8 @@ Di kesempatan kali ini saya ingin berbagi tutorial cara membuat menu share yang 
 ![share-box-github](/images/share-box-github.png)
 
 1. Buka [github.com](github.com) dan login
-2. Copy file di bawah ini ke directory **_config.yml** dan save
-<br><br>
-<figure class="highlight">
-<span class="code-pil">
-<i aria-hidden="true" class="fa fa-code font-weight-bold"></i>
-YML</span>
-{% highlight html %}
-# PAGINATION
-paginate: 6
-paginate_path: "/blog/page:num/"
 
-plugins:
-- jekyll-paginate
-{% endhighlight %}
-</figure>
-
-3.Copy lagi file HTML di bawah ini ke directory _includes dan save dengan format share-box.html
+2. Copy file HTML di bawah ini ke directory _includes dan save dengan format share-box.html
 <br><br>
 
 <figure class="highlight">
@@ -80,7 +65,7 @@ email</i>
 
 {% include baca.html %}
 
-4.Copy lagi file CSS di bawah ini ke directory style.css dan save
+3.Copy lagi file CSS di bawah ini ke directory style.css dan save
 <br><br>
 
 <figure class="highlight">
@@ -169,7 +154,7 @@ CSS</span>
 </span></pre>
 </figure>
 
-5.Copy lagi file di bawah ini ke post.html untuk memanggil file html share box
+4.Copy lagi file di bawah ini ke post.html untuk memanggil file html share box
 <br><br>
 
 <figure class="highlight">

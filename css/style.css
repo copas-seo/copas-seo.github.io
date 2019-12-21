@@ -554,7 +554,7 @@ a.scroll {
   .navbar-brand,
   .nav-link {
     color: #08102b !important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-weight: 900;
   }
 
   .nav-link {

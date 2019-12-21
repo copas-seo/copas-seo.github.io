@@ -114,7 +114,7 @@ h6 {
 }
 
 .navbar {
-  padding: .2rem;
+  padding: .1rem;
 }
 
 .navbar-nav li {
@@ -211,7 +211,11 @@ color: #2163af;
 color: #19212b;
 }
 
-.fa-html5, .fa-bold, .fa-css3, .fa-github {
+.fa-magic {
+color: #d60100;
+}
+
+.fa-html5, .fa-bold, .fa-css3, .fa-github, .fa-magic {
 font-size: 4em;
 margin: 1rem;
 }

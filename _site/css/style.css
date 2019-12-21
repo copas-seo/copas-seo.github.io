@@ -177,7 +177,7 @@ h6 {
   margin-bottom: 10px;
 }
 
-.col-md-3:hover {
+.col-md-4:hover {
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
 }
 /*--------welcome--------*/
@@ -418,7 +418,7 @@ color: #00aced;
 color: #bb0000;
 }
 
-.fa-insragram {
+.fa-instagram {
 color: #517fa4;
 }
 
@@ -429,9 +429,9 @@ color: #00aced;
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-youtube:hover,
-.fa-insragram:hover,
+.fa-instagram:hover,
 .fa-telegram:hover {
-color: d5d5d5;
+color: #d5d5d5;
 }
 
 /* Footer */

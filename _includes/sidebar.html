@@ -10,17 +10,25 @@
                     <i class="fa fa-tags"></i>
                     Labels
                 </h2>
-                <a class="list-group-item" href="/adsense.html">
-                    <i class="fa fa-tags"></i>
-                    Adsense</a>
-                <a class="list-group-item" href="/blog.html">
-                    <i class="fa fa-tags"></i>
-                    Blogger
-                </a>
-                <a class="list-group-item" href="/template.html">
-                    <i class="fa fa-tags"></i>
-                    Template
-                </a>
+                <ul>
+                    <li>
+                        <a class="list-group-item" href="/adsense.html">
+                            <i class="fa fa-tags"></i>
+                            Adsense</a>
+                    </li>
+                    <li>
+                        <a class="list-group-item" href="/blog.html">
+                            <i class="fa fa-tags"></i>
+                            Blogger
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item" href="/template.html">
+                            <i class="fa fa-tags"></i>
+                            Template
+                        </a>
+                    </li>
+                </ul>
                 <div class="clear"></div>
             </div>
 
@@ -29,11 +37,15 @@
                     <i class="fa fa-fire"></i>
                     Adsense
                 </h2>
-                {% for item in site.data.labels.adsense %}
-                    <a class="list-group-item" href="{{item.link}}">
-                        <i class="fa fa-book"></i>
-                        {{item.title}}</a>
-                {% endfor %}
+                <ul>
+                    {% for item in site.data.labels.adsense %}
+                        <li>
+                            <a class="list-group-item" href="{{item.link}}">
+                                <i class="fa fa-book"></i>
+                                {{item.title}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
                 <div class="clear"></div>
             </div>
 
@@ -42,11 +54,15 @@
                     <i class="fa fa-fire"></i>
                     Blogging
                 </h2>
-                {% for item in site.data.labels.blog %}
-                    <a class="list-group-item" href="{{item.link}}">
-                        <i class="fa fa-book"></i>
-                        {{item.title}}</a>
-                {% endfor %}
+                <ul>
+                    {% for item in site.data.labels.blog %}
+                        <li>
+                            <a class="list-group-item" href="{{item.link}}">
+                                <i class="fa fa-book"></i>
+                                {{item.title}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
                 <div class="clear"></div>
             </div>
 
@@ -55,11 +71,15 @@
                     <i class="fa fa-fire"></i>
                     Template
                 </h2>
-                {% for item in site.data.labels.template %}
-                    <a class="list-group-item" href="{{item.link}}">
-                        <i class="fa fa-book"></i>
-                        {{item.title}}</a>
-                {% endfor %}
+                <ul>
+                    {% for item in site.data.labels.template %}
+                        <li>
+                            <a class="list-group-item" href="{{item.link}}">
+                                <i class="fa fa-book"></i>
+                                {{item.title}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
                 <div class="clear"></div>
             </div>
         </div>

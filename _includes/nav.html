@@ -8,7 +8,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 {% for item in site.data.menus.menu %}
-                    <a class="nav-item nav-link" href='{{item.link}}'>{{item.title}}</a>
+                    <li>
+                        <a class="nav-item nav-link" href='{{item.link}}'>{{item.title}}</a>
+                    </li>
                 {% endfor %}
             </ul>
         </div>

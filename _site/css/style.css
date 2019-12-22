@@ -283,6 +283,17 @@ h6 {
   background-color: #1a8c97;
 }
 
+.list-group-item:last-child,
+.list-group-item:first-child {
+  border-radius: 0;
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
+}
+
 /** pagination **/
 .pagination {
   display: inline-block;
@@ -457,6 +468,11 @@ footer {
   padding-top: 1rem;
 }
 
+footer li,
+footer ul {
+  margin-bottom: 0.5rem;
+}
+
 footer h5 {
   color: #fff;
   font-weight: 500;
@@ -477,11 +493,7 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
-footer li {
-  list-style: none;
-}
-
-footer ul a {
+footer ul li a {
   color: #fff !important;
 }
 

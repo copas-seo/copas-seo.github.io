@@ -22,30 +22,34 @@
                 </h5>
                 <hr class="light">
                 <ul>
-                    <a href="/adsense.html">
-                        Adsense
-                    </a>
+                    <li>
+                        <a href="/adsense.html">
+                            Adsense
+                        </a>
+                    </li>
                 </ul>
                 <ul>
-                    <a href="/blog.html">
-                        Blogger
-                    </a>
+                    <li>
+                        <a href="/blog.html">
+                            Blogger
+                        </a>
+                    </li>
                 </ul>
                 <ul>
-                    <a href="/template.html">
-                        Template
-                    </a>
+                    <li><a href="/template.html">Template</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4">
                 <h5>Term of Service</h5>
                 <hr class="light">
-                {% for item in site.data.menus.menu-footer %}
-                    <ul>
-                        <a href="{{item.link}}">{{item.title}}</a>
-                    </ul>
-                {% endfor %}
+                <ul>
+                    {% for item in site.data.menus.menu-footer %}
+                        <li>
+                            <a href="{{item.link}}">{{item.title}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
             </div>
 
             <div class="col-12" style="text-align: center; padding: 10px;">

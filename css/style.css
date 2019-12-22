@@ -115,6 +115,7 @@ h6 {
 }
 
 .navbar {
+  background-color: #15727b;
   padding: .1rem;
 }
 
@@ -128,7 +129,7 @@ h6 {
 
 /* jumbotron */
 .jumbotron {
-  background-color: #0f1b3f;
+  background-color: #1a8c97;
   text-align: center;
   border-radius: 0;
 }
@@ -176,10 +177,6 @@ h6 {
 .news-content li {
   margin-left: 30px;
   margin-bottom: 10px;
-}
-
-.col-md-4:hover {
-  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .9) !important;
 }
 
 /*--------welcome--------*/
@@ -448,7 +445,7 @@ a:visited {
 
 /* Footer */
 footer {
-  background-color: #08102b;
+  background-color: #15727b;
   color: #d5d5d5;
   padding-top: 2rem;
 }
@@ -553,7 +550,7 @@ a.scroll {
 
   .navbar-brand,
   .nav-link {
-    color: #08102b !important;
+    color: #fff !important;
     font-weight: 900;
   }
 
@@ -566,7 +563,7 @@ a.scroll {
   .nav-link:hover::after {
     content: '';
     display: block;
-    border-bottom: 3px solid #32325d;
+    border-bottom: 3px solid #fff;
     width: 50%;
     margin: auto;
     padding-bottom: 5px;

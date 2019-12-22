@@ -126,9 +126,14 @@ h6 {
   color: #fff !important;
 }
 
+.nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
 .navbar {
   background-color: #15727b;
-  padding: .1rem;
 }
 
 .navbar-nav li {
@@ -548,17 +553,9 @@ a.scroll {
 }
 
 @media (min-width: 992px) {
-
-  .navbar-brand,
-  .nav-link {
-    color: #fff !important;
-    font-weight: 900;
-  }
-
   .nav-link {
     font-size: 18px;
-    text-transform: uppercase;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .nav-link:hover::after {

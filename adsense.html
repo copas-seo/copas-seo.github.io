@@ -2,24 +2,31 @@
 layout: homepage
 ---
 {% for item in site.data.labels.adsense %}
-<div class="col-md-6 col-lg-4 mb-4 d-flex">
-    <div class="card">
-        <a href="{{item.link}}">
-            <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{item.title}}" data-src="{{item.images}}">
-            <div class="card-body">
-                <span class="category" style="padding-right: 15px;">
-                    <i class="fa fa-tags"></i>
-                    {{item.category}}
-                </span>
-                <span class="times pull-right">
-                    <i aria-hidden="true" class="fa fa-clock-o"></i>
-                    {{item.date | date: "%b %e, %Y"}}
-                </span>
-                <h1 class="post-header-index">
-                    {{item.title}}
-                </h1>
-            </div>
-        </a>
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+        <div class="card">
+            <a href="{{item.link}}">
+                <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{item.title}}" data-src="{{item.images}}">
+                <div class="card-body">
+                    <span class="category" style="padding-right: 15px;">
+                        <i class="fa fa-tags"></i>
+                        {{item.category}}
+                    </span>
+                    <span class="times pull-right">
+                        <i aria-hidden="true" class="fa fa-clock-o"></i>
+                        {{item.date | date: "%b %e, %Y"}}
+                    </span>
+                    <h1 class="post-header-index">
+                        {{item.title}}
+                    </h1>
+                </div>
+            </a>
+        </div>
     </div>
-</div>
 {% endfor %}
+
+<style>
+    .welcome,
+    .padding {
+        display: none;
+    }
+</style>

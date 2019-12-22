@@ -37,7 +37,7 @@
 
     <body>
         <!--Navbar-->
-<nav class="navbar navbar-expand-md navbar-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand">COPAS SEO</a>
         <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
@@ -117,7 +117,7 @@
     <hr class="my-4">
 </div>
 
-<div class="container padding">
+<div class="container">
     <div class="row welcome text-center">
         <div class="col-12">
             <h5 class="display-4">Portofolio</h5>
@@ -125,30 +125,37 @@
         </div>
     </div>
 </div>
-        <div class="container my-0 my-md-5" style="height: auto !important;">
-            <div class="row" style="height: auto !important;">
+        <div class="container">
+            <div class="row posts">
                 
-<div class="col-md-6 col-lg-4 mb-4 d-flex">
-    <div class="card">
-        <a href="starter-template-bootstrap-vesri-4-4-1">
-            <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="Kerangka Starter Template Bootstrap Version 4.4.1" data-src="/images/bootstrap-versi-4.4.1.png">
-            <div class="card-body">
-                <span class="category" style="padding-right: 15px;">
-                    <i class="fa fa-tags"></i>
-                    Template
-                </span>
-                <span class="times pull-right">
-                    <i aria-hidden="true" class="fa fa-clock-o"></i>
-                    Dec  5, 2019
-                </span>
-                <h1 class="post-header-index">
-                    Kerangka Starter Template Bootstrap Version 4.4.1
-                </h1>
-            </div>
-        </a>
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+        <div class="card">
+            <a href="starter-template-bootstrap-vesri-4-4-1">
+                <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="Kerangka Starter Template Bootstrap Version 4.4.1" data-src="/images/bootstrap-versi-4.4.1.png">
+                <div class="card-body">
+                    <span class="category" style="padding-right: 15px;">
+                        <i class="fa fa-tags"></i>
+                        Template
+                    </span>
+                    <span class="times pull-right">
+                        <i aria-hidden="true" class="fa fa-clock-o"></i>
+                        Dec  5, 2019
+                    </span>
+                    <h1 class="post-header-index">
+                        Kerangka Starter Template Bootstrap Version 4.4.1
+                    </h1>
+                </div>
+            </a>
+        </div>
     </div>
-</div>
 
+
+<style>
+    .welcome,
+    .padding {
+        display: none;
+    }
+</style>
             </div>
         </div>
         <div class="container-fluid padding">
@@ -179,7 +186,7 @@
         <div id="finish"></div>
 
 <footer>
-    <div class="container-fluid padding">
+    <div class="container-fluid">
         <div class="row text-center">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <h5>Subscribe To Our Newsletter</h5>
@@ -234,7 +241,7 @@
                 
             </div>
 
-            <div class="col-12" style="text-align: center;">
+            <div class="col-12" style="text-align: center; padding: 10px;">
                 <hr class="light-100">
                 Copyright © 2019-2020 Copas-Seo
             </div>

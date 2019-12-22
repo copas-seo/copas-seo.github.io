@@ -4,83 +4,62 @@
             <div class="widget search1" data-version="1" id="search1">
                 {% include search.html %}
             </div>
-            <div class="widget Label" data-version="1" id="Label1">
+
+            <div class="list-group labels1">
                 <h2>
                     <i class="fa fa-tags"></i>
-                    Labels</h2>
-                <div class="widget-content list-labels">
-                    <ul>
-                        <a href="/adsense.html">
-                            <li>
-                                <i class="fa fa-tags"></i>
-                                Adsense
-                            </li>
-                        </a>
-                        <a href="/blog.html">
-                            <li>
-                                <i class="fa fa-tags"></i>
-                                Blogger
-                            </li>
-                        </a>
-                        <a href="/template.html">
-                            <li>
-                                <i class="fa fa-tags"></i>
-                                Template
-                            </li>
-                        </a>
-                    </ul>
-                    <div class="clear"></div>
-                </div>
-            </div>
-
-            <div class="widget Labels2" data-version="1" id="categories2">
-                <h2>
-                    <i class="fa fa-fire"></i>Adsense</h2>
-                <div class="widget-content">
-                    <ul class="Adsense">
-                        {% for item in site.data.labels.adsense %}
-                            <a href="{{item.link}}">
-                                <li>
-                                    <i class="fa fa-book"></i>
-                                    {{item.title}}</li>
-                            </a>
-                        {% endfor %}
-                    </ul>
-                </div>
+                    Labels
+                </h2>
+                <a class="list-group-item" href="/adsense.html">
+                    <i class="fa fa-tags"></i>
+                    Adsense</a>
+                <a class="list-group-item" href="/blog.html">
+                    <i class="fa fa-tags"></i>
+                    Blogger
+                </a>
+                <a class="list-group-item" href="/template.html">
+                    <i class="fa fa-tags"></i>
+                    Template
+                </a>
                 <div class="clear"></div>
             </div>
 
-            <div class="widget Labels2" data-version="1" id="categories2">
+            <div class="list-group labels2">
                 <h2>
-                    <i class="fa fa-fire"></i>Blogging</h2>
-                <div class="widget-content">
-                    <ul class="Blogging">
-                        {% for item in site.data.labels.blog %}
-                            <a href="{{item.link}}">
-                                <li>
-                                    <i class="fa fa-book"></i>
-                                    {{item.title}}</li>
-                            </a>
-                        {% endfor %}
-                    </ul>
-                </div>
+                    <i class="fa fa-fire"></i>
+                    Adsense
+                </h2>
+                {% for item in site.data.labels.adsense %}
+                    <a class="list-group-item" href="{{item.link}}">
+                        <i class="fa fa-book"></i>
+                        {{item.title}}</a>
+                {% endfor %}
                 <div class="clear"></div>
             </div>
 
-            <div class="widget Labels3" data-version="1" id="categories3">
+            <div class="list-group labels2">
                 <h2>
-                    <i class="fa fa-fire"></i>Template</h2>
-                <div class="widget-content">
-                    <ul class="Template">
-                        {% for item in site.data.labels.template %}
-                            <a href="{{item.link}}">
-                                <li>
-                                    <i class="fa fa-book"></i>
-                                    {{item.title}}</li>
-                            </a>
-                        {% endfor %}
-                    </ul>
-                </div>
+                    <i class="fa fa-fire"></i>
+                    Blogging
+                </h2>
+                {% for item in site.data.labels.blog %}
+                    <a class="list-group-item" href="{{item.link}}">
+                        <i class="fa fa-book"></i>
+                        {{item.title}}</a>
+                {% endfor %}
+                <div class="clear"></div>
+            </div>
+
+            <div class="list-group labels2">
+                <h2>
+                    <i class="fa fa-fire"></i>
+                    Template
+                </h2>
+                {% for item in site.data.labels.template %}
+                    <a class="list-group-item" href="{{item.link}}">
+                        <i class="fa fa-book"></i>
+                        {{item.title}}</a>
+                {% endfor %}
                 <div class="clear"></div>
             </div>
         </div>

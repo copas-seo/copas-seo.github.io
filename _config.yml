@@ -12,6 +12,9 @@ permalink: /:title
 paginate: 3
 paginate_path: /page:num/
 
+compress_html:
+  clippings: all
+
 input_types:
   - text
   - textarea

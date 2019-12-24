@@ -15,7 +15,7 @@ summary:
 
 Disini kita akan sama-sama belajar bagaiamana cara membuat Sitemap untuk blog github page agar dapat terindex oleh google webmaster tools GWS....
 
-Membuat sitemap untuk mesin pencari google adalah yang paling penting agar semua artikel blog / web kita dapata ter-indeks dan mendapatkan peringkat yang lebih baik.
+Membuat sitemap untuk mesin pencari google adalah yang paling penting agar semua artikel blog / web kita dapat ter-indeks dan mendapatkan peringkat yang lebih baik.
 
 Di saat kita membuat Blog Jekyll di github kita tidak akan mendapatkan sitemap secara default, namun kita dapat membuatnya menggunakan metode yang saya dapatkan dari link [ini.](https://blog.webjeda.com/jekyll-sitemap)
 
@@ -23,7 +23,7 @@ Dalam salah satu artikelnya yang telah membahas tentang Cara membuat Blog Jekyll
 
 Peta situs atau sitemap adalah susunan daftar tautan ke semua halaman posting web Anda. yang akan menjadi format .xml. Ini akan membantu robot mesin pencari google mendeteksi dan menjelajah ke situs web Anda. Itu juga akan memiliki metadata seperti tanggal posting, halaman, tanggal modifikasi terakhir dan seberapa sering diperbarui dll. Ini terlihat seperti file feed.xml Anda tetapi dengan tag yang berbeda.
 
-## Apakah Peta Situs sitemap.xml sangat penting digunakan di blog  
+## Peta Situs sitemap.xml sangat penting digunakan di blog  gihub pages
 
 Jika Anda memiliki situs web dan Anda tidak memiliki posting atau halaman apa pun, Anda mungkin tidak akan memerlukan peta situs atau sitemap. Tetapi untuk blog yang memiliki beberapa postingan artikel, peta situs ini sangatlah diperlukan (jika Anda ingin peringkat yang lebih baik di mesin pencari google search enggine).
 

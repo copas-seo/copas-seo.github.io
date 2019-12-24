@@ -1,9 +1,8 @@
 # Site settings
 title: Copas Seo
-permalink: /:title
 description: "Copas seo: Berbagi Informasi Adsense, Seo Blogging dan Seo Template"
-author: Acha81
 url: https://copas-seo.my.id
+author: Acha81
 
 # Build setting
 markdown: kramdown

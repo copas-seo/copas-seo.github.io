@@ -12,6 +12,13 @@
                         <a class="nav-item nav-link" href='{{item.link}}'>{{item.title}}</a>
                     </li>
                 {% endfor %}
+                <li class="active">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <div class="search">
+                    <input type="text1" id="search-input" placeholder="Search...">
+                    <ul id="results-container"></ul>
+                </div>
+                </li>
             </ul>
         </div>
     </div>

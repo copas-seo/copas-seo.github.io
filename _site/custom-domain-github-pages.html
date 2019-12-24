@@ -67,6 +67,13 @@
                         <a class="nav-item nav-link" href='/template'>Template</a>
                     </li>
                 
+                <li class="active">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <div class="search">
+                    <input type="text1" id="search-input" placeholder="Search...">
+                    <ul id="results-container"></ul>
+                </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -523,7 +530,7 @@ Jika Anda kurang paham silahkan tinggalkan comentarnya.</p>
     <div class="container-fluid">
         <div class="row text-center">
             <div class="col-xs-12 col-sm-6 col-md-4">
-<hr class="light">
+                <hr class="light">
                 <h5>Subscribe To Our Newsletter</h5>
                 <hr class="light">
                 <div class="container">
@@ -536,7 +543,7 @@ Jika Anda kurang paham silahkan tinggalkan comentarnya.</p>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
-<hr class="light">
+                <hr class="light">
                 <h5>
                     <i class="fa fa-tags"></i>
                     Labels
@@ -562,7 +569,7 @@ Jika Anda kurang paham silahkan tinggalkan comentarnya.</p>
             </div>
 
             <div class="col-md-4">
-<hr class="light">
+                <hr class="light">
                 <h5>Term of Service</h5>
                 <hr class="light">
                 <ul>
@@ -643,5 +650,31 @@ Jika Anda kurang paham silahkan tinggalkan comentarnya.</p>
   })();
 </script>
 
+<script
+        src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+
+    <script>
+        window.simpleJekyllSearch = new SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 5,
+            fuzzy: false,
+            exclude: ['Welcome']
+        })
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+     
+		    $(".fa-search").click(function() {
+		       $(".search").toggle();
+		       $("input[type='text1']").focus();
+		     });
+ 
+ 		});
+    </script>
     </body>
 </html>

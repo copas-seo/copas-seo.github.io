@@ -491,7 +491,6 @@ body {
 
                 .banner {
                     margin-top: -20px;
-                    animation: movingUp 1.5s infinite alternate;
 
                     @include iphone() {
                         margin-top: -50px;

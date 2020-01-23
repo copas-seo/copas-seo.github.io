@@ -125,7 +125,7 @@ body header .header-top .fa-search {
 }
 
 body header .header-top .fa-search:before {
-  color: #f09;
+  color: #fd3bd7;
   line-height: 2.6;
 }
 
@@ -133,7 +133,7 @@ body header .header-top .search {
   position: absolute;
   right: 10%;
   top: 60px;
-  border-top: 2px solid #f09;
+  border-top: 2px solid #fd3bd7;
   display: none;
   z-index: 1;
 }
@@ -141,7 +141,7 @@ body header .header-top .search {
 body header .header-top .search input[type="text1"] {
   width: 100%;
   padding: 5px 10px;
-  border: 1px solid #f09;
+  border: 1px solid #fd3bd7;
   outline: none;
 }
 
@@ -518,8 +518,6 @@ body header .container .Box .bg p span {
 
 body header .container .Box .banner {
   margin-top: -20px;
-  -webkit-animation: movingUp 1.5s infinite alternate;
-          animation: movingUp 1.5s infinite alternate;
 }
 
 @media (min-width: 576px) {
@@ -560,7 +558,7 @@ body .build .container .Box .box-2 .buildBx {
   left: 0;
   color: #0280fe;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 @media (min-width: 576px) {
@@ -689,6 +687,7 @@ body section .container .Box .box-3 .cardBx {
   border-radius: 15px;
   -webkit-transition: .5s;
   transition: .5s;
+  margin-bottom: 20px;
 }
 
 body section .container .Box .box-3 .cardBx:hover {

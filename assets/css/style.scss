@@ -142,7 +142,7 @@ body {
                 }
 
                 &:before {
-                    color: #f09;
+                    color: #fd3bd7;
                     line-height: 2.6;
                 }
             }
@@ -151,14 +151,14 @@ body {
                 position: absolute;
                 right: 10%;
                 top: 60px;
-                border-top: 2px solid #f09;
+                border-top: 2px solid #fd3bd7;
                 display: none;
                 z-index: 1;
 
                 input[type="text1"] {
                     width: 100%;
                     padding: 5px 10px;
-                    border: 1px solid #f09;
+                    border: 1px solid #fd3bd7;
                     outline: none;
                 }
 

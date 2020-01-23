@@ -3,19 +3,19 @@ menu:
     link: /
 
   - title: About
-    link: about.html
-
-  - title: Blog
-    link: blog.html
+    link: /about
 
   - title: Adsense
-    link: adsense.html
+    link: /adsense
+
+  - title: Blogging
+    link: /blog
 
   - title: Template
-    link: template.html
+    link: /template
 
   - title: Contact
-    link: contact.html
+    link: /contact.html
 
 menu-footer:
   - title: Privacy
@@ -23,5 +23,3 @@ menu-footer:
 
   - title: Disclaimer
     link: /disclaimer.html
-
-

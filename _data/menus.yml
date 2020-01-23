@@ -3,16 +3,16 @@ menu:
     link: /
 
   - title: About
-    link: /about
+    link: /about.html
 
   - title: Blog
-    link: /blog
+    link: /blog.html
 
   - title: Adsense
-    link: /adsense
+    link: /adsense.html
 
   - title: Template
-    link: /template
+    link: /template.html
 
   - title: Contact
     link: /contact.html

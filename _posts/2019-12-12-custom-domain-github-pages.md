@@ -6,7 +6,7 @@ description: Github pages salah satu layanan hosting berbasis web yang terbesar 
 date: 2019-12-13 08:00
 category: Blog
 author: Acha81
-images: /images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
+images: /assets/images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
 alt: Cara Setting Custom Domain Github Pages di rumahweb
 tags: []
 summary: 
@@ -34,7 +34,7 @@ Github Pages milik Anda.
 4. kemudian scrol sampai pada bagian **Github Pages**, dan masukan nama domain yang telah Anda siapkan pada kolom
 <code>Custom Domain</code>
 lalu pilih save.
-![custom-domain-github-pages](/images/custom-domain-github-pages.png)
+![custom-domain-github-pages](/assets/images/custom-domain-github-pages.png)
 
 ## Setting DNS Github di rumahweb
 Kini Anda telah [menambahkan custom domain](custom-domain-github-pages) di pengaturan github, kita lanjut ke panel dari penyedia Domain tempat Anda membeli, Di sini saya membeli domain .my.id di [rumahweb](rumahweb.com) harganya hanya 12.000 ribu pertahun.
@@ -80,7 +80,7 @@ Kemudian Save
 
 Hasil semua Record akan tampak seperti di bawah ini.
 
-![Setting-CNAME-Domain-Github-Pages](/images/Setting-CNAME-Domain-Github-Pages.png)
+![Setting-CNAME-Domain-Github-Pages](/assets/images/Setting-CNAME-Domain-Github-Pages.png)
 
 * Untuk  perubahan DNS di perlukan waktu 15 menit, terantung penyedia domain.
 * Untuk  perubahan https di github di butuhkan waktu 1x24 jam.

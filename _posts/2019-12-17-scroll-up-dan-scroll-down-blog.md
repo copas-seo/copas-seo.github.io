@@ -6,7 +6,7 @@ description: Di Artikel kali ini saya akan berbagi cara membuat Tombol Scroll Up
 date: 2019-12-17 14:47
 category: Blog
 author: Acha81
-images: /images/Scroll-up-Scroll-down.png
+images: /assets/images/Scroll-up-Scroll-down.png
 alt: Scroll-up-Scroll-down
 tags: []
 summary: 

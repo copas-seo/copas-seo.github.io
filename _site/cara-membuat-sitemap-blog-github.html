@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Copas Seo" />
-
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="w9_9ADRQGCKpGoS_sURAvMvLZV4YpS97p0xU6RK8ytU" />
+    <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Copas <span>Seo</span>" />
     <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Cara Membuat Sitemap untuk Blog Github Page | Copas Seo</title>
 <meta name="generator" content="Jekyll v4.0.0" />
@@ -21,134 +21,91 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-12-04T00:38:00+08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cara-membuat-sitemap-blog-github"},"url":"http://localhost:4000/cara-membuat-sitemap-blog-github","dateModified":"2019-12-04T00:38:00+08:00","datePublished":"2019-12-04T00:38:00+08:00","headline":"Cara Membuat Sitemap untuk Blog Github Page","author":{"@type":"Person","name":"Acha81"},"description":"Disini kita akan sama-sama belajar bagaiamana cara membuat Sitemap untuk blog github page agar dapat terindex oleh google webmaster tools GWS….","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cara-membuat-sitemap-blog-github"},"@type":"BlogPosting","url":"http://localhost:4000/cara-membuat-sitemap-blog-github","author":{"@type":"Person","name":"Acha81"},"headline":"Cara Membuat Sitemap untuk Blog Github Page","dateModified":"2019-12-04T00:38:00+08:00","description":"Disini kita akan sama-sama belajar bagaiamana cara membuat Sitemap untuk blog github page agar dapat terindex oleh google webmaster tools GWS….","datePublished":"2019-12-04T00:38:00+08:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title=" - Copas <span>Seo</span> Berbagi Informasi Adsense, <span>Seo</span> Blogging dan <span>Seo</span> Template"
+        href="/feed.xml" />
 
-    <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
-
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
-    <link rel="alternate" type="application/rss+xml" title=" - Copas seo: Berbagi Informasi Adsense, Seo Blogging dan Seo Template" href="/feed.xml"/>
-    <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 
-    <body>
-        <!--Navbar-->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand">Copas Seo</a>
-        <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                
+<body>
+    <header>
+    <div class="header-sticky">
+        <div class="header-top" id="header-top">
+            <a class="logo" href="http://localhost:4000">
+                <img src="/assets/images/copas-seo-white.svg" alt="copas-seo">
+            </a>
+            <div class="header-menu">
+                <ul>
+                    
                     <li>
-                        <a class="nav-item nav-link" href='/'>Home</a>
+                        <a href='/'>Home</a>
                     </li>
-                
+                    
                     <li>
-                        <a class="nav-item nav-link" href='/about'>About</a>
+                        <a href='/about'>About</a>
                     </li>
-                
+                    
                     <li>
-                        <a class="nav-item nav-link" href='/adsense'>Adsense</a>
+                        <a href='/blog'>Blog</a>
                     </li>
-                
+                    
                     <li>
-                        <a class="nav-item nav-link" href='/blog'>Blogging</a>
+                        <a href='/adsense'>Adsense</a>
                     </li>
-                
+                    
                     <li>
-                        <a class="nav-item nav-link" href='/template'>Template</a>
+                        <a href='/template'>Template</a>
                     </li>
-                
-                <li class="active">
+                    
+                    <li>
+                        <a href='/contact.html'>Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <li class="active">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <div class="search">
                     <input type="text1" id="search-input" placeholder="Search...">
                     <ul id="results-container"></ul>
                 </div>
-                </li>
-            </ul>
+            </li>
+            <a class="header-icon">
+                <img src="/assets/images/menu.svg" alt="menu">
+            </a>
+            <a class="header-close">
+                <img src="/assets/images/close.svg" alt="close">
+            </a>
+            <div class="social-icon">
+                <a href="https://web.facebook.com/Acha81-105554770864176/">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/Acha81">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCjLtDylMlg7JMZQcqZgDr9A">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/acha81_/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/Acha81">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
         </div>
     </div>
-</nav>
-<!--End Navbar-->
-
-        <!--jumbotron-->
-<div class="container-fluid">
-    <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h1>Copas Seo</h1>
-            <p class="lead">Copas seo: Berbagi Informasi Adsense, Seo Blogging dan Seo Template</p>
-        </div>
-    </div>
-</div>
-        <div class="container-fluid padding">
-    <div class="row welcome text-center padding">
-        <div class="col-12">
-            <h1 class="display-4">Build with ease.</h1>
-            <hr>
-        </div>
-        <div class="col-12">
-            <p class="lead" style="color: #525f7f;">Blog ini hasil design sendiri dengan menggunakan platform yang sudah terkenal dan mendunia dan tentunya responsive, seo friendly.</p>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid padding">
-    <div class="row welcome text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fab fa-html5"></i>
-            <h3>HTML5</h3>
-            <p>build latest version of HTML, HTML5.</p>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-bold"></i>
-            <h3>BOOTSTRAP</h3>
-            <p>build latest version of Bootstrap, bootstrap 4.</p>
-        </div>
-
-        <div class="col-xs-12 col-md-4">
-            <i class="fab fa-css3"></i>
-            <h3>CSS3</h3>
-            <p>build latest version of CSS, CSS3.</p>
-        </div>
-    </div>
-
-    <div class="row welcome text-center" style="justify-content: center;">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fab fa-github"></i>
-            <h3>GITHUB</h3>
-            <p>project hosting of GITHUB PAGES, GITHUB.</p>
-        </div>
-        <div class="col-xs-12 col-md-4">
-            <i class="fas fa-magic"></i>
-            <h3>JEKYLL</h3>
-            <p>build latest version of JEKYLL, JEKYLL 4.</p>
-        </div>
-    </div>
-    <hr class="my-4">
-</div>
-
-<div class="container">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h5 class="display-4">Portofolio</h5>
-            <hr>
-        </div>
-    </div>
-</div>
-        <div class="container">
-            <div class="row posts">
-                <div class="col-sm-12 col-md-8 post-outer">
-    <div id="breadcrumbs">
+</header>
+    <div class="container">
+        <div class="Box">
+            <div class="box8">
+    <div class="news-content">
+        <div id="breadcrumbs">
     
     <a href="/">Home</a>
     
@@ -160,9 +117,8 @@
         
     
 </div>
-    <div class="news-content">
         <div class="post-header">
-            <h1 class="post-header">Cara Membuat Sitemap untuk Blog Github Page</h1>
+            <h1>Cara Membuat Sitemap untuk Blog Github Page</h1>
             <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
                 <span class="author">
                     <i aria-hidden="true" class="fa fa-user"></i>
@@ -177,7 +133,8 @@
             </div>
         </div>
         <div class="post-image" style="margin-bottom: 10px;">
-            <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="sitemap github" data-src="/images/sitemap_github_page.jpg">
+            <img class="lazy" src="/assets/images/bg-home.gif" class="img-responsive" alt="sitemap github"
+                data-src="/assets/images/sitemap_github_page.jpg">
         </div>
         <div class="post-content">
             <p><a href="https://blog.webjeda.com/jekyll-sitemap">SUMBER INFORMASI</a></p>
@@ -206,23 +163,23 @@
     <h5>BACA</h5>
     <ul class="related-posts">
         
-            <a href="/scroll-up-dan-scroll-down-blog">
-                <li class="realted-li">
-                    <h4>HTML dan Css Scroll Up dan Down Blog</h4>
-                </li>
-            </a>
+        <a href="/scroll-up-dan-scroll-down-blog">
+            <li class="realted-li">
+                <h4>HTML dan Css Scroll Up dan Down Blog</h4>
+            </li>
+        </a>
         
-            <a href="/share-box-github-pages">
-                <li class="realted-li">
-                    <h4>Cara Memasang Menu Share Box pada Postingan Blog Github Pages</h4>
-                </li>
-            </a>
+        <a href="/share-box-github-pages">
+            <li class="realted-li">
+                <h4>Cara Memasang Menu Share Box pada Postingan Blog Github Pages</h4>
+            </li>
+        </a>
         
-            <a href="/breadcumbs-github-pages">
-                <li class="realted-li">
-                    <h4>Cara Membuat Breadcrumbs Github Pages</h4>
-                </li>
-            </a>
+        <a href="/breadcumbs-github-pages">
+            <li class="realted-li">
+                <h4>Cara Membuat Breadcrumbs Github Pages</h4>
+            </li>
+        </a>
         
     </ul>
 </div>
@@ -354,7 +311,7 @@ Terima Kasih sudah berkunjung dan Wassalam.</p>
 </div>
 
 </div>
-<div class="col-md-4">
+<div class="box4">
     <aside style="height: auto !important;">
         <div class="sidebar" id="sidebar">
             <div class="widget search1" data-version="1" id="search1">
@@ -415,17 +372,17 @@ Terima Kasih sudah berkunjung dan Wassalam.</p>
                 </h2>
                 <ul>
                     
-                        <li>
-                            <a class="list-group-item" href="mengatur-situs-subdomain-di-google-adsense">
-                                <i class="fa fa-book"></i>
-                                Cara mengatur situs subdomain untuk di monetisasi google adsense</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="mengatur-situs-subdomain-di-google-adsense">
+                            <i class="fa fa-book"></i>
+                            Cara mengatur situs subdomain untuk di monetisasi google adsense</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="mengganti-domain-com-Iklan-adsense-tidak-tampil">
-                                <i class="fa fa-book"></i>
-                                Resiko dan Akibat Mengganti domain.com Iklan adsense tidak tampil</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="mengganti-domain-com-Iklan-adsense-tidak-tampil">
+                            <i class="fa fa-book"></i>
+                            Resiko dan Akibat Mengganti domain.com Iklan adsense tidak tampil</a>
+                    </li>
                     
                 </ul>
                 <div class="clear"></div>
@@ -438,53 +395,53 @@ Terima Kasih sudah berkunjung dan Wassalam.</p>
                 </h2>
                 <ul>
                     
-                        <li>
-                            <a class="list-group-item" href="/scroll-up-dan-scroll-down-blog">
-                                <i class="fa fa-book"></i>
-                                Scroll Up dan Scroll Down Blog</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/scroll-up-dan-scroll-down-blog">
+                            <i class="fa fa-book"></i>
+                            Scroll Up dan Scroll Down Blog</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/share-box-github-pages">
-                                <i class="fa fa-book"></i>
-                                Cara Memasang Menu Share Box pada Postingan Blog Github Pages</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/share-box-github-pages">
+                            <i class="fa fa-book"></i>
+                            Cara Memasang Menu Share Box pada Postingan Blog Github Pages</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/breadcumbs-github-pages">
-                                <i class="fa fa-book"></i>
-                                Cara Membuat Breadcrumbs Github Pages</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/breadcumbs-github-pages">
+                            <i class="fa fa-book"></i>
+                            Cara Membuat Breadcrumbs Github Pages</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/custom-domain-github-pages">
-                                <i class="fa fa-book"></i>
-                                Cara Setting Custom Domain Github Pages di rumahweb</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/custom-domain-github-pages">
+                            <i class="fa fa-book"></i>
+                            Cara Setting Custom Domain Github Pages di rumahweb</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/membuat-blog-github-kurang-dari-5-menit">
-                                <i class="fa fa-book"></i>
-                                Membuat Blog Github Pages Kurang dari 5 Menit</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/membuat-blog-github-kurang-dari-5-menit">
+                            <i class="fa fa-book"></i>
+                            Membuat Blog Github Pages Kurang dari 5 Menit</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/cloning-google-chrome">
-                                <i class="fa fa-book"></i>
-                                Cara Cloning Perambah Google Chrome di komputer atau Laptop</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/cloning-google-chrome">
+                            <i class="fa fa-book"></i>
+                            Cara Cloning Perambah Google Chrome di komputer atau Laptop</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/menu-search-blog-github">
-                                <i class="fa fa-book"></i>
-                                Cara Membuat Kotak search Box di blog github</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/menu-search-blog-github">
+                            <i class="fa fa-book"></i>
+                            Cara Membuat Kotak search Box di blog github</a>
+                    </li>
                     
-                        <li>
-                            <a class="list-group-item" href="/cara-membuat-sitemap-blog-github">
-                                <i class="fa fa-book"></i>
-                                Cara Membuat Sitemap untuk Blog Github Page</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="/cara-membuat-sitemap-blog-github">
+                            <i class="fa fa-book"></i>
+                            Cara Membuat Sitemap untuk Blog Github Page</a>
+                    </li>
                     
                 </ul>
                 <div class="clear"></div>
@@ -497,11 +454,11 @@ Terima Kasih sudah berkunjung dan Wassalam.</p>
                 </h2>
                 <ul>
                     
-                        <li>
-                            <a class="list-group-item" href="starter-template-bootstrap-vesri-4-4-1">
-                                <i class="fa fa-book"></i>
-                                Kerangka Starter Template Bootstrap Version 4.4.1</a>
-                        </li>
+                    <li>
+                        <a class="list-group-item" href="starter-template-bootstrap-vesri-4-4-1">
+                            <i class="fa fa-book"></i>
+                            Kerangka Starter Template Bootstrap Version 4.4.1</a>
+                    </li>
                     
                 </ul>
                 <div class="clear"></div>
@@ -509,195 +466,191 @@ Terima Kasih sudah berkunjung dan Wassalam.</p>
         </div>
     </aside>
 </div>
-
-<style>
-    .jumbotron,
-    .welcome,
-    .padding {
-        display: none;
-    }
-    .row.posts {
-        margin-top: 5rem;
-    }
-</style>
-            </div>
-        </div>
-        <div class="container-fluid padding">
-    <div class="row text-center padding">
-        <div class="col-12">
-            <h4>Media Social</h4>
-            <br>
-        </div>
-        <div class="col-12 social padding">
-            <a href="https://web.facebook.com/Acha81-105554770864176/">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="https://twitter.com/Acha81">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCjLtDylMlg7JMZQcqZgDr9A">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://www.instagram.com/acha81_/">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://t.me/Acha81">
-                <i class="fab fa-telegram"></i>
-            </a>
         </div>
     </div>
-</div>
-        <div id="finish"></div>
-
-<footer>
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <hr class="light">
-                <h5>Subscribe To Our Newsletter</h5>
-                <hr class="light">
-                <div class="container">
-                    <form>
-                        <input class="form-control input-lg" placeholder="Enter Email" type="text">
-                        <br>
-                        <button class="btn btn-primary btn-lg btn-block">Submit</button>
-                    </form>
+    <footer>
+    <div class="container">
+        <div class="Box">
+            <div class="box-3">
+                <div class="cardBx">
+                    <div class="list-group">
+                        <h2>
+                            <i class="fa fa-tags"></i>
+                            Labels
+                        </h2>
+                        <ul>
+                            <li>
+                                <a class="list-group-item" href="/adsense.html">
+                                    <i class="fa fa-tags"></i>
+                                    Adsense</a>
+                            </li>
+                            <li>
+                                <a class="list-group-item" href="/blog.html">
+                                    <i class="fa fa-tags"></i>
+                                    Blogger
+                                </a>
+                            </li>
+                            <li>
+                                <a class="list-group-item" href="/template.html">
+                                    <i class="fa fa-tags"></i>
+                                    Template
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <hr class="light">
-                <h5>
-                    <i class="fa fa-tags"></i>
-                    Labels
-                </h5>
-                <hr class="light">
-                <ul>
-                    <li>
-                        <a href="/adsense.html">
-                            Adsense
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="/blog.html">
-                            Blogger
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="/template.html">Template</a></li>
-                </ul>
+            <div class="box-3">
+                <div class="cardBx">
+                    <div class="list-group">
+                        <h2>
+                            <i class="fa fa-tags"></i>
+                            Labels
+                        </h2>
+                        <ul>
+                            <li>
+                                <a class="list-group-item" href="/adsense.html">
+                                    <i class="fa fa-tags"></i>
+                                    Adsense</a>
+                            </li>
+                            <li>
+                                <a class="list-group-item" href="/blog.html">
+                                    <i class="fa fa-tags"></i>
+                                    Blogger
+                                </a>
+                            </li>
+                            <li>
+                                <a class="list-group-item" href="/template.html">
+                                    <i class="fa fa-tags"></i>
+                                    Template
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-md-4">
-                <hr class="light">
-                <h5>Term of Service</h5>
-                <hr class="light">
+            <div class="box-3">
+                <div class="cardBx">
+                    <div class="list-group">
+                        <h2>
+                            <i class="fa fa-tags"></i>
+                            Labels
+                        </h2>
+                        <ul>
+                            <li>
+                                <a class="list-group-item" href="/adsense.html">
+                                    <i class="fa fa-tags"></i>
+                                    Adsense</a>
+                            </li>
+                            <li>
+                                <a class="list-group-item" href="/blog.html">
+                                    <i class="fa fa-tags"></i>
+                                    Blogger
+                                </a>
+                            </li>
+                            <li>
+                                <a class="list-group-item" href="/template.html">
+                                    <i class="fa fa-tags"></i>
+                                    Template
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <p>© 2020<a href="/"> Copas-Seo</a></p>
+            <div class="footer-links">
                 <ul>
                     
-                        <li>
-                            <a href="/privacy-policy.html">Privacy</a>
-                        </li>
+                    <li>
+                        <a href='/privacy-policy.html'>Privacy</a>
+                    </li>
                     
-                        <li>
-                            <a href="/disclaimer.html">Disclaimer</a>
-                        </li>
-                    
-                        <li>
-                            <a href="/contact.html">Contact</a>
-                        </li>
+                    <li>
+                        <a href='/disclaimer.html'>Disclaimer</a>
+                    </li>
                     
                 </ul>
-            </div>
-
-            <div class="col-12" style="text-align: center; padding: 10px;">
-                <hr class="light-100">
-                Copyright © 2019-2020 Copas-Seo
             </div>
         </div>
     </div>
 </footer>
-
-<a class="scroll up" href="#">
-    <i aria-hidden="true" class="fa fa-arrow-up"></i>
-</a>
-<a class="scroll home" href="/">
-    <i aria-hidden="true" class="fa fa-home"></i>
-</a>
-<a class="scroll down" href="#finish">
-    <i aria-hidden="true" class="fa fa-arrow-down"></i>
-</a>
-
-        <script>
-  window.onscroll = function(ev) {
-    lazyload();
-  }
-  function lazyload(){
-    var lazyimage = document.getElementsByClassName("lazy");
-    for(var i=0;i<lazyimage.length;i++){
-      if(ElementInViewport(lazyimage[i])){
-        lazyimage[i].setAttribute("src",lazyimage[i].getAttribute("data-src"));
-      }
+    <script>
+    window.onscroll = function (ev) {
+        lazyload();
     }
-  }
 
-  function ElementInViewport(el){
-    var rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >=0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
+    function lazyload() {
+        var lazyimage = document.getElementsByClassName("lazy");
+        for (var i = 0; i < lazyimage.length; i++) {
+            if (ElementInViewport(lazyimage[i])) {
+                lazyimage[i].setAttribute("src", lazyimage[i].getAttribute("data-src"));
+            }
+        }
+    }
+
+    function ElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
 </script>
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-151109891-3']);
-  _gaq.push(['_gat._forceSSL']);
-  _gaq.push(['_gat._anonymizeIp']);
-  _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-151109891-3']);
+    _gaq.push(['_gat._forceSSL']);
+    _gaq.push(['_gat._anonymizeIp']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+            '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
 </script>
 
-<script
-        src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js">
+</script>
 
-    <script>
-        window.simpleJekyllSearch = new SimpleJekyllSearch({
-            searchInput: document.getElementById('search-input'),
-            resultsContainer: document.getElementById('results-container'),
-            json: '/search.json',
-            searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-            noResultsText: 'No results found',
-            limit: 5,
-            fuzzy: false,
-            exclude: ['Welcome']
-        })
-    </script>
+<script>
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 5,
+        fuzzy: false,
+        exclude: ['Welcome']
+    })
+</script>
 
-    <script type="text/javascript">
-    $(document).ready(function() {
-     
-		    $(".fa-search").click(function() {
-		       $(".search").toggle();
-		       $("input[type='text1']").focus();
-		     });
- 
- 		});
-    </script>
-    </body>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(".fa-search").click(function () {
+            $(".search").toggle();
+            $("input[type='text1']").focus();
+        });
+
+    });
+</script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
 </html>

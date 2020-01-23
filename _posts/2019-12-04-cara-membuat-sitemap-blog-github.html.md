@@ -6,7 +6,7 @@ description: Disini kita akan sama-sama belajar bagaiamana cara membuat Sitemap 
 date: 2019-12-04 00:38
 category: Blog
 author: Acha81
-images: /images/sitemap_github_page.jpg
+images: /assets/images/sitemap_github_page.jpg
 alt: sitemap github
 tags: []
 summary: 

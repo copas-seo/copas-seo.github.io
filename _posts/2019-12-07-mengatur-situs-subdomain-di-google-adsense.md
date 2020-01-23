@@ -6,7 +6,7 @@ description: Berikut ini adalah Tutorial menambahkan dan mengatur situs subdomai
 date: 2019-12-07 13:52
 category: Adsense
 author: Acha81
-images: /images/Google_AdSense.jpg
+images: /assets/images/Google_AdSense.jpg
 alt: google adsense
 tags: []
 summary: 

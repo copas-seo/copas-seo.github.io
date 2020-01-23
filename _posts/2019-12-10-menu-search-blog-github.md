@@ -6,7 +6,7 @@ description: saat kita membuat blog di github dan menggunakan custom theme jekyl
 date: 2019-12-10 14:54
 category: blog
 author: Acha81
-images: /images/search-copas-seo.svg
+images: /assets/images/search-copas-seo.svg
 alt: Custom search github
 tags: []
 summary: 
@@ -23,7 +23,7 @@ Ok kita lansung saja.
 
 1.Klik tautan ini [Goggle Cse](https://cse.google.com) Anda akan di arahkan ke google seperti gambar di bawah ini.
 
-![search Box di blog github](/images/search-copas-seo.png)
+![search Box di blog github](/assets/images/search-copas-seo.png)
 
 2.Isi kolom situs yang akan di telusuri dengan nama blog atau website Anda
 
@@ -35,11 +35,11 @@ Ok kita lansung saja.
 
 5.klik created atau buat, Anda akan mendapatkan tautan seperti gambar ini
 
-![Alternate text](/images/custom-search-copas-seo.png)
+![Alternate text](/assets/assets/images/custom-search-copas-seo.png)
 
 6.klik dapatkan kode, akan tampil seperti ini
 
-![Alternate text](/images/copas-seo-custom-search.png)
+![Alternate text](/assets/images/copas-seo-custom-search.png)
 
 7.copy kode berikut cx=xxxxxxxxxxxxx:8mhlv7zvsh9 yang telah Anda buat untuk kita custom.
 

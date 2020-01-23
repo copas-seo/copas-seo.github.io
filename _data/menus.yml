@@ -5,14 +5,17 @@ menu:
   - title: About
     link: /about
 
+  - title: Blog
+    link: /blog
+
   - title: Adsense
     link: /adsense
 
-  - title: Blogging
-    link: /blog
-
   - title: Template
     link: /template
+
+  - title: Contact
+    link: /contact.html
 
 menu-footer:
   - title: Privacy
@@ -21,5 +24,4 @@ menu-footer:
   - title: Disclaimer
     link: /disclaimer.html
 
-  - title: Contact
-    link: /contact.html
+

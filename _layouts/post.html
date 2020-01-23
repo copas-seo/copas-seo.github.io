@@ -1,11 +1,11 @@
 ---
-layout: homepage
+layout: default
 ---
-<div class="col-sm-12 col-md-8 post-outer">
-    {% include breadcrumbs.html %}
+<div class="box8">
     <div class="news-content">
+        {% include breadcrumbs.html %}
         <div class="post-header">
-            <h1 class="post-header">{{ page.title }}</h1>
+            <h1>{{ page.title }}</h1>
             <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
                 <span class="author">
                     <i aria-hidden="true" class="fa fa-user"></i>
@@ -20,7 +20,8 @@ layout: homepage
             </div>
         </div>
         <div class="post-image" style="margin-bottom: 10px;">
-            <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{ page.alt }}" data-src="{{ page.images }}">
+            <img class="lazy" src="/assets/images/bg-home.gif" class="img-responsive" alt="{{ page.alt }}"
+                data-src="{{ page.images }}">
         </div>
         <div class="post-content">
             {{ content }}
@@ -30,15 +31,90 @@ layout: homepage
     {% include disqus.html %}
     {% include paginator-post.html %}
 </div>
-{% include sidebar.html %}
+<div class="box4">
+    <aside style="height: auto !important;">
+        <div class="sidebar" id="sidebar">
+            <div class="widget search1" data-version="1" id="search1">
+                {% include search.html %}
+            </div>
 
-<style>
-    .jumbotron,
-    .welcome,
-    .padding {
-        display: none;
-    }
-    .row.posts {
-        margin-top: 5rem;
-    }
-</style>
+            <div class="list-group labels1">
+                <h2>
+                    <i class="fa fa-tags"></i>
+                    Labels
+                </h2>
+                <ul>
+                    <li>
+                        <a class="list-group-item" href="/adsense.html">
+                            <i class="fa fa-tags"></i>
+                            Adsense</a>
+                    </li>
+                    <li>
+                        <a class="list-group-item" href="/blog.html">
+                            <i class="fa fa-tags"></i>
+                            Blogger
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item" href="/template.html">
+                            <i class="fa fa-tags"></i>
+                            Template
+                        </a>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+            <div class="list-group labels2">
+                <h2>
+                    <i class="fa fa-fire"></i>
+                    Adsense
+                </h2>
+                <ul>
+                    {% for item in site.data.labels.adsense %}
+                    <li>
+                        <a class="list-group-item" href="{{item.link}}">
+                            <i class="fa fa-book"></i>
+                            {{item.title}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+            <div class="list-group labels2">
+                <h2>
+                    <i class="fa fa-fire"></i>
+                    Blogging
+                </h2>
+                <ul>
+                    {% for item in site.data.labels.blog %}
+                    <li>
+                        <a class="list-group-item" href="{{item.link}}">
+                            <i class="fa fa-book"></i>
+                            {{item.title}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+            <div class="list-group labels2">
+                <h2>
+                    <i class="fa fa-fire"></i>
+                    Template
+                </h2>
+                <ul>
+                    {% for item in site.data.labels.template %}
+                    <li>
+                        <a class="list-group-item" href="{{item.link}}">
+                            <i class="fa fa-book"></i>
+                            {{item.title}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </aside>
+</div>

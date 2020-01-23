@@ -1,27 +1,10 @@
 ---
-layout: homepage
+layout: default
 ---
-<div class="container" style="padding-top: 20px;">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="news-content">
-                <h1 class="post-header">{{ page.title }}</h1>
-                <div class="post-meta" style="border-bottom: 1px solid rgba(209, 209, 209); margin-bottom: 10px;">
-                    <div class="clearfix"></div>
-                </div>
-                {{ content }}
-                {% if page.forms[0] %}
-                    {% include form.html form="1" %}
-                {% endif %}
-            </div>
+<div class="box8-page">
+    <div class="page">
+        <div class="page-content">
+            {{ content }}
         </div>
-        {% include sidebar.html %}
     </div>
 </div>
-
-<style>
-    .welcome,
-    .padding {
-        display: none;
-    }
-</style>

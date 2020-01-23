@@ -6,7 +6,7 @@ description: Cara Memasang Menu Share Box pada Postingan Blog Github Pages - Pas
 date: 2019-12-15 17:24
 category: Blog
 author: Acha81
-images: /images/share-box-github-pages.png
+images: /assets/images/share-box-github-pages.png
 alt: share-box-github-pages
 tags: []
 summary: 
@@ -21,7 +21,7 @@ Di kesempatan kali ini saya ingin berbagi tutorial cara membuat menu share yang 
 
 ## Cara Memasang Menu Share Box Github Pages
 <center>Contoh</center>
-![share-box-github](/images/share-box-github.png)
+![share-box-github](/assets/images/share-box-github.png)
 
 1. Buka [github.com](github.com) dan login
 

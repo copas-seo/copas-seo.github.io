@@ -1,19 +1,27 @@
-# Site settings
-title: Copas Seo
-permalink: /:title
-description: "Copas seo: Berbagi Informasi Adsense, Seo Blogging dan Seo Template"
-url: https://copas-seo.my.id
-author: Acha81
+title: Copas <span>Seo</span>
+email: acha_jie@rocketmail.com
+description: "Copas <span>Seo</span> Berbagi Informasi Adsense, <span>Seo</span> Blogging dan <span>Seo</span> Template"
+author: Acha81 <span>Design</span>
+url: "copas-seo.my.id"
+twitter_username: Acha81
+facebook_username: Acha81
+instagram_username: acha81
+youtube_username: Acha81
+telegram_username: Acha81
+github_username:  Copas-Seo
 
-# Build setting
-markdown: kramdown
+# Build settings
+theme: minima
 destination: ./_site
 permalink: /:title
 paginate: 3
 paginate_path: /page:num/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-compress_html:
-  clippings: all
+plugin: [jekyll-paginate]
 
 input_types:
   - text
@@ -26,15 +34,14 @@ input_types:
   - submit
   - recaptcha
 
-form_engines:
-  - cloudcannon
-  - formspree
-  - formbucket
-  - netlify
-
-# This will require each of these plugins automatically.
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

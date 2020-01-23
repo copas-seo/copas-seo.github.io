@@ -1,12 +1,19 @@
 ---
-layout: homepage
+layout: default
 ---
+<div class="blog-portfolio">
+    <div class="box-1">
+        <div class="bodyBx">
+            <h4>Template</h4>
+        </div>
+    </div>
+</div>
 {% for item in site.data.labels.template %}
-    <div class="col-md-6 col-lg-4 mb-4 d-flex">
-        <div class="card">
-            <a href="{{item.link}}">
-                <img class="lazy" src="/images/lazy.webp" class="img-responsive" alt="{{item.title}}" data-src="{{item.images}}">
-                <div class="card-body">
+<div class="box-3">
+    <a href="{{item.link}}">
+        <div class="portfolio">
+            <div class="bg">
+                <div class="info">
                     <span class="category" style="padding-right: 15px;">
                         <i class="fa fa-tags"></i>
                         {{item.category}}
@@ -15,18 +22,14 @@ layout: homepage
                         <i aria-hidden="true" class="fa fa-clock-o"></i>
                         {{item.date | date: "%b %e, %Y"}}
                     </span>
-                    <h1 class="post-header-index">
-                        {{item.title}}
-                    </h1>
                 </div>
-            </a>
+                <img class="lazy" src="/assets/images/bg-home.gif" class="img-responsive" alt="{{item.title}}"
+                    data-src="{{item.images}}">
+            </div>
+            <div class="bg1">
+                <h1>{{item.title}}</h1>
+            </div>
         </div>
-    </div>
+    </a>
+</div>
 {% endfor %}
-
-<style>
-    .welcome,
-    .padding {
-        display: none;
-    }
-</style>

@@ -6,7 +6,7 @@ description: Kini Bootstrap hadir dengan versi terbaru yang lebih simple yang bi
 date: 2019-12-05 23:21
 category: Template
 author: Acha81
-images: /images/bootstrap-versi-4.4.1.png
+images: /assets/images/bootstrap-versi-4.4.1.png
 alt: template bootstrap 4.4.1
 tags: []
 summary: 

@@ -6,7 +6,7 @@ description: Kenapa blog setelah mengganti domain menjadi domain.com iklan Adsen
 date: 2019-12-03 23:19
 category: Adsense
 author: Acha81
-images: /images/Google_AdSense.jpg
+images: /assets/images/Google_AdSense.jpg
 alt: google adsense
 tags: []
 summary: 

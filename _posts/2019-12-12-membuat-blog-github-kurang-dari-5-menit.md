@@ -6,7 +6,7 @@ description: Jika Anda berminat ingin membuat blog github, Disini Kami akan memb
 date: 2019-12-12 18:42
 category: Blog
 author: Acha81
-images: /images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
+images: /assets/images/Membuat-Blog-Github-Kurang-dari-5-Menit.png
 alt: Membuat Blog Github Pages Kurang dari 5 Menit
 tags: []
 summary: 
@@ -21,7 +21,7 @@ Ikuti langkah berikut ini untuk membuat halaman github pertama Anda:
 
 1. Buka halaman [Github](github.com) dan Buatlah repositori baru dengan nama format username.github.io
 
-![Membuat repositori](/images/copas-seo-Blog-Github.png)
+![Membuat repositori](/assets/images/copas-seo-Blog-Github.png)
 
 2. cloning repositori yang telah Anda buat ke direktori lokal pc Anda ↓
 

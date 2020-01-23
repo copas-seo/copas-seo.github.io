@@ -9,7 +9,7 @@ layout: homepage
     </div>
 </div>
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div class="box-3">
     <a href="{{ site.baseurl }}{{ post.url }}">
         <div class="portfolio">
@@ -34,3 +34,4 @@ layout: homepage
     </a>
 </div>
 {% endfor %}
+{% include paginator.html %}

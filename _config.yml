@@ -11,17 +11,17 @@ telegram_username: Acha81
 github_username:  Copas-Seo
 
 # Build settings
-theme: minima
+permalink: acha
+markdown: kramdown
 destination: ./_site
 permalink: /:title
 paginate: 3
 paginate_path: /page:num/
-plugins:
+gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-plugin: [jekyll-paginate]
+  - jekyll-paginate
 
 input_types:
   - text

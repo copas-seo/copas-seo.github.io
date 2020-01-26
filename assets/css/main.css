@@ -781,6 +781,10 @@ body footer .main .box {
           transform: skewY(2deg);
 }
 
+body footer .main .box .box-3.ma {
+  margin: auto;
+}
+
 body footer .main .box .box-3 .cardBx {
   position: relative;
   background: #00000080;

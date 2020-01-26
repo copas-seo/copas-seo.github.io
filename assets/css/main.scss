@@ -635,6 +635,10 @@ body {
                 transform: skewY(2deg);
 
                 .box-3 {
+                    &.ma {
+                        margin: auto;
+                    }
+
                     .cardBx {
                         position: relative;
                         background: #00000080;

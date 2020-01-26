@@ -112,6 +112,11 @@ body header {
   background: #fd3bd7 url(/assets/images/lines.svg) no-repeat center center/cover;
 }
 
+body header .header-sticky {
+  position: fixed;
+  width: 100%;
+}
+
 body header .header-sticky.sticky {
   position: fixed;
   width: 100%;

@@ -18,6 +18,9 @@ body {
         background: $pinky url(/assets/images/lines.svg) no-repeat center center/cover;
 
         .header-sticky {
+            position: fixed;
+            width: 100%;
+
             &.sticky {
                 position: fixed;
                 width: 100%;

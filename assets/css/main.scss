@@ -738,6 +738,93 @@ body {
         display: inline-block;
         box-shadow: $shadow;
     }
+
+    .main {
+        .box {
+            .box-1 {
+                .bodyBx {
+                    text-align: center;
+                    max-width: 700px;
+                    margin: 0 auto 50px;
+
+                    h3 {
+                        font-size: 1.8em;
+                        font-family: $viga;
+
+                        @include iphone {
+                            font-size: 3em;
+                        }
+                    }
+                }
+            }
+
+            .box-3 {
+                .cardBx {
+                    position: relative;
+                    background: $pinky url(/assets/images/liness.svg) no-repeat;
+                    background-size: cover;
+                    box-shadow: $shadow;
+                    border-radius: 15px;
+                    transition: .5s;
+                    margin: 0 10px 30px;
+
+                    &:hover {
+                        transform: translateY(-15px);
+                    }
+
+                    .bg {
+                        background: #fff0;
+                        border-radius: 15px 15px 0 0;
+                        font-size: 8em;
+                        text-align: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 120px;
+                            position: relative;
+                            top: 16px;
+                        }
+
+                        .fa-html5 {
+                            color: #0390ff;
+                        }
+
+                        .fa-css3 {
+                            color: #00b0ff;
+                        }
+                    }
+
+                    .category {
+                        padding-left: 20px;
+                    }
+
+                    .bg1 {
+                        background: #00000080;
+                        padding: 20px 10px 20px 20px;
+                        color: $light;
+                        border-radius: 0 0 15px 15px;
+
+                        h3 {
+                            font-size: 1.5em;
+                            font-family: $viga;
+                        }
+
+                        p {
+                            font-size: 1.2em;
+                        }
+
+                        h1 {
+                            font-size: 1em;
+                        }
+                    }
+                }
+
+                &.ma {
+                    margin: auto;
+                }
+            }
+        }
+    }
 }
 
 figure.highlight {

@@ -1,40 +1,42 @@
 <header>
     <div class="header-sticky">
         <div class="header-top">
-            <img src="/assets/images/copas-seo-white.svg" alt="copas-seo" class="white">
-            <div class="icon-menu">
-                <img src="/assets/images/menu.svg" alt="menu">
-            </div>
-            <div class="menu">
-                <ul>
-                    {% for item in site.data.menus.menu %}
-                    <li>
-                        <a href='{{item.link}}'>{{item.title}}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div class="icon-close">
-                <img src="/assets/images/close.svg" alt="close">
-            </div>
-            <div class="social-icon">
-                <a href="https://web.facebook.com/Acha81-105554770864176/">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://twitter.com/Acha81">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UCjLtDylMlg7JMZQcqZgDr9A">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.instagram.com/acha81_/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://t.me/Acha81">
-                    <i class="fab fa-telegram"></i>
-                </a>
-            </div>
+            <a href="/">
+                <img src="/assets/images/copas-seo-white.svg" alt="copas-seo" class="white">
+                <div class="icon-menu">
+            </a>
+            <img src="/assets/images/menu.svg" alt="menu">
         </div>
+        <div class="menu">
+            <ul>
+                {% for item in site.data.menus.menu %}
+                <li>
+                    <a href='{{item.link}}'>{{item.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="icon-close">
+            <img src="/assets/images/close.svg" alt="close">
+        </div>
+        <div class="social-icon">
+            <a href="https://web.facebook.com/Acha81-105554770864176/">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/Acha81">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCjLtDylMlg7JMZQcqZgDr9A">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/acha81_/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/Acha81">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </div>
+    </div>
     </div>
 </header>
 <style>

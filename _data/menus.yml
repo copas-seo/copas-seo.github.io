@@ -3,23 +3,23 @@ menu:
     link: /
 
   - title: About
-    link: /about
+    link: about
 
   - title: Adsense
-    link: /adsense
+    link: adsense
 
   - title: Blogging
-    link: /blog
+    link: blog
 
   - title: Template
-    link: /template
+    link: template
 
   - title: Contact
-    link: /contact.html
+    link: contact.html
 
 menu-footer:
   - title: Privacy
-    link: /privacy-policy.html
+    link: privacy-policy.html
 
   - title: Disclaimer
-    link: /disclaimer.html
+    link: disclaimer.html

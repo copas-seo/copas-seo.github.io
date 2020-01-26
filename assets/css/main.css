@@ -115,13 +115,14 @@ body header {
 body header .header-sticky {
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 body header .header-sticky.sticky {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #00000069;
+  background: #00000069;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.9);
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.9);
   z-index: 1;
@@ -408,7 +409,6 @@ body header .header-sticky .header-top.nav .social-icon .fa-telegram {
 
 body header section {
   color: #d3e1f7;
-  padding-top: 65px;
 }
 
 body header section .main .box .box-2 {
@@ -416,19 +416,19 @@ body header section .main .box .box-2 {
 }
 
 body header section .main .box .box-2 .body-box {
-  margin-top: 30px;
+  margin-top: 95px;
 }
 
 @media (min-width: 768px) {
   body header section .main .box .box-2 .body-box {
-    margin: 0;
+    margin: 65px 0;
   }
 }
 
 body header section .main .box .box-2 .body-box h3 {
   top: 0;
   left: 0;
-  font-size: 2.5em;
+  font-size: 2.4em;
   color: #d3e1f7;
   font-family: "Viga", sans-serif;
 }
@@ -468,6 +468,16 @@ body header section .main .box .box-2 .body-box h1 {
 body header section .main .box .box-2 .body-box .bg {
   padding: 10px 20px;
   background: #00000080;
+}
+
+body header section .main .box .box-2 .body-box img.banner {
+  margin-top: -100px;
+}
+
+@media (min-width: 768px) {
+  body header section .main .box .box-2 .body-box img.banner {
+    margin-top: 0;
+  }
 }
 
 body .build {
@@ -614,7 +624,7 @@ body .main .box .box8 .news-content {
 
 @media (min-width: 992px) {
   body .main .box .box8 .news-content {
-    margin: 30px 10px 30px 0;
+    margin: 95px 10px 30px 0;
   }
 }
 
@@ -685,7 +695,7 @@ body .main .box .box4 .sidebar {
 
 @media (min-width: 768px) {
   body .main .box .box4 .sidebar {
-    margin: 30px 0 10px 20px;
+    margin: 95px 0 10px 20px;
   }
 }
 
@@ -725,7 +735,7 @@ body .main .box .box4 .sidebar .list-group-item {
 body .main .box .box8-page {
   max-width: 70%;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 body .main .box .box8-page .page .page-content h2 {

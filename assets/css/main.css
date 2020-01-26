@@ -206,14 +206,14 @@ body header .header-sticky .header-top .menu ul {
 }
 
 body header .header-sticky .header-top .menu ul li {
-  margin-right: 15px;
+  margin-right: 10px;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
 @media (min-width: 992px) {
   body header .header-sticky .header-top .menu ul li {
-    margin-right: 30px;
+    margin-right: 20px;
     -webkit-transition: .5s;
     transition: .5s;
   }

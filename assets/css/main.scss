@@ -91,11 +91,11 @@ body {
                         display: flex;
 
                         li {
-                            margin-right: 15px;
+                            margin-right: 10px;
                             transition: .5s;
 
                             @include desktop {
-                                margin-right: 30px;
+                                margin-right: 20px;
                                 transition: .5s;
                             }
 

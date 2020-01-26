@@ -23,17 +23,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate
 
-input_types:
-  - text
-  - textarea
-  - email
-  - date
-  - checkbox
-  - radio
-  - number
-  - submit
-  - recaptcha
-
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/

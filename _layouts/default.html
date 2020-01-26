@@ -1,17 +1,23 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
 {% include head.html %}
 
 <body>
-    {% include header-posts.html %}
-    <div class="container">
-        <div class="Box">
-            {{ content }}
-        </div>
+  {% include header.html %}
+  {% include build-github.html %}
+  {% include inspiration.html %}
+  {% include section.html %}
+  {% include build-sass.html %}
+  <section>
+    <div class="main">
+      <div class="box">
+        {{ content}}
+      </div>
     </div>
-    {% include footer.html %}
-    {% include script.html %}
-    <script src="/assets/js/main.js"></script>
+  </section>
+  {% include footer.html %}
+  {% include script.html %}
+  <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

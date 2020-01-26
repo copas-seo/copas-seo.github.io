@@ -1,35 +1,31 @@
 ---
-layout: default
+layout: blogpost
 ---
-<div class="blog-portfolio">
-    <div class="box-1">
-        <div class="bodyBx">
-            <h4>Template</h4>
-        </div>
+<div class="box-1">
+    <div class="bodyBx">
+        <h3>TEMPLATE</h3>
     </div>
 </div>
 {% for item in site.data.labels.template %}
-<div class="box-3">
-    <a href="{{item.link}}">
-        <div class="portfolio">
+<div class="box-3 ma">
+    <div class="cardBx">
+        <a href="{{item.link}}">
             <div class="bg">
-                <div class="info">
-                    <span class="category" style="padding-right: 15px;">
-                        <i class="fa fa-tags"></i>
-                        {{item.category}}
-                    </span>
-                    <span class="times pull-right">
-                        <i aria-hidden="true" class="fa fa-clock-o"></i>
-                        {{item.date | date: "%b %e, %Y"}}
-                    </span>
-                </div>
                 <img class="lazy" src="/assets/images/bg-home.gif" class="img-responsive" alt="{{item.title}}"
                     data-src="{{item.images}}">
             </div>
+            <span class="category" style="padding-right: 15px;">
+                <i class="fa fa-tags"></i>
+                {{item.category}}
+            </span>
+            <span class="times pull-right">
+                <i aria-hidden="true" class="fa fa-clock-o"></i>
+                {{item.date | date: "%b %e, %Y"}}
+            </span>
             <div class="bg1">
                 <h1>{{item.title}}</h1>
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
 </div>
 {% endfor %}

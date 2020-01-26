@@ -1,13 +1,11 @@
 <header>
     <div class="header-sticky">
-        <div class="header-top" id="header-top">
-            <a class="logo" href="{{ site.url }}">
-                <img src="/assets/images/copas-seo-white.svg" alt="copas-seo">
-            </a>
-            <div class="widget search1" data-version="1" id="search1">
-                {% include search.html %}
+        <div class="header-top">
+            <img src="/assets/images/copas-seo-white.svg" alt="copas-seo" class="white">
+            <div class="icon-menu">
+                <img src="/assets/images/menu.svg" alt="menu">
             </div>
-            <div class="header-menu">
+            <div class="menu">
                 <ul>
                     {% for item in site.data.menus.menu %}
                     <li>
@@ -16,20 +14,9 @@
                     {% endfor %}
                 </ul>
             </div>
-
-            <li class="active">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <div class="search">
-                    <input type="text1" id="search-input" placeholder="Search...">
-                    <ul id="results-container"></ul>
-                </div>
-            </li>
-            <a class="header-icon">
-                <img src="/assets/images/menu.svg" alt="menu">
-            </a>
-            <a class="header-close">
+            <div class="icon-close">
                 <img src="/assets/images/close.svg" alt="close">
-            </a>
+            </div>
             <div class="social-icon">
                 <a href="https://web.facebook.com/Acha81-105554770864176/">
                     <i class="fab fa-facebook"></i>
@@ -50,21 +37,28 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="Box">
-            <div class="box-2">
-                <h3>{{ site.author }}</h3>
-                <h1>{{ site.description }}</h1>
-                <div class="bg">
-                    <p><i class="fas fa-angle-double-right"></i> Make Innovative<span> Design</span></p>
-                    <p><i class="fas fa-angle-double-right"></i> Responsive Web<span> Design</span></p>
-                    <p><i class="fas fa-angle-double-right"></i> Web Design<span> Speed</span></p>
-                    <p><i class="fas fa-angle-double-right"></i><span> Seo</span>Friendly Design Web</p>
+    <section>
+        <div class="main">
+            <div class="box">
+                <div class="box-2">
+                    <div class="body-box">
+                        <h3>Acha81 Design</h3>
+                        <h1>Copas Seo Berbagi Informasi Adsense, Seo Blogging dan Seo Template
+                        </h1>
+                        <div class="bg">
+                            <p><i class="fas fa-angle-double-right"></i> Make Innovative Design</p>
+                            <p><i class="fas fa-angle-double-right"></i> Responsive Web Design</p>
+                            <p><i class="fas fa-angle-double-right"></i> Web Design Speed</p>
+                            <p><i class="fas fa-angle-double-right"></i> Seo Friendly Design Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="body-box">
+                        <img class="banner" src="/assets/images/banner-5.png" alt="acha81">
+                    </div>
                 </div>
             </div>
-            <div class="box-2">
-                <img class="banner" src="/assets/images/banner-5.png" alt="acha81">
-            </div>
         </div>
-    </div>
+    </section>
 </header>

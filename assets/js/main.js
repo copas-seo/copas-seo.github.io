@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
-  $(".header-icon").click(function () {
+  $(".icon-menu").click(function () {
     $(".header-top").addClass("nav")
   });
-  $(".header-close").click(function () {
+  $(".icon-close").click(function () {
     $(".header-top").removeClass("nav")
   });
 

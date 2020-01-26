@@ -1,0 +1,100 @@
+$iphone: 576px;
+$mobile: 768px;
+$desktop: 992px;
+$maximun: 1200px;
+$large: 1441px;
+
+@mixin iphone {
+    @media (min-width: #{$iphone}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (min-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin maximun {
+    @media (min-width: #{$maximun}) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: #{$large}) {
+        @content;
+    }
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    transition: .5s;
+
+    @include iphone {
+        width: 540px;
+    }
+
+    @include mobile {
+        width: 720px;
+    }
+
+    @include desktop {
+        width: 960px;
+    }
+
+    @include maximun() {
+        width: 1140px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box8,
+.box4 {
+    position: relative;
+    width: 100%;
+}
+
+.box-2 {
+
+    @include mobile {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+.box-3 {
+
+    @include mobile {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
+    @include desktop {
+        max-width: 33.3333%;
+        flex-basis: 33.3333%;
+    }
+}
